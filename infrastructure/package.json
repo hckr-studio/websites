@@ -3,7 +3,7 @@
   "main": "index.js",
   "type": "module",
   "dependencies": {
-    "@pulumi/cloudflare": "5.40.2",
-    "@pulumi/pulumi": "3.136.1"
+    "@pulumi/cloudflare": "5.41.0",
+    "@pulumi/pulumi": "3.137.0"
   }
 }
