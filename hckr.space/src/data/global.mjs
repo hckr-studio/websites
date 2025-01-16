@@ -5,11 +5,7 @@ export default {
     description: "",
     url: "https://hckr.space/"
   },
-  podcastsSection: {
+  podcasts: {
     list: ["data-talk", "kanarci-v-siti", "people-ops", "exec", "hra-skolou", "plodne-hovory", "appcast"]
-  },
-  jahoda() {
-    console.log(this);
-    return "jahoda";
   }
 };

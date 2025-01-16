@@ -29,7 +29,7 @@ export default {
   },
 
   html: {
-    collections: ["podcasts"],
+    data: { collections: ["podcasts"] },
     markedExtensions: [texyTypography("cs")],
   },
 

@@ -16,7 +16,7 @@
       <p>Jaké podcasty se u nás natáčí?</p>
     </header>
 
-    {% macro podcastTemplate(item) %}
+    {% macro podcast(item) %}
       <article class="podcast" id="{{ item.slug }}">
         <h3><a href="{{ item.url }}">{{ item.title }}</a></h3>
         <picture>
@@ -30,13 +30,9 @@
       </article>
     {% endmacro %}
 
-    {% for key in podcastsSection.list %}
-      {{ podcastTemplate(podcasts[key]) }}
+    {% for key in podcasts.list %}
+      {{ podcast(collections.podcasts[key]) }}
     {% endfor %}
   </section>
-
-  <pre>
-    {{ jahoda() | dump }}
-  </pre>
 
 {% endblock %}
