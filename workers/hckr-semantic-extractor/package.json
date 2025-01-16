@@ -9,14 +9,14 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "0.5.40",
-    "@types/rdfjs__data-model": "^2",
-    "vitest": "2.1.8",
+    "@cloudflare/vitest-pool-workers": "0.6.2",
+    "@types/rdfjs__data-model": "2.0.8",
+    "vitest": "3.0.0",
     "wrangler": "3.103.0"
   },
   "dependencies": {
     "@cloudflare/puppeteer": "0.0.14",
-    "@rdfjs/data-model": "^2.0.2",
-    "jsonc-parser": "^3.3.1"
+    "@rdfjs/data-model": "2.0.2",
+    "jsonc-parser": "3.3.1"
   }
 }
