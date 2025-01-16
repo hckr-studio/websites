@@ -28,6 +28,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@cloudflare/unenv-preset@npm:1.x":
+  version: 1.0.0
+  resolution: "@cloudflare/unenv-preset@npm:1.0.0"
+  peerDependencies:
+    unenv: "*"
+    workerd: ^1.20241230.0
+  peerDependenciesMeta:
+    workerd:
+      optional: true
+  checksum: 10/06658246a1e313bb8f06fdfed28dd29b70a04f6441bb87dfb3b2e47b1e1baead9c82b819760290641df6939b048cdcce8bec34e8b3431f37261d68aa04c9f3d0
+  languageName: node
+  linkType: hard
+
 "@cloudflare/vitest-pool-workers@npm:0.5.40":
   version: 0.5.40
   resolution: "@cloudflare/vitest-pool-workers@npm:0.5.40"
@@ -1253,7 +1266,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.1.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.102.0"
+    wrangler: "npm:3.103.0"
   languageName: unknown
   linkType: soft
 
@@ -1265,7 +1278,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.1.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.102.0"
+    wrangler: "npm:3.103.0"
   languageName: unknown
   linkType: soft
 
@@ -1277,7 +1290,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.1.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.102.0"
+    wrangler: "npm:3.103.0"
   languageName: unknown
   linkType: soft
 
@@ -1294,7 +1307,7 @@ __metadata:
     parse-duration: "npm:1.1.1"
     postcss-jit-props: "npm:1.0.15"
     rxjs: "npm:7.8.1"
-    wrangler: "npm:3.102.0"
+    wrangler: "npm:3.103.0"
   languageName: unknown
   linkType: soft
 
@@ -1312,7 +1325,7 @@ __metadata:
   resolution: "@hckr-studio/websites@workspace:."
   dependencies:
     dprint: "npm:0.48.0"
-    wrangler: "npm:3.102.0"
+    wrangler: "npm:3.103.0"
   languageName: unknown
   linkType: soft
 
@@ -1378,7 +1391,7 @@ __metadata:
     "@cloudflare/puppeteer": "npm:0.0.14"
     "@cloudflare/vitest-pool-workers": "npm:0.5.40"
     vitest: "npm:2.1.8"
-    wrangler: "npm:3.102.0"
+    wrangler: "npm:3.103.0"
   languageName: unknown
   linkType: soft
 
@@ -1392,7 +1405,7 @@ __metadata:
     "@types/rdfjs__data-model": "npm:^2"
     jsonc-parser: "npm:^3.3.1"
     vitest: "npm:2.1.8"
-    wrangler: "npm:3.102.0"
+    wrangler: "npm:3.103.0"
   languageName: unknown
   linkType: soft
 
@@ -9530,16 +9543,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"unenv@npm:unenv-nightly@2.0.0-20241218-183400-5d6aec3":
-  version: 2.0.0-20241218-183400-5d6aec3
-  resolution: "unenv-nightly@npm:2.0.0-20241218-183400-5d6aec3"
+"unenv@npm:unenv-nightly@2.0.0-20250109-100802-88ad671":
+  version: 2.0.0-20250109-100802-88ad671
+  resolution: "unenv-nightly@npm:2.0.0-20250109-100802-88ad671"
   dependencies:
     defu: "npm:^6.1.4"
     mlly: "npm:^1.7.3"
     ohash: "npm:^1.1.4"
     pathe: "npm:^1.1.2"
     ufo: "npm:^1.5.4"
-  checksum: 10/a6b455f74ffc9041a4519b80c26a59a02037eb106c1bc2a397282a6ed9027855f4aa857c4454fd568c1b6a845f3627dacef2c8fb3cee2b225981e954356fd238
+  checksum: 10/99f45f1f095704a97db7094931aa88e924cbcd019cf118a3223497b14e645c245dc2bc03833d5c6ed4864b12ec0c36b0b2d3a93392a4d5a2213c28f028f3c8ed
   languageName: node
   linkType: hard
 
@@ -10071,11 +10084,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.102.0":
-  version: 3.102.0
-  resolution: "wrangler@npm:3.102.0"
+"wrangler@npm:3.103.0":
+  version: 3.103.0
+  resolution: "wrangler@npm:3.103.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.4"
+    "@cloudflare/unenv-preset": "npm:1.x"
     "@esbuild-plugins/node-globals-polyfill": "npm:0.2.3"
     "@esbuild-plugins/node-modules-polyfill": "npm:0.2.2"
     blake3-wasm: "npm:2.1.5"
@@ -10083,7 +10097,7 @@ __metadata:
     fsevents: "npm:~2.3.2"
     miniflare: "npm:3.20241230.2"
     path-to-regexp: "npm:6.3.0"
-    unenv: "npm:unenv-nightly@2.0.0-20241218-183400-5d6aec3"
+    unenv: "npm:unenv-nightly@2.0.0-20250109-100802-88ad671"
     workerd: "npm:1.20241230.0"
   peerDependencies:
     "@cloudflare/workers-types": ^4.20241230.0
@@ -10096,7 +10110,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10/88ec8455b9ddd02d7f97104c8aa53d91fd4a3b00af352a59c2607e38d47339b49ee3dc884513d0c11ce86613c126bcd7d3f067006718d3ef3cdce9bf688ab03f
+  checksum: 10/cda23cb93180693f90b42b1fa9641cb7d7376b302430b23a35971f83fa6dbc101cfc34e12cdaadea4c10269dda239ed950e1d05f6d2d4638b5fbed7c128075d4
   languageName: node
   linkType: hard
 
