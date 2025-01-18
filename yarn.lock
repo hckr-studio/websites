@@ -916,7 +916,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.2.1"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.103.1"
+    wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
 
@@ -928,7 +928,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.2.1"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.103.1"
+    wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
 
@@ -940,7 +940,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.2.1"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.103.1"
+    wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
 
@@ -957,7 +957,7 @@ __metadata:
     parse-duration: "npm:1.1.1"
     postcss-jit-props: "npm:1.0.15"
     rxjs: "npm:7.8.1"
-    wrangler: "npm:3.103.1"
+    wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
 
@@ -975,7 +975,7 @@ __metadata:
   resolution: "@hckr-studio/websites@workspace:."
   dependencies:
     dprint: "npm:0.48.0"
-    wrangler: "npm:3.103.1"
+    wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
 
@@ -1041,7 +1041,7 @@ __metadata:
     "@cloudflare/puppeteer": "npm:0.0.14"
     "@cloudflare/vitest-pool-workers": "npm:0.6.2"
     vitest: "npm:3.0.2"
-    wrangler: "npm:3.103.1"
+    wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
 
@@ -1055,7 +1055,7 @@ __metadata:
     "@types/rdfjs__data-model": "npm:2.0.8"
     jsonc-parser: "npm:3.3.1"
     vitest: "npm:3.0.2"
-    wrangler: "npm:3.103.1"
+    wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
 
@@ -9448,9 +9448,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.103.1":
-  version: 3.103.1
-  resolution: "wrangler@npm:3.103.1"
+"wrangler@npm:3.103.2":
+  version: 3.103.2
+  resolution: "wrangler@npm:3.103.2"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.4"
     "@esbuild-plugins/node-globals-polyfill": "npm:0.2.3"
@@ -9473,7 +9473,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10/37d051069e47d1cef2ab1264b4d31a0cc6a1a3741855d1d84dc9a5f42af813937427f2cf12c317a895c50d5cb6b28b3f6c3966f9da456b0cf1ef30c37de0cfd5
+  checksum: 10/6e364dd9e02555ab57ff95f2dffea590933c76d76389f10c80a3c739daff4394b24bda3dd8ac0a1e07436a8e61a34b7c8db87c44000db086d023889d0f231ecb
   languageName: node
   linkType: hard
 
