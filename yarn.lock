@@ -913,7 +913,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250109.0"
-    "@hckr_/blendid": "npm:9.2.1"
+    "@hckr_/blendid": "npm:9.2.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.103.2"
@@ -925,7 +925,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250109.0"
-    "@hckr_/blendid": "npm:9.2.1"
+    "@hckr_/blendid": "npm:9.2.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.103.2"
@@ -937,7 +937,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250109.0"
-    "@hckr_/blendid": "npm:9.2.1"
+    "@hckr_/blendid": "npm:9.2.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.103.2"
@@ -949,7 +949,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250109.0"
-    "@hckr_/blendid": "npm:9.2.1"
+    "@hckr_/blendid": "npm:9.2.2"
     "@thi.ng/atom": "npm:5.3.17"
     linkedom: "npm:0.18.6"
     lit-html: "npm:3.2.1"
@@ -979,9 +979,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hckr_/blendid@npm:9.2.1":
-  version: 9.2.1
-  resolution: "@hckr_/blendid@npm:9.2.1"
+"@hckr_/blendid@npm:9.2.2":
+  version: 9.2.2
+  resolution: "@hckr_/blendid@npm:9.2.2"
   dependencies:
     "@csstools/postcss-gamut-mapping": "npm:2.0.7"
     "@vitejs/plugin-basic-ssl": "npm:1.2.0"
@@ -1027,10 +1027,10 @@ __metadata:
     undertaker-registry: "npm:2.0.0"
     vinyl: "npm:3.0.0"
     vinyl-file: "npm:5.0.0"
-    vite: "npm:6.0.7"
+    vite: "npm:6.0.9"
   bin:
     blendid: bin/blendid.js
-  checksum: 10/bf5bcf5ede4fe3d9ca77786b2884031e1204cff912d99cd9029d76c3d151db3e473f1b0a55a78f4f48243f48e80c79215c3ce2dd500ff0ceb748d69ea6516d96
+  checksum: 10/7039b9b2cb4f40c9dcdb76087fd90fa27555a2a567930ee24b6898ae83673e488ecb19d9b2e2decce1871ca908afd41ba8a52b55a0c1a408961ab04629d69404
   languageName: node
   linkType: hard
 
@@ -9194,7 +9194,59 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:6.0.7, vite@npm:^5.0.0 || ^6.0.0":
+"vite@npm:6.0.9":
+  version: 6.0.9
+  resolution: "vite@npm:6.0.9"
+  dependencies:
+    esbuild: "npm:^0.24.2"
+    fsevents: "npm:~2.3.3"
+    postcss: "npm:^8.4.49"
+    rollup: "npm:^4.23.0"
+  peerDependencies:
+    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
+    jiti: ">=1.21.0"
+    less: "*"
+    lightningcss: ^1.21.0
+    sass: "*"
+    sass-embedded: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.16.0
+    tsx: ^4.8.1
+    yaml: ^2.4.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    jiti:
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    sass-embedded:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+    tsx:
+      optional: true
+    yaml:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 10/6f4f27c602f997537df26cc9665763b402f5978a7381146f6c0b146888ee257484a7f140df79e495b922082ca608bd1f563b0be9e272d22c689aad2b1e1da440
+  languageName: node
+  linkType: hard
+
+"vite@npm:^5.0.0 || ^6.0.0":
   version: 6.0.7
   resolution: "vite@npm:6.0.7"
   dependencies:
