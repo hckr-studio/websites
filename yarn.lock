@@ -96,10 +96,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20250109.0":
-  version: 4.20250109.0
-  resolution: "@cloudflare/workers-types@npm:4.20250109.0"
-  checksum: 10/4d33d1154339f4adcea2d538d6c81166697c58d31a36494c6cf5f368a15092b904a8715ca0f46e50866691eb4c1dfb65dc1ac624215b8d9e79888cbd3a4bd48a
+"@cloudflare/workers-types@npm:4.20250121.0":
+  version: 4.20250121.0
+  resolution: "@cloudflare/workers-types@npm:4.20250121.0"
+  checksum: 10/4f7800e8f82b91f93745c2ad9f1223173dc7584d9efa1c28185bb6a64daf4ba2cd693aee2be94cb800441fd06b75f08be2ea5afbce3eb39b9b76a9794e8a24a2
   languageName: node
   linkType: hard
 
@@ -912,7 +912,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250109.0"
+    "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
@@ -924,7 +924,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250109.0"
+    "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
@@ -936,7 +936,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250109.0"
+    "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
@@ -948,7 +948,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250109.0"
+    "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
     "@thi.ng/atom": "npm:5.3.17"
     linkedom: "npm:0.18.6"
