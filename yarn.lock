@@ -1078,7 +1078,7 @@ __metadata:
     "@cloudflare/puppeteer": "npm:0.0.14"
     "@cloudflare/vitest-pool-workers": "npm:0.6.4"
     "@rdfjs/data-model": "npm:2.1.0"
-    "@types/rdfjs__data-model": "npm:2.0.8"
+    "@types/rdfjs__data-model": "npm:2.0.9"
     jsonc-parser: "npm:3.3.1"
     vitest: "npm:3.0.3"
     wrangler: "npm:3.103.2"
@@ -1714,12 +1714,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rdfjs/types@npm:^1.0.1":
-  version: 1.1.2
-  resolution: "@rdfjs/types@npm:1.1.2"
+"@rdfjs/types@npm:*":
+  version: 2.0.1
+  resolution: "@rdfjs/types@npm:2.0.1"
   dependencies:
     "@types/node": "npm:*"
-  checksum: 10/474b3a9e3dc7857e24c3668005fefbe9522a14279776e70d0b2395e6a160f81cf863034bf5baad15e392e1cb0bfb32a4227cff1222007da686730d43a97c62ef
+  checksum: 10/ed2934ac67ed5a252db98276ce3054ef2143081a6f8018b521b319d778a0c93f8f37e72714b886edbe1e8a03b28c9cbb0ea01a24ab9cc00e19298cf8288be250
   languageName: node
   linkType: hard
 
@@ -2080,12 +2080,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/rdfjs__data-model@npm:2.0.8":
-  version: 2.0.8
-  resolution: "@types/rdfjs__data-model@npm:2.0.8"
+"@types/rdfjs__data-model@npm:2.0.9":
+  version: 2.0.9
+  resolution: "@types/rdfjs__data-model@npm:2.0.9"
   dependencies:
-    "@rdfjs/types": "npm:^1.0.1"
-  checksum: 10/b18e5221c015ffd764b51ed8ca3eb8ea036e48dded3f1a7b1ef34ef0f732b4172987e21953dd32c58ff01935aa0ac943a6e7b1258557615737fb3a4d631c1ddd
+    "@rdfjs/types": "npm:*"
+  checksum: 10/c3eb4ac48e34099738e41a25575f739ec80212262bd851f04c0b89bff792ac2f1d11804cb2908cada99ec72e7c5c6acc576134e9503c1afe85e07d8f595e350d
   languageName: node
   linkType: hard
 

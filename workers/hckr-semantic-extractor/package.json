@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.6.4",
-    "@types/rdfjs__data-model": "2.0.8",
+    "@types/rdfjs__data-model": "2.0.9",
     "vitest": "3.0.3",
     "wrangler": "3.103.2"
   },
