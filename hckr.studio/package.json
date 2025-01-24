@@ -15,6 +15,6 @@
     "start": "blendid"
   },
   "dependencies": {
-    "@hckr_/cloudflare-pages-plugin-rollbar": "1.1.1"
+    "@hckr_/cloudflare-pages-plugin-rollbar": "1.1.4"
   }
 }
