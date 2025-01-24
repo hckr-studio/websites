@@ -59,6 +59,8 @@ jobs:
     resource_class: arm.large
     steps:
       - checkout
+      - node/install
+      - node/install-yarn
       - node/install-packages:
           pkg-manager: yarn-berry
           cache-version: v1-build-<< parameters.project_name >>
@@ -72,7 +74,6 @@ jobs:
           paths: .blendid/public/<< parameters.site_dir >>
       - slack/notify:
           event: fail
-          mentions: '@here'
           template: basic_fail_1
           channel: ntf-website
 
@@ -99,7 +100,6 @@ jobs:
           command: yarn wrangler pages deploy ../.blendid/public/<< parameters.site_dir >> --project-name << parameters.project_name >> --upload-source-maps
       - slack/notify:
           event: fail
-          mentions: '@here'
           template: basic_fail_1
           channel: ntf-website
       - slack/notify:
