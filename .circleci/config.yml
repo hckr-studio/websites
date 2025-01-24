@@ -96,7 +96,7 @@ jobs:
       - run:
           name: Deploy << parameters.site_dir >> website
           working_directory: << parameters.site_dir >> # change directory to deploy functions
-          command: yarn wrangler pages deploy ../.blendid/public/<< parameters.site_dir >> --project-name << parameters.project_name >>
+          command: yarn wrangler pages deploy ../.blendid/public/<< parameters.site_dir >> --project-name << parameters.project_name >> --upload-source-maps
       - slack/notify:
           event: fail
           mentions: '@here'
