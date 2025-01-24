@@ -953,7 +953,7 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
-    "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.1"
+    "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.103.2"
@@ -966,7 +966,7 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
-    "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.1"
+    "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.18"
     linkedom: "npm:0.18.6"
     lit-html: "npm:3.2.1"
@@ -1051,12 +1051,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@hckr_/cloudflare-pages-plugin-rollbar@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@hckr_/cloudflare-pages-plugin-rollbar@npm:1.1.1"
+"@hckr_/cloudflare-pages-plugin-rollbar@npm:1.1.4":
+  version: 1.1.4
+  resolution: "@hckr_/cloudflare-pages-plugin-rollbar@npm:1.1.4"
   dependencies:
     error-stack-parser: "npm:2.1.4"
-  checksum: 10/f7fd00c708705528565f33b65e4434eaaaf9645559e6920b87d6b6b2fb0bb6e4b2b33d62ccc72282ad62d1597438810c3639e259ca72b5e6f41695e10cf4fdf1
+  checksum: 10/22c6181addffec27a4d8f782e730b5e860adfc1d00d85dc8cb3d2751686eefc0ebd4761aeca4b456525c592a9ed86726cb1bbbbf9124a59367f6fbe448cea70c
   languageName: node
   linkType: hard
 
