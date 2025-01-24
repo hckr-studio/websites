@@ -22,11 +22,7 @@ function parse(el) {
  */
 export function jsonLd(document, options) {
   const result = new Map();
-  for (
-    const script of document.querySelectorAll(
-      "script[type=\"application/ld+json\"]",
-    )
-  ) {
+  for (const script of document.querySelectorAll('script[type="application/ld+json"]')) {
     try {
       for (const obj of parse(script)) {
         const type = obj["@type"];

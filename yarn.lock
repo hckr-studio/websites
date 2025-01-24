@@ -5,6 +5,97 @@ __metadata:
   version: 8
   cacheKey: 10
 
+"@biomejs/biome@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/biome@npm:1.9.4"
+  dependencies:
+    "@biomejs/cli-darwin-arm64": "npm:1.9.4"
+    "@biomejs/cli-darwin-x64": "npm:1.9.4"
+    "@biomejs/cli-linux-arm64": "npm:1.9.4"
+    "@biomejs/cli-linux-arm64-musl": "npm:1.9.4"
+    "@biomejs/cli-linux-x64": "npm:1.9.4"
+    "@biomejs/cli-linux-x64-musl": "npm:1.9.4"
+    "@biomejs/cli-win32-arm64": "npm:1.9.4"
+    "@biomejs/cli-win32-x64": "npm:1.9.4"
+  dependenciesMeta:
+    "@biomejs/cli-darwin-arm64":
+      optional: true
+    "@biomejs/cli-darwin-x64":
+      optional: true
+    "@biomejs/cli-linux-arm64":
+      optional: true
+    "@biomejs/cli-linux-arm64-musl":
+      optional: true
+    "@biomejs/cli-linux-x64":
+      optional: true
+    "@biomejs/cli-linux-x64-musl":
+      optional: true
+    "@biomejs/cli-win32-arm64":
+      optional: true
+    "@biomejs/cli-win32-x64":
+      optional: true
+  bin:
+    biome: bin/biome
+  checksum: 10/bd8ff8fb4dc0581bd60a9b9ac28d0cd03ba17c6a1de2ab6228b7fda582079594ceee774f47e41aac2fc6d35de1637def2e32ef2e58fa24e22d1b24ef9ee5cefa
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-darwin-arm64@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-darwin-arm64@npm:1.9.4"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-darwin-x64@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-darwin-x64@npm:1.9.4"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-arm64-musl@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-linux-arm64-musl@npm:1.9.4"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-arm64@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-linux-arm64@npm:1.9.4"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-x64-musl@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-linux-x64-musl@npm:1.9.4"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-linux-x64@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-linux-x64@npm:1.9.4"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-win32-arm64@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-win32-arm64@npm:1.9.4"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@biomejs/cli-win32-x64@npm:1.9.4":
+  version: 1.9.4
+  resolution: "@biomejs/cli-win32-x64@npm:1.9.4"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@cloudflare/kv-asset-handler@npm:0.3.4":
   version: 0.3.4
   resolution: "@cloudflare/kv-asset-handler@npm:0.3.4"
@@ -589,69 +680,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@dprint/darwin-arm64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/darwin-arm64@npm:0.48.0"
-  conditions: os=darwin & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@dprint/darwin-x64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/darwin-x64@npm:0.48.0"
-  conditions: os=darwin & cpu=x64
-  languageName: node
-  linkType: hard
-
-"@dprint/linux-arm64-glibc@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-arm64-glibc@npm:0.48.0"
-  conditions: os=linux & cpu=arm64 & libc=glibc
-  languageName: node
-  linkType: hard
-
-"@dprint/linux-arm64-musl@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-arm64-musl@npm:0.48.0"
-  conditions: os=linux & cpu=arm64 & libc=musl
-  languageName: node
-  linkType: hard
-
-"@dprint/linux-riscv64-glibc@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-riscv64-glibc@npm:0.48.0"
-  conditions: os=linux & cpu=riscv64 & libc=glibc
-  languageName: node
-  linkType: hard
-
-"@dprint/linux-x64-glibc@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-x64-glibc@npm:0.48.0"
-  conditions: os=linux & cpu=x64 & libc=glibc
-  languageName: node
-  linkType: hard
-
-"@dprint/linux-x64-musl@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/linux-x64-musl@npm:0.48.0"
-  conditions: os=linux & cpu=x64 & libc=musl
-  languageName: node
-  linkType: hard
-
-"@dprint/win32-arm64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/win32-arm64@npm:0.48.0"
-  conditions: os=win32 & cpu=arm64
-  languageName: node
-  linkType: hard
-
-"@dprint/win32-x64@npm:0.48.0":
-  version: 0.48.0
-  resolution: "@dprint/win32-x64@npm:0.48.0"
-  conditions: os=win32 & cpu=x64
-  languageName: node
-  linkType: hard
-
 "@esbuild-plugins/node-globals-polyfill@npm:0.2.3":
   version: 0.2.3
   resolution: "@esbuild-plugins/node-globals-polyfill@npm:0.2.3"
@@ -925,6 +953,7 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
+    "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.1"
     open-props: "npm:1.7.10"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.103.2"
@@ -937,6 +966,7 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250121.0"
     "@hckr_/blendid": "npm:9.2.2"
+    "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.1"
     "@thi.ng/atom": "npm:5.3.18"
     linkedom: "npm:0.18.6"
     lit-html: "npm:3.2.1"
@@ -961,7 +991,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/websites@workspace:."
   dependencies:
-    dprint: "npm:0.48.0"
+    "@biomejs/biome": "npm:1.9.4"
     wrangler: "npm:3.103.2"
   languageName: unknown
   linkType: soft
@@ -1018,6 +1048,15 @@ __metadata:
   bin:
     blendid: bin/blendid.js
   checksum: 10/7039b9b2cb4f40c9dcdb76087fd90fa27555a2a567930ee24b6898ae83673e488ecb19d9b2e2decce1871ca908afd41ba8a52b55a0c1a408961ab04629d69404
+  languageName: node
+  linkType: hard
+
+"@hckr_/cloudflare-pages-plugin-rollbar@npm:1.1.1":
+  version: 1.1.1
+  resolution: "@hckr_/cloudflare-pages-plugin-rollbar@npm:1.1.1"
+  dependencies:
+    error-stack-parser: "npm:2.1.4"
+  checksum: 10/f7fd00c708705528565f33b65e4434eaaaf9645559e6920b87d6b6b2fb0bb6e4b2b33d62ccc72282ad62d1597438810c3639e259ca72b5e6f41695e10cf4fdf1
   languageName: node
   linkType: hard
 
@@ -3560,44 +3599,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dprint@npm:0.48.0":
-  version: 0.48.0
-  resolution: "dprint@npm:0.48.0"
-  dependencies:
-    "@dprint/darwin-arm64": "npm:0.48.0"
-    "@dprint/darwin-x64": "npm:0.48.0"
-    "@dprint/linux-arm64-glibc": "npm:0.48.0"
-    "@dprint/linux-arm64-musl": "npm:0.48.0"
-    "@dprint/linux-riscv64-glibc": "npm:0.48.0"
-    "@dprint/linux-x64-glibc": "npm:0.48.0"
-    "@dprint/linux-x64-musl": "npm:0.48.0"
-    "@dprint/win32-arm64": "npm:0.48.0"
-    "@dprint/win32-x64": "npm:0.48.0"
-  dependenciesMeta:
-    "@dprint/darwin-arm64":
-      optional: true
-    "@dprint/darwin-x64":
-      optional: true
-    "@dprint/linux-arm64-glibc":
-      optional: true
-    "@dprint/linux-arm64-musl":
-      optional: true
-    "@dprint/linux-riscv64-glibc":
-      optional: true
-    "@dprint/linux-x64-glibc":
-      optional: true
-    "@dprint/linux-x64-musl":
-      optional: true
-    "@dprint/win32-arm64":
-      optional: true
-    "@dprint/win32-x64":
-      optional: true
-  bin:
-    dprint: bin.js
-  checksum: 10/ae8efe7a531d26f350660d3ecf28438ae3124695be8d7646f97c637545de90478cb61b5c5699746ab00060893c4631fd1c1623237b4d73b5fd98681ccbeb4203
-  languageName: node
-  linkType: hard
-
 "duplexer@npm:^0.1.1":
   version: 0.1.2
   resolution: "duplexer@npm:0.1.2"
@@ -3732,6 +3733,15 @@ __metadata:
   version: 2.2.0
   resolution: "errlop@npm:2.2.0"
   checksum: 10/b12b0c77ee3eddf6b7d437c0119df640e1e28f2926b1fa081c3a60b129e26f8eb8ab28850066074cd54ef54872d1689c5fe1a8af310782ece35af7a3a903557a
+  languageName: node
+  linkType: hard
+
+"error-stack-parser@npm:2.1.4":
+  version: 2.1.4
+  resolution: "error-stack-parser@npm:2.1.4"
+  dependencies:
+    stackframe: "npm:^1.3.4"
+  checksum: 10/23db33135bfc6ba701e5eee45e1bb9bd2fe33c5d4f9927440d9a499c7ac538f91f455fcd878611361269893c56734419252c40d8105eb3b023cf8b0fc2ebb64e
   languageName: node
   linkType: hard
 
@@ -8350,6 +8360,13 @@ __metadata:
   version: 0.0.2
   resolution: "stackback@npm:0.0.2"
   checksum: 10/2d4dc4e64e2db796de4a3c856d5943daccdfa3dd092e452a1ce059c81e9a9c29e0b9badba91b43ef0d5ff5c04ee62feb3bcc559a804e16faf447bac2d883aa99
+  languageName: node
+  linkType: hard
+
+"stackframe@npm:^1.3.4":
+  version: 1.3.4
+  resolution: "stackframe@npm:1.3.4"
+  checksum: 10/29ca71c1fd17974c1c178df0236b1407bc65f6ea389cc43dec000def6e42ff548d4453de9a85b76469e2ae2b2abdd802c6b6f3db947c05794efbd740d1cf4121
   languageName: node
   linkType: hard
 

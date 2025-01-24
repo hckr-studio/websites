@@ -11,11 +11,15 @@ import * as xmonksStudio from "./xmonks-studio.js";
 
 const config = new pulumi.Config();
 
-const account = new cloudflare.Account("rarous", {
-  accountId: config.require("cloudflare-accountId"),
-  name: "rarous",
-  enforceTwofactor: true,
-}, { protect: true });
+const account = new cloudflare.Account(
+  "rarous",
+  {
+    accountId: config.require("cloudflare-accountId"),
+    name: "rarous",
+    enforceTwofactor: true,
+  },
+  { protect: true },
+);
 
 // pulumi import cloudflare:index/zone:Zone example <zone_id>
 
@@ -65,10 +69,10 @@ const list = new cloudflare.List(`hckr/redirect-list`, {
   accountId: account.id,
   kind: "redirect",
   name: `hckr_redirects`,
-  items: redirects.map(([source, target]) => (
-    {
-      value: {
-        redirects: [{
+  items: redirects.map(([source, target]) => ({
+    value: {
+      redirects: [
+        {
           sourceUrl: source,
           targetUrl: target,
           statusCode: 301,
@@ -76,10 +80,10 @@ const list = new cloudflare.List(`hckr/redirect-list`, {
           includeSubdomains: "disabled",
           subpathMatching: "enabled",
           preservePathSuffix: "enabled",
-        }],
-      },
-    }
-  )),
+        },
+      ],
+    },
+  })),
 });
 
 const ruleset = new cloudflare.Ruleset(`hckr/redirect-ruleset`, {

@@ -6,6 +6,6 @@ export default {
     url: "https://hckr.studio/",
     lang: "en",
     title: "hckr.studio - extreme. experiments. experience.",
-    description: "We help businesses and individuals succeed in the digital world."
-  }
+    description: "We help businesses and individuals succeed in the digital world.",
+  },
 };

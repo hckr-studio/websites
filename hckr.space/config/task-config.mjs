@@ -13,19 +13,21 @@ export default {
 
   generate: {
     exclude: ["podcasts.json"],
-    json: [{
-      collection: "podcasts",
-      stripTitle: true,
-      transform(data, file) {
-        return Object.assign({ filename: file.basename, slug: file.stem }, data);
+    json: [
+      {
+        collection: "podcasts",
+        stripTitle: true,
+        transform(data, file) {
+          return Object.assign({ filename: file.basename, slug: file.stem }, data);
+        },
+        mergeOptions: {
+          concatArrays: true,
+          edit(json) {
+            return { [json.slug]: json };
+          },
+        },
       },
-      mergeOptions: {
-        concatArrays: true,
-        edit(json) {
-          return { [json.slug]: json };
-        }
-      }
-    }]
+    ],
   },
 
   html: {

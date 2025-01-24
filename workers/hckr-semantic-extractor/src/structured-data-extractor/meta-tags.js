@@ -14,9 +14,7 @@ const keyAttributes = new Set(["name", "property", "itemprop", "http-equiv"]);
 export function metaTags(document) {
   const result = new Map();
   for (const elem of document.querySelectorAll("meta")) {
-    const nameKey = elem
-      .getAttributeNames()
-      .find((attr) => keyAttributes.has(attr));
+    const nameKey = elem.getAttributeNames().find(attr => keyAttributes.has(attr));
     if (!nameKey) continue;
 
     const name = elem.getAttribute(nameKey);

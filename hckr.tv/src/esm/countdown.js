@@ -14,12 +14,8 @@ const formatDuration = x =>
   });
 
 state.addWatch("render", (id, prev, curr) =>
-  requestAnimationFrame(() =>
-    render(
-      html`<data value="${curr}">${formatDuration(curr)}</data>`,
-      countdown,
-    )
-  ));
+  requestAnimationFrame(() => render(html`<data value="${curr}">${formatDuration(curr)}</data>`, countdown)),
+);
 
 addEventListener("DOMContentLoaded", e => {
   const url = new URL(location.href);

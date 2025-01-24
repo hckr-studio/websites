@@ -25,14 +25,18 @@ body {
   color-scheme: light dark;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: var(--headings-font-family);
 }
 
 h1 {
   font-weight: 900;
   font-size: var(--font-size-fluid-3);
-  font-variation-settings: 'wght' 700;
+  font-variation-settings: "wght" 700;
   letter-spacing: var(--font-letterspacing-0);
   text-transform: uppercase;
 }

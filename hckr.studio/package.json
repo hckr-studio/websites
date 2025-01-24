@@ -13,5 +13,8 @@
   "scripts": {
     "build": "blendid build --production",
     "start": "blendid"
+  },
+  "dependencies": {
+    "@hckr_/cloudflare-pages-plugin-rollbar": "1.1.1"
   }
 }

@@ -1,13 +1,7 @@
 export default function setStyles(params) {
   const setCssProperty = name => document.documentElement.style.setProperty(`--${name}`, params.get(name));
 
-  const allowedProperties = new Set([
-    "color",
-    "background-color",
-    "font-family",
-    "font-size",
-    "font-weight",
-  ]);
+  const allowedProperties = new Set(["color", "background-color", "font-family", "font-size", "font-weight"]);
   for (const prop of allowedProperties) {
     if (params.has(prop)) setCssProperty(prop);
   }
@@ -18,7 +12,7 @@ export default function setStyles(params) {
         family: params.get("gfonts"),
         display: "swap",
       })}`,
-      rel: "stylesheet"
+      rel: "stylesheet",
     });
     document.head.appendChild(link);
   }

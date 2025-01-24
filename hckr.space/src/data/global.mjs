@@ -3,9 +3,9 @@ export default {
     lang: "en",
     title: "hckr.space",
     description: "",
-    url: "https://hckr.space/"
+    url: "https://hckr.space/",
   },
   podcasts: {
-    list: ["data-talk", "kanarci-v-siti", "people-ops", "exec", "hra-skolou", "plodne-hovory", "appcast"]
-  }
+    list: ["data-talk", "kanarci-v-siti", "people-ops", "exec", "hra-skolou", "plodne-hovory", "appcast"],
+  },
 };

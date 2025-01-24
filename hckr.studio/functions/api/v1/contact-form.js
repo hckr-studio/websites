@@ -2,15 +2,15 @@ async function sendRaumeaContactForm(token, payload) {
   const resp = await fetch("https://api.postmarkapp.com/email", {
     method: "POST",
     headers: {
-      "Accept": "application/json",
+      Accept: "application/json",
       "Content-Type": "application/json",
       "X-Postmark-Server-Token": token,
     },
     body: JSON.stringify({
-      "From": "no-reply@hckr.studio",
-      "To": "info@raumea.cz",
-      "Subject": "Kontaktní formulář z webu raumea.cz",
-      "HtmlBody": `
+      From: "no-reply@hckr.studio",
+      To: "info@raumea.cz",
+      Subject: "Kontaktní formulář z webu raumea.cz",
+      HtmlBody: `
         <p>Ahoj Michale,</p>
         <p>Někdo ti vyplnil kontaktní formulář na webu:</p>
         <dl>
@@ -25,7 +25,7 @@ async function sendRaumeaContactForm(token, payload) {
         <p>Tak měj hezký den a hodně štěstí.</p>
         <p>Tvoje hckr.studio</p>
       `,
-      "MessageStream": "outbound",
+      MessageStream: "outbound",
     }),
   });
 }

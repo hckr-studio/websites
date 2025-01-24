@@ -5,7 +5,7 @@ function parseLinks(document, type) {
     const val = link.getAttribute("href");
     if (!val) continue;
     const data = items.get(key) ?? [];
-    data.push(val)
+    data.push(val);
     items.set(key, data);
   }
   return Object.fromEntries(items);
@@ -26,4 +26,3 @@ export function relLinks(document) {
 export function revLinks(document) {
   return parseLinks(document, "rev");
 }
-

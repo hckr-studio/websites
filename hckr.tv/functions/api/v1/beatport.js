@@ -11,7 +11,7 @@ export async function onRequestGet({ request }) {
   /** @type Response */
   const resp = await fetch(`https://api.beatport.com/v4/catalog/search/?${params}`, {
     method: "GET",
-    headers: { "Accept": "application/json" },
+    headers: { Accept: "application/json" },
   });
   let data = await resp.json();
   console.log({ response: data });
@@ -23,7 +23,10 @@ export async function onRequestGet({ request }) {
   return Response.json({
     "@context": "https://schema.org",
     "@type": "MusicRecording",
-    byArtist: track.artists.map((artist) => ({ "@type": "MusicGroup", name: artist.name })),
+    byArtist: track.artists.map(artist => ({
+      "@type": "MusicGroup",
+      name: artist.name,
+    })),
     name: track.name,
     version: track.mix_name,
     genre: track.genre.name,

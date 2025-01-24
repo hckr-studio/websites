@@ -13,9 +13,7 @@ export default {
 
   stylesheets: {
     postcss: {
-      plugins: [
-        jitProps(OpenProps),
-      ],
+      plugins: [jitProps(OpenProps)],
     },
   },
 };

@@ -1,53 +1,53 @@
 export default {
-  "src": "./src",
-  "dest": "../.blendid/public/hckr.party",
+  src: "./src",
+  dest: "../.blendid/public/hckr.party",
 
-  "html": {
-    "src": "html",
-    "dest": "./",
+  html: {
+    src: "html",
+    dest: "./",
   },
 
-  "static": {
-    "src": "static",
-    "dest": "./",
+  static: {
+    src: "static",
+    dest: "./",
   },
 
-  "javascripts": {
-    "src": "javascripts",
-    "dest": "assets/js",
+  javascripts: {
+    src: "javascripts",
+    dest: "assets/js",
   },
 
-  "esm": {
-    "src": "esm",
-    "dest": "assets/esm",
+  esm: {
+    src: "esm",
+    dest: "assets/esm",
   },
 
-  "stylesheets": {
-    "src": "stylesheets",
-    "dest": "assets/css",
+  stylesheets: {
+    src: "stylesheets",
+    dest: "assets/css",
   },
 
-  "images": {
-    "src": "images",
-    "dest": "assets/img",
+  images: {
+    src: "images",
+    dest: "assets/img",
   },
 
-  "cloudinary": {
-    "src": "cloudinary",
-    "dest": "",
+  cloudinary: {
+    src: "cloudinary",
+    dest: "",
   },
 
-  "data": {
-    "src": "data",
+  data: {
+    src: "data",
   },
 
-  "fonts": {
-    "src": "fonts",
-    "dest": "assets/css",
+  fonts: {
+    src: "fonts",
+    dest: "assets/css",
   },
 
-  "icons": {
-    "src": "icons",
-    "dest": "assets/img",
+  icons: {
+    src: "icons",
+    dest: "assets/img",
   },
 };

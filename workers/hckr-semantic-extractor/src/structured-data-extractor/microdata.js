@@ -88,15 +88,14 @@ function value(element, extractValue, options) {
   if (element.getAttribute("itemscope") !== null) {
     return extract(element, extractValue, options);
   }
-  const attributeName = attributeNameByTagName.get(
-    element.tagName.toLowerCase(),
-  );
+  const attributeName = attributeNameByTagName.get(element.tagName.toLowerCase());
   const extractedValue = extractValue(element);
-  const rawStringValue = extractedValue === undefined
-    ? attributeName
-      ? element.getAttribute(attributeName)
-      : element.textContent
-    : extractedValue;
+  const rawStringValue =
+    extractedValue === undefined
+      ? attributeName
+        ? element.getAttribute(attributeName)
+        : element.textContent
+      : extractedValue;
 
   if (rawStringValue === null) {
     if (!options?.silentWarnings) {
@@ -108,7 +107,7 @@ function value(element, extractValue, options) {
   const stringValue = rawStringValue
     .trim()
     .split(/\n/)
-    .map((s) => s.trim())
+    .map(s => s.trim())
     .join(" ");
   const itemType = element.getAttribute("itemtype");
   switch (itemType) {

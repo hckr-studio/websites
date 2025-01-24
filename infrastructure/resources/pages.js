@@ -26,20 +26,28 @@ export function createPages(account, zone, recordName, projectName, { production
     },
   });
 
-  const record = new cloudflare.Record(`${projectName}/dns-record`, {
-    zoneId: zone.id,
-    name: recordName,
-    type: "CNAME",
-    content: pages.domains[0],
-    ttl: 1,
-    proxied: true,
-  }, { dependsOn: [zone, pages] });
+  const record = new cloudflare.Record(
+    `${projectName}/dns-record`,
+    {
+      zoneId: zone.id,
+      name: recordName,
+      type: "CNAME",
+      content: pages.domains[0],
+      ttl: 1,
+      proxied: true,
+    },
+    { dependsOn: [zone, pages] },
+  );
 
-  const domain = new cloudflare.PagesDomain(`${projectName}/pages-domain`, {
-    accountId: account.id,
-    domain: record.hostname,
-    projectName: pages.name,
-  }, { dependsOn: [record] });
+  const domain = new cloudflare.PagesDomain(
+    `${projectName}/pages-domain`,
+    {
+      accountId: account.id,
+      domain: record.hostname,
+      projectName: pages.name,
+    },
+    { dependsOn: [record] },
+  );
 
   return { pages, record, domain };
 }
