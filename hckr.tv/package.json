@@ -17,9 +17,9 @@
   "dependencies": {
     "@hckr_/cloudflare-pages-plugin-rollbar": "1.1.4",
     "@thi.ng/atom": "5.3.19",
-    "linkedom": "0.18.6",
+    "linkedom": "0.18.7",
     "lit-html": "3.2.1",
-    "parse-duration": "1.1.2",
+    "parse-duration": "2.0.1",
     "rxjs": "7.8.1"
   }
 }
