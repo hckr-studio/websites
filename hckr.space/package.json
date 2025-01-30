@@ -6,7 +6,7 @@
   "devDependencies": {
     "@cloudflare/workers-types": "4.20250129.0",
     "@hckr_/blendid": "9.2.2",
-    "open-props": "1.7.10",
+    "open-props": "1.7.11",
     "postcss-jit-props": "1.0.15",
     "wrangler": "3.106.0"
   },
