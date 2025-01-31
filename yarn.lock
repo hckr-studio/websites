@@ -938,7 +938,7 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250129.0"
     "@hckr_/blendid": "npm:9.2.2"
-    open-props: "npm:1.7.11"
+    open-props: "npm:1.7.12"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.107.0"
   languageName: unknown
@@ -950,7 +950,7 @@ __metadata:
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250129.0"
     "@hckr_/blendid": "npm:9.2.2"
-    open-props: "npm:1.7.11"
+    open-props: "npm:1.7.12"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.107.0"
   languageName: unknown
@@ -963,7 +963,7 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20250129.0"
     "@hckr_/blendid": "npm:9.2.2"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
-    open-props: "npm:1.7.11"
+    open-props: "npm:1.7.12"
     postcss-jit-props: "npm:1.0.15"
     wrangler: "npm:3.107.0"
   languageName: unknown
@@ -979,7 +979,7 @@ __metadata:
     "@thi.ng/atom": "npm:5.3.20"
     linkedom: "npm:0.18.7"
     lit-html: "npm:3.2.1"
-    open-props: "npm:1.7.11"
+    open-props: "npm:1.7.12"
     parse-duration: "npm:2.0.1"
     postcss-jit-props: "npm:1.0.15"
     rxjs: "npm:7.8.1"
@@ -6605,10 +6605,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"open-props@npm:1.7.11":
-  version: 1.7.11
-  resolution: "open-props@npm:1.7.11"
-  checksum: 10/ae76bf199788d1b4a897b9296bd9ea605625de3b6de48a275535f29dd4d7e5a209960b44fc5df8a04fc07a4b1a19dfca761c05382df75e1b5378a42d25272947
+"open-props@npm:1.7.12":
+  version: 1.7.12
+  resolution: "open-props@npm:1.7.12"
+  checksum: 10/3eef90f92e7be0b909f16d3928681d3ec578708ca3cd94a4cb78616db9f66469b60874fb7a19297498a0d22c9fe2a17975a0f8fe7560daa926e0130572b6cd69
   languageName: node
   linkType: hard
 
