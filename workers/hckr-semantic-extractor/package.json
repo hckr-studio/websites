@@ -12,7 +12,7 @@
     "@cloudflare/vitest-pool-workers": "0.6.8",
     "@types/rdfjs__data-model": "2.0.9",
     "vitest": "3.0.5",
-    "wrangler": "3.109.0"
+    "wrangler": "3.109.1"
   },
   "dependencies": {
     "@cloudflare/puppeteer": "0.0.14",
