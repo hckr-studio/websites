@@ -975,7 +975,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.3.0"
     open-props: "npm:1.7.12"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.109.0"
+    wrangler: "npm:3.109.1"
   languageName: unknown
   linkType: soft
 
@@ -987,7 +987,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.3.0"
     open-props: "npm:1.7.12"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.109.0"
+    wrangler: "npm:3.109.1"
   languageName: unknown
   linkType: soft
 
@@ -1000,7 +1000,7 @@ __metadata:
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.12"
     postcss-jit-props: "npm:1.0.15"
-    wrangler: "npm:3.109.0"
+    wrangler: "npm:3.109.1"
   languageName: unknown
   linkType: soft
 
@@ -1018,7 +1018,7 @@ __metadata:
     parse-duration: "npm:2.1.3"
     postcss-jit-props: "npm:1.0.15"
     rxjs: "npm:7.8.1"
-    wrangler: "npm:3.109.0"
+    wrangler: "npm:3.109.1"
   languageName: unknown
   linkType: soft
 
@@ -1036,7 +1036,7 @@ __metadata:
   resolution: "@hckr-studio/websites@workspace:."
   dependencies:
     "@biomejs/biome": "npm:1.9.4"
-    wrangler: "npm:3.109.0"
+    wrangler: "npm:3.109.1"
   languageName: unknown
   linkType: soft
 
@@ -1111,7 +1111,7 @@ __metadata:
     "@cloudflare/puppeteer": "npm:0.0.14"
     "@cloudflare/vitest-pool-workers": "npm:0.6.8"
     vitest: "npm:3.0.5"
-    wrangler: "npm:3.109.0"
+    wrangler: "npm:3.109.1"
   languageName: unknown
   linkType: soft
 
@@ -1125,7 +1125,7 @@ __metadata:
     "@types/rdfjs__data-model": "npm:2.0.9"
     jsonc-parser: "npm:3.3.1"
     vitest: "npm:3.0.5"
-    wrangler: "npm:3.109.0"
+    wrangler: "npm:3.109.1"
   languageName: unknown
   linkType: soft
 
@@ -9898,9 +9898,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:3.109.0":
-  version: 3.109.0
-  resolution: "wrangler@npm:3.109.0"
+"wrangler@npm:3.109.1":
+  version: 3.109.1
+  resolution: "wrangler@npm:3.109.1"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.3.4"
     "@esbuild-plugins/node-globals-polyfill": "npm:0.2.3"
@@ -9926,7 +9926,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10/b378835bdb9d14f2c7d9b64ab57979f403bee281c9e4e656a961ee5523cd090e8ea0e9a87333768443246d94ed38e22c3f17f94f487904c89a740fd4db5e2776
+  checksum: 10/c2ac1613b632856c7b9b0224e0cb3947057aed216dc4f40325926df125f5d979782a104415bb788852a8c04d132519bf1d326a9d907e0ceaea7247dada037375
   languageName: node
   linkType: hard
 
