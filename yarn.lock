@@ -1011,7 +1011,7 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20250214.0"
     "@hckr_/blendid": "npm:9.3.0"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
-    "@thi.ng/atom": "npm:5.3.22"
+    "@thi.ng/atom": "npm:5.3.23"
     linkedom: "npm:0.18.7"
     lit-html: "npm:3.2.1"
     open-props: "npm:1.7.12"
@@ -2216,25 +2216,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thi.ng/atom@npm:5.3.22":
-  version: 5.3.22
-  resolution: "@thi.ng/atom@npm:5.3.22"
+"@thi.ng/atom@npm:5.3.23":
+  version: 5.3.23
+  resolution: "@thi.ng/atom@npm:5.3.23"
   dependencies:
     "@thi.ng/api": "npm:^8.11.21"
     "@thi.ng/equiv": "npm:^2.1.77"
     "@thi.ng/errors": "npm:^2.5.27"
-    "@thi.ng/paths": "npm:^5.2.2"
+    "@thi.ng/paths": "npm:^5.2.3"
     tslib: "npm:^2.8.1"
-  checksum: 10/8025699f788785266f19c564e2a82a44736053ec28784c6cb23fcfba37439fa7223f6d131630e5f6a9167a9f7e4218a4af060cbe2b5a2e28c861f9a34a23fda0
+  checksum: 10/6d83965c19b9466a1688c4b047ca6bcceaf77091e272763e0f8b0a429a4de0ff12a7e2482ccb2e18035ae6aab7ba8491a754a3180518528099fff8d3c06c4464
   languageName: node
   linkType: hard
 
-"@thi.ng/checks@npm:^3.6.24":
-  version: 3.6.24
-  resolution: "@thi.ng/checks@npm:3.6.24"
+"@thi.ng/checks@npm:^3.7.0":
+  version: 3.7.0
+  resolution: "@thi.ng/checks@npm:3.7.0"
   dependencies:
     tslib: "npm:^2.8.1"
-  checksum: 10/ecf436d2e05b541babc87ae251f42a370a78b8340175d8ab46b9ac189d6d34e8010e530e74ffda893b6341db88f321e4e0512c76de137d972f853586730e3e79
+  checksum: 10/f067e3b150b863baef4836fb49643a595caac6a509b3b6f38ffdb903bcda21927543ca9a14e6b2c2550403643aab0771ccd690bf99719690da1f26753ad35634
   languageName: node
   linkType: hard
 
@@ -2252,14 +2252,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thi.ng/paths@npm:^5.2.2":
-  version: 5.2.2
-  resolution: "@thi.ng/paths@npm:5.2.2"
+"@thi.ng/paths@npm:^5.2.3":
+  version: 5.2.3
+  resolution: "@thi.ng/paths@npm:5.2.3"
   dependencies:
     "@thi.ng/api": "npm:^8.11.21"
-    "@thi.ng/checks": "npm:^3.6.24"
+    "@thi.ng/checks": "npm:^3.7.0"
     "@thi.ng/errors": "npm:^2.5.27"
-  checksum: 10/b781436ec0cac77e383299e608e1c623c10c82a18470157a4e2b682e3008555817259b036f18218feae2cfb0cc139d2b014d708cca3c640df7495cd15513ecdd
+  checksum: 10/f9f1dc3b055fedeb11ba6c921a5e76d716a4a9d6c9a15670c7bd839ac88a4d873bc91eab62aeb3b6e176b07b73d77a502eadf48709cd1916036562d2e5067b1b
   languageName: node
   linkType: hard
 
