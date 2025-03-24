@@ -9,13 +9,18 @@
   },
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     },
     {
       "groupName": "pulumi",
-      "matchPackagePrefixes": ["@pulumi/"]
+      "matchPackageNames": [
+        "@pulumi/{/,}**"
+      ]
     }
   ]
 }
