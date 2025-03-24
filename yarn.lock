@@ -231,10 +231,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/workers-types@npm:4.20250320.0":
-  version: 4.20250320.0
-  resolution: "@cloudflare/workers-types@npm:4.20250320.0"
-  checksum: 10/cb751505e4e7a7a28f4fd05037e31aa087afd16c40a718d1ef8fb59a3fd76c3b4698d00a59a4a15a570d5c938e94075be7185f04a4c1751822587e3da2e6e7b0
+"@cloudflare/workers-types@npm:4.20250321.0":
+  version: 4.20250321.0
+  resolution: "@cloudflare/workers-types@npm:4.20250321.0"
+  checksum: 10/537efbffcbfe589efcd5613f3feb3ad2710010022f44eec7e9793cd853abf48dc48a03d748c284b85d8e2a1f8d9e00e8c7a03fc72c3dee00458f4d4224569d6d
   languageName: node
   linkType: hard
 
@@ -993,7 +993,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250320.0"
+    "@cloudflare/workers-types": "npm:4.20250321.0"
     "@hckr_/blendid": "npm:9.3.3"
     open-props: "npm:1.7.14"
     postcss-jit-props: "npm:1.0.16"
@@ -1005,7 +1005,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250320.0"
+    "@cloudflare/workers-types": "npm:4.20250321.0"
     "@hckr_/blendid": "npm:9.3.3"
     open-props: "npm:1.7.14"
     postcss-jit-props: "npm:1.0.16"
@@ -1017,7 +1017,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250320.0"
+    "@cloudflare/workers-types": "npm:4.20250321.0"
     "@hckr_/blendid": "npm:9.3.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.14"
@@ -1030,7 +1030,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
-    "@cloudflare/workers-types": "npm:4.20250320.0"
+    "@cloudflare/workers-types": "npm:4.20250321.0"
     "@hckr_/blendid": "npm:9.3.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.27"
