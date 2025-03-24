@@ -21,6 +21,13 @@
       "matchPackageNames": [
         "@pulumi/{/,}**"
       ]
+    },
+    {
+      "groupName": "cloudflare",
+      "matchPackageNames": [
+        "@cloudflare/{/,}**",
+        "wrangler"
+      ]
     }
   ]
 }
