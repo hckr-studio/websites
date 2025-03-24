@@ -994,7 +994,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250320.0"
-    "@hckr_/blendid": "npm:9.3.2"
+    "@hckr_/blendid": "npm:9.3.3"
     open-props: "npm:1.7.14"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.4.0"
@@ -1006,7 +1006,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250320.0"
-    "@hckr_/blendid": "npm:9.3.2"
+    "@hckr_/blendid": "npm:9.3.3"
     open-props: "npm:1.7.14"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.4.0"
@@ -1018,7 +1018,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250320.0"
-    "@hckr_/blendid": "npm:9.3.2"
+    "@hckr_/blendid": "npm:9.3.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.14"
     postcss-jit-props: "npm:1.0.16"
@@ -1031,7 +1031,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250320.0"
-    "@hckr_/blendid": "npm:9.3.2"
+    "@hckr_/blendid": "npm:9.3.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.27"
     linkedom: "npm:0.18.9"
@@ -1062,13 +1062,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hckr_/blendid@npm:9.3.2":
-  version: 9.3.2
-  resolution: "@hckr_/blendid@npm:9.3.2"
+"@hckr_/blendid@npm:9.3.3":
+  version: 9.3.3
+  resolution: "@hckr_/blendid@npm:9.3.3"
   dependencies:
     "@csstools/postcss-gamut-mapping": "npm:2.0.8"
     "@vitejs/plugin-basic-ssl": "npm:2.0.0"
-    cloudinary: "npm:2.5.1"
+    cloudinary: "npm:2.6.0"
     cssnano: "npm:7.0.6"
     del: "npm:8.0.0"
     gulp: "npm:5.0.0"
@@ -1110,10 +1110,10 @@ __metadata:
     undertaker-registry: "npm:2.0.0"
     vinyl: "npm:3.0.0"
     vinyl-file: "npm:5.0.0"
-    vite: "npm:6.2.1"
+    vite: "npm:6.2.2"
   bin:
     blendid: bin/blendid.js
-  checksum: 10/f9bfb5963afe90d6eb5820a3f3389c2d3f5f6d5d8d53418b75cce3c30ff1f798276ffdf9e75165a20d564f53f6b1a9731f90dcf279488f5df8fbc35984c952cf
+  checksum: 10/1c9528a2c5292cde38a1ded18d42e1f6d1fa5f7bd7980e301f6f515d0455d7dc6d7f59669a0fb5692e7ffba53027c94cbd7366c5e9380ec50b55b563dedc2f84
   languageName: node
   linkType: hard
 
@@ -3361,13 +3361,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cloudinary@npm:2.5.1":
-  version: 2.5.1
-  resolution: "cloudinary@npm:2.5.1"
+"cloudinary@npm:2.6.0":
+  version: 2.6.0
+  resolution: "cloudinary@npm:2.6.0"
   dependencies:
     lodash: "npm:^4.17.21"
     q: "npm:^1.5.1"
-  checksum: 10/182708d3101078812a2a56e57ac85f745d1ac651cef8b18d5c818cafc15d8fd89634d469d71ab0680bb16f6ff3cf72c4d6331ebe8d0768ed78efc388b43dc93c
+  checksum: 10/362643e47f453a467c891fe94518a7203b0367c1c0b7c81dc299790339cf67def5724cdcb5d8276557e6a0e89ffc9d84e6306e4e2e50449d4807fe2059e2888f
   languageName: node
   linkType: hard
 
@@ -9684,59 +9684,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:6.2.1":
-  version: 6.2.1
-  resolution: "vite@npm:6.2.1"
-  dependencies:
-    esbuild: "npm:^0.25.0"
-    fsevents: "npm:~2.3.3"
-    postcss: "npm:^8.5.3"
-    rollup: "npm:^4.30.1"
-  peerDependencies:
-    "@types/node": ^18.0.0 || ^20.0.0 || >=22.0.0
-    jiti: ">=1.21.0"
-    less: "*"
-    lightningcss: ^1.21.0
-    sass: "*"
-    sass-embedded: "*"
-    stylus: "*"
-    sugarss: "*"
-    terser: ^5.16.0
-    tsx: ^4.8.1
-    yaml: ^2.4.2
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  peerDependenciesMeta:
-    "@types/node":
-      optional: true
-    jiti:
-      optional: true
-    less:
-      optional: true
-    lightningcss:
-      optional: true
-    sass:
-      optional: true
-    sass-embedded:
-      optional: true
-    stylus:
-      optional: true
-    sugarss:
-      optional: true
-    terser:
-      optional: true
-    tsx:
-      optional: true
-    yaml:
-      optional: true
-  bin:
-    vite: bin/vite.js
-  checksum: 10/a37cbc33a3d9746434e8e96614dd6d8d45d821e61e9d266f389808da290b3128ac93ba0059ab09a098cdeab8b790d6d3ae7cdd5e1ce7d55c31b8bece650b3790
-  languageName: node
-  linkType: hard
-
-"vite@npm:^5.0.0 || ^6.0.0":
+"vite@npm:6.2.2, vite@npm:^5.0.0 || ^6.0.0":
   version: 6.2.2
   resolution: "vite@npm:6.2.2"
   dependencies:
