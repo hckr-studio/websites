@@ -1035,7 +1035,7 @@ __metadata:
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.28"
     linkedom: "npm:0.18.9"
-    lit-html: "npm:3.2.1"
+    lit-html: "npm:3.3.0"
     open-props: "npm:1.7.15"
     parse-duration: "npm:2.1.4"
     postcss-jit-props: "npm:1.0.16"
@@ -5847,12 +5847,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lit-html@npm:3.2.1":
-  version: 3.2.1
-  resolution: "lit-html@npm:3.2.1"
+"lit-html@npm:3.3.0":
+  version: 3.3.0
+  resolution: "lit-html@npm:3.3.0"
   dependencies:
     "@types/trusted-types": "npm:^2.0.2"
-  checksum: 10/d670a8e49da98d04b83dd13807fec86305d85915b30814c5461e7a34d001ce1efcd8395467897118d0ab5c09d9c224617b25a4eb2b743491f634f6a3bf155753
+  checksum: 10/667992d927e841d9e74cf615e3556edcdc71392953d3eaf963187b4f0159e52ec7826331a650456f1c573a461f71e6c41da36b8efacef1dffc6cce07e548d8b0
   languageName: node
   linkType: hard
 
