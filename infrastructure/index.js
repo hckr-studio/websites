@@ -48,9 +48,7 @@ const redirects = [
   createRedirect(account, hckrTvZone.zone, "www", "hckr_tv", hckrTvPages.domain.domain),
   // those are managed in other repositories, but Lists are global to the account
   ["hackercamp.cz", "https://www.hackercamp.cz"],
-  ["hckr.camp", "https://www.hackercamp.cz"],
-  ["www.hckr.camp", "https://www.hackercamp.cz/", 307],
-  ["donut.hckr.camp", "https://donut.hackercamp.cz/", 307],
+  ["www.hckr.camp", "https://www.hackercamp.cz/"],
   ["twareg.cz", "https://hckr.studio"],
   ["www.twareg.cz", "https://hckr.studio"],
   ["trop.cz", "https://hckr.studio"],
