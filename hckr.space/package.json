@@ -4,11 +4,11 @@
   "type": "module",
   "author": "Aleš Roubíček <ales@roubicek.name>",
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20250320.0",
+    "@cloudflare/workers-types": "4.20250513.0",
     "@hckr_/blendid": "9.3.5",
     "open-props": "1.7.15",
     "postcss-jit-props": "1.0.16",
-    "wrangler": "4.4.0"
+    "wrangler": "4.14.4"
   },
   "scripts": {
     "build": "blendid build --production",
