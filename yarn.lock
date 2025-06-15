@@ -429,15 +429,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/postcss-is-pseudo-class@npm:^5.0.1":
-  version: 5.0.1
-  resolution: "@csstools/postcss-is-pseudo-class@npm:5.0.1"
+"@csstools/postcss-is-pseudo-class@npm:^5.0.3":
+  version: 5.0.3
+  resolution: "@csstools/postcss-is-pseudo-class@npm:5.0.3"
   dependencies:
     "@csstools/selector-specificity": "npm:^5.0.0"
     postcss-selector-parser: "npm:^7.0.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10/2f7cedf387f54cd061c4f4c2689fc9cac0dfe8f2c8d527e49ce49b810abccbb17a67f0b536de31486472609da5ae9bdef372ea9be1079231a3a1d87f5a48c173
+  checksum: 10/99abf2595c3b92ba993f26704c622837ec7546832037f75778d74a2c3d2e5009a027e52178d7f5c967d9c0dcda44244db9a8131c51e42fcbf4a0c22f21b3b1b6
   languageName: node
   linkType: hard
 
@@ -680,7 +680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/selector-resolve-nested@npm:^3.0.0":
+"@csstools/selector-resolve-nested@npm:^3.1.0":
   version: 3.1.0
   resolution: "@csstools/selector-resolve-nested@npm:3.1.0"
   peerDependencies:
@@ -943,7 +943,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.3.7"
+    "@hckr_/blendid": "npm:9.3.8"
     open-props: "npm:1.7.15"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.14.4"
@@ -955,7 +955,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.3.7"
+    "@hckr_/blendid": "npm:9.3.8"
     open-props: "npm:1.7.15"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.14.4"
@@ -967,7 +967,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.3.7"
+    "@hckr_/blendid": "npm:9.3.8"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.15"
     postcss-jit-props: "npm:1.0.16"
@@ -980,7 +980,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.3.7"
+    "@hckr_/blendid": "npm:9.3.8"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.32"
     linkedom: "npm:0.18.10"
@@ -1011,9 +1011,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hckr_/blendid@npm:9.3.7":
-  version: 9.3.7
-  resolution: "@hckr_/blendid@npm:9.3.7"
+"@hckr_/blendid@npm:9.3.8":
+  version: 9.3.8
+  resolution: "@hckr_/blendid@npm:9.3.8"
   dependencies:
     "@csstools/postcss-gamut-mapping": "npm:2.0.10"
     "@vitejs/plugin-basic-ssl": "npm:2.0.0"
@@ -1048,10 +1048,10 @@ __metadata:
     nunjucks: "npm:3.2.4"
     nunjucks-markdown: "npm:2.0.1"
     plugin-error: "npm:2.0.1"
-    postcss: "npm:8.5.4"
+    postcss: "npm:8.5.5"
     postcss-functions: "npm:4.0.2"
     postcss-import: "npm:16.1.0"
-    postcss-preset-env: "npm:10.2.0"
+    postcss-preset-env: "npm:10.2.3"
     rev-hash: "npm:4.1.0"
     rev-path: "npm:3.0.0"
     sort-keys: "npm:5.1.0"
@@ -1062,7 +1062,7 @@ __metadata:
     vite: "npm:6.3.5"
   bin:
     blendid: bin/blendid.js
-  checksum: 10/3c826993e626b9868aade57971cf25e8e34803c739e3353af23b83a6e70161275422e866e6fa9edeba4c83e341c9611d369f75fb66c2174b9271cd612280a414
+  checksum: 10/9fdd683faef4c9e399a7491aa5e13d105c4dcaf2e8214193f2cffb99eead604c9d96a473d0418a64be46855f9ae30679dddee25a18827f98f3cf0afab1f9073f
   languageName: node
   linkType: hard
 
@@ -2952,7 +2952,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.0.0, browserslist@npm:^4.24.4, browserslist@npm:^4.24.5":
+"browserslist@npm:^4.0.0, browserslist@npm:^4.24.4, browserslist@npm:^4.24.5, browserslist@npm:^4.25.0":
   version: 4.25.0
   resolution: "browserslist@npm:4.25.0"
   dependencies:
@@ -7108,7 +7108,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-custom-properties@npm:^14.0.5":
+"postcss-custom-properties@npm:^14.0.6":
   version: 14.0.6
   resolution: "postcss-custom-properties@npm:14.0.6"
   dependencies:
@@ -7408,16 +7408,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-nesting@npm:^13.0.1":
-  version: 13.0.1
-  resolution: "postcss-nesting@npm:13.0.1"
+"postcss-nesting@npm:^13.0.2":
+  version: 13.0.2
+  resolution: "postcss-nesting@npm:13.0.2"
   dependencies:
-    "@csstools/selector-resolve-nested": "npm:^3.0.0"
+    "@csstools/selector-resolve-nested": "npm:^3.1.0"
     "@csstools/selector-specificity": "npm:^5.0.0"
     postcss-selector-parser: "npm:^7.0.0"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10/80ab17f5269bfda988b87e18dd387be84436e3215fd509745b91b3f5569fe522462521da1ad4204415de0fa16ac1c1cfebcb50e4963cf1ee8c28f6cc48505fc8
+  checksum: 10/ac82d7d2d2621d76ca42e065b90728c91206480ef01f874c21d032c5964b723818ab13194b09c7871edee8e4220241160f72d29ece65acbfe8827937a5b6ace0
   languageName: node
   linkType: hard
 
@@ -7571,9 +7571,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:10.2.0":
-  version: 10.2.0
-  resolution: "postcss-preset-env@npm:10.2.0"
+"postcss-preset-env@npm:10.2.3":
+  version: 10.2.3
+  resolution: "postcss-preset-env@npm:10.2.3"
   dependencies:
     "@csstools/postcss-cascade-layers": "npm:^5.0.1"
     "@csstools/postcss-color-function": "npm:^4.0.10"
@@ -7587,7 +7587,7 @@ __metadata:
     "@csstools/postcss-hwb-function": "npm:^4.0.10"
     "@csstools/postcss-ic-unit": "npm:^4.0.2"
     "@csstools/postcss-initial": "npm:^2.0.1"
-    "@csstools/postcss-is-pseudo-class": "npm:^5.0.1"
+    "@csstools/postcss-is-pseudo-class": "npm:^5.0.3"
     "@csstools/postcss-light-dark-function": "npm:^2.0.9"
     "@csstools/postcss-logical-float-and-clear": "npm:^3.0.0"
     "@csstools/postcss-logical-overflow": "npm:^2.0.0"
@@ -7609,7 +7609,7 @@ __metadata:
     "@csstools/postcss-trigonometric-functions": "npm:^4.0.9"
     "@csstools/postcss-unset-value": "npm:^4.0.0"
     autoprefixer: "npm:^10.4.21"
-    browserslist: "npm:^4.24.5"
+    browserslist: "npm:^4.25.0"
     css-blank-pseudo: "npm:^7.0.1"
     css-has-pseudo: "npm:^7.0.2"
     css-prefers-color-scheme: "npm:^10.0.0"
@@ -7620,7 +7620,7 @@ __metadata:
     postcss-color-hex-alpha: "npm:^10.0.0"
     postcss-color-rebeccapurple: "npm:^10.0.0"
     postcss-custom-media: "npm:^11.0.6"
-    postcss-custom-properties: "npm:^14.0.5"
+    postcss-custom-properties: "npm:^14.0.6"
     postcss-custom-selectors: "npm:^8.0.5"
     postcss-dir-pseudo-class: "npm:^9.0.1"
     postcss-double-position-gradients: "npm:^6.0.2"
@@ -7631,7 +7631,7 @@ __metadata:
     postcss-image-set-function: "npm:^7.0.0"
     postcss-lab-function: "npm:^7.0.10"
     postcss-logical: "npm:^8.1.0"
-    postcss-nesting: "npm:^13.0.1"
+    postcss-nesting: "npm:^13.0.2"
     postcss-opacity-percentage: "npm:^3.0.0"
     postcss-overflow-shorthand: "npm:^6.0.0"
     postcss-page-break: "npm:^3.0.4"
@@ -7641,7 +7641,7 @@ __metadata:
     postcss-selector-not: "npm:^8.0.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10/98ba2311e445cc1e57f5cb6eaea7f0a42d0620eb5185558a3d924994a6ff03500c3a11863150f53bd40df26347c7f1ccec1c15888eaad8f1d1f0f7540a76181c
+  checksum: 10/c95ef93000eec70f5b4042eced3f318110207abeb468303d4b4fd3abdbeab72964b7e967f48a2577a129b39fe1a5e1fafa36850f51489cf3419be371d2580200
   languageName: node
   linkType: hard
 
@@ -7749,7 +7749,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:8.5.4, postcss@npm:^8.5.3":
+"postcss@npm:8.5.5":
+  version: 8.5.5
+  resolution: "postcss@npm:8.5.5"
+  dependencies:
+    nanoid: "npm:^3.3.11"
+    picocolors: "npm:^1.1.1"
+    source-map-js: "npm:^1.2.1"
+  checksum: 10/c80f723c754b656bf7c983e34841fa35fe0c37a13edd27e24de64e7962cfab11ea081b3b1c900838d2dbe576a045fdecad4f17862c488f12735742f525d22cf0
+  languageName: node
+  linkType: hard
+
+"postcss@npm:^8.5.3":
   version: 8.5.4
   resolution: "postcss@npm:8.5.4"
   dependencies:
