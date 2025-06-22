@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@cloudflare/puppeteer": "0.0.15",
-    "@rdfjs/data-model": "2.1.0",
+    "@rdfjs/data-model": "2.1.1",
     "jsonc-parser": "3.3.1"
   }
 }
