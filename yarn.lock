@@ -1092,7 +1092,7 @@ __metadata:
   dependencies:
     "@cloudflare/puppeteer": "npm:0.0.15"
     "@cloudflare/vitest-pool-workers": "npm:0.8.27"
-    "@rdfjs/data-model": "npm:2.1.0"
+    "@rdfjs/data-model": "npm:2.1.1"
     "@types/rdfjs__data-model": "npm:2.0.9"
     jsonc-parser: "npm:3.3.1"
     vitest: "npm:3.2.4"
@@ -1930,12 +1930,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@rdfjs/data-model@npm:2.1.0":
-  version: 2.1.0
-  resolution: "@rdfjs/data-model@npm:2.1.0"
+"@rdfjs/data-model@npm:2.1.1":
+  version: 2.1.1
+  resolution: "@rdfjs/data-model@npm:2.1.1"
   bin:
     rdfjs-data-model-test: bin/test.js
-  checksum: 10/1f4e08d28ff430f20b965e62fc71a3ed2c257bca01a25f16ca85a65e226b5672da5d0cf43886b3681eb289f8f1190ddffd5fa21c4ea27e5adc8aefd742905bdc
+  checksum: 10/c4161711a7812900ad880a6f61dddd6cc92ec4793f3112909b96002942703f5424f6bcfa4aa31259bdde27bb98d4e8e637fb11a11c8a4701e3bd818cce2cee47
   languageName: node
   linkType: hard
 
