@@ -982,7 +982,7 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20250513.0"
     "@hckr_/blendid": "npm:9.6.2"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
-    "@thi.ng/atom": "npm:5.3.39"
+    "@thi.ng/atom": "npm:5.3.40"
     linkedom: "npm:0.18.10"
     lit-html: "npm:3.3.1"
     open-props: "npm:1.7.16"
@@ -2387,22 +2387,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thi.ng/atom@npm:5.3.39":
-  version: 5.3.39
-  resolution: "@thi.ng/atom@npm:5.3.39"
+"@thi.ng/atom@npm:5.3.40":
+  version: 5.3.40
+  resolution: "@thi.ng/atom@npm:5.3.40"
   dependencies:
     "@thi.ng/api": "npm:^8.12.1"
     "@thi.ng/equiv": "npm:^2.1.91"
     "@thi.ng/errors": "npm:^2.5.41"
-    "@thi.ng/paths": "npm:^5.2.18"
-  checksum: 10/4191384b95c3296a565b4b92b3e495af0c47e21b5572f0560286d39f988f45e972b1582913197fc0214f05c35e2bde5e1ef6ff146d74d5e0772660aa06104995
+    "@thi.ng/paths": "npm:^5.2.19"
+  checksum: 10/59f6a09b62f1c97c302b27652144a20378476d97f6d71bccab481c93ab4ba60f6bbc178e096313441f5db87254cc17b380d9a5300f74da302af805502f4c50e0
   languageName: node
   linkType: hard
 
-"@thi.ng/checks@npm:^3.7.15":
-  version: 3.7.15
-  resolution: "@thi.ng/checks@npm:3.7.15"
-  checksum: 10/7537e28e4a03b8b037c230ec62b84fda7efeed8fbc1c00fab7ca78663e6561228422829e0ffb0feef3e3f1998a4c4a753f4969f30b4eaaf15b85f7e591ca45d0
+"@thi.ng/checks@npm:^3.7.16":
+  version: 3.7.16
+  resolution: "@thi.ng/checks@npm:3.7.16"
+  checksum: 10/dee7b41a26d85531f8ac508876a4a18892969a298d2b95756ddf839864f9fa7c811d44b7c6565041e768cc7c5f8fb76b9bc8ba9fcff1f1fc6f21b1835c1b31d3
   languageName: node
   linkType: hard
 
@@ -2420,14 +2420,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thi.ng/paths@npm:^5.2.18":
-  version: 5.2.18
-  resolution: "@thi.ng/paths@npm:5.2.18"
+"@thi.ng/paths@npm:^5.2.19":
+  version: 5.2.19
+  resolution: "@thi.ng/paths@npm:5.2.19"
   dependencies:
     "@thi.ng/api": "npm:^8.12.1"
-    "@thi.ng/checks": "npm:^3.7.15"
+    "@thi.ng/checks": "npm:^3.7.16"
     "@thi.ng/errors": "npm:^2.5.41"
-  checksum: 10/96e47104a67c6f72a904d5f497eb99fb102587ed1617ecc15594d905efe4adaa5119bb67953cdda52556ea9a4cf014917ccb4f6325cd2dafb7bde297e5d7d27d
+  checksum: 10/262c373bf60ababe10ed407af1aaba2abdc6e12a9ba28bc94e99bc7fb1c74a020e780877f90230979e394d201f13003c242aef99ed3beee86e4342ac403d85a7
   languageName: node
   linkType: hard
 
