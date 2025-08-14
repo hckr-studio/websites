@@ -943,7 +943,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.6.2"
+    "@hckr_/blendid": "npm:9.6.3"
     open-props: "npm:1.7.16"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.14.4"
@@ -955,7 +955,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.6.2"
+    "@hckr_/blendid": "npm:9.6.3"
     open-props: "npm:1.7.16"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.14.4"
@@ -967,7 +967,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.6.2"
+    "@hckr_/blendid": "npm:9.6.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.16"
     postcss-jit-props: "npm:1.0.16"
@@ -980,7 +980,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20250513.0"
-    "@hckr_/blendid": "npm:9.6.2"
+    "@hckr_/blendid": "npm:9.6.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.41"
     linkedom: "npm:0.18.10"
@@ -1011,21 +1011,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hckr_/blendid@npm:9.6.2":
-  version: 9.6.2
-  resolution: "@hckr_/blendid@npm:9.6.2"
+"@hckr_/blendid@npm:9.6.3":
+  version: 9.6.3
+  resolution: "@hckr_/blendid@npm:9.6.3"
   dependencies:
     "@csstools/postcss-gamut-mapping": "npm:2.0.10"
     "@lokesh.dhakar/quantize": "npm:1.4.0"
     "@vitejs/plugin-basic-ssl": "npm:2.1.0"
     cloudinary: "npm:2.7.0"
-    cssnano: "npm:7.0.7"
+    cssnano: "npm:7.1.0"
     del: "npm:8.0.0"
     gulp: "npm:5.0.1"
     gulp-changed: "npm:5.0.2"
     gulp-data: "npm:1.3.1"
     gulp-debug: "npm:5.0.1"
-    gulp-esbuild: "npm:0.14.0"
+    gulp-esbuild: "npm:0.14.1"
     gulp-htmlmin-next: "npm:6.0.1"
     gulp-if: "npm:3.0.0"
     gulp-inject: "npm:5.0.5"
@@ -1041,7 +1041,7 @@ __metadata:
     gulp-svgstore: "npm:9.0.0"
     gulplog: "npm:2.2.0"
     lodash-es: "npm:4.17.21"
-    marked: "npm:16.0.0"
+    marked: "npm:16.1.2"
     marked-gfm-heading-id: "npm:4.1.2"
     marked-highlight: "npm:2.2.2"
     marked-mangle: "npm:1.1.11"
@@ -1062,10 +1062,10 @@ __metadata:
     undertaker-registry: "npm:2.0.0"
     vinyl: "npm:3.0.1"
     vinyl-file: "npm:5.0.0"
-    vite: "npm:7.0.4"
+    vite: "npm:7.1.2"
   bin:
     blendid: bin/blendid.js
-  checksum: 10/6488796eb6f736199216bbd664d5b4a77a0a5f0247d60ba43d82d2b0d312fcf5c94fa952e0c3569183b978084f30babc57c0308fa56fb4f7d9d7eabaa503796d
+  checksum: 10/278565e80eb3a2fc3141e9a77dbdbb542941cbe81cb76bbb16bc82582e60e7552bd233b79b2030142a0795387cba195b784d5c90bc1b4fbe33415bfd4652fc4f
   languageName: node
   linkType: hard
 
@@ -3812,7 +3812,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cssnano-preset-default@npm:^7.0.7":
+"cssnano-preset-default@npm:^7.0.8":
   version: 7.0.8
   resolution: "cssnano-preset-default@npm:7.0.8"
   dependencies:
@@ -3861,15 +3861,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cssnano@npm:7.0.7":
-  version: 7.0.7
-  resolution: "cssnano@npm:7.0.7"
+"cssnano@npm:7.1.0":
+  version: 7.1.0
+  resolution: "cssnano@npm:7.1.0"
   dependencies:
-    cssnano-preset-default: "npm:^7.0.7"
+    cssnano-preset-default: "npm:^7.0.8"
     lilconfig: "npm:^3.1.3"
   peerDependencies:
     postcss: ^8.4.32
-  checksum: 10/c5b3123757834537f818e0f3eb6b20da51a194fefed599632f7ddd600c9e25d38abe38a22582a579660a49368a146c294e2096b2837cbeeda51ddfc85b108601
+  checksum: 10/82a3487c42d7e3b590d2affdeb94acef17d53878ad0be92b8b87d960990bebd86b9a7d0576b15f2905d04cfc93bb66047cfe43d87445f9a8a1446ffb03fd81e5
   languageName: node
   linkType: hard
 
@@ -5092,15 +5092,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gulp-esbuild@npm:0.14.0":
-  version: 0.14.0
-  resolution: "gulp-esbuild@npm:0.14.0"
+"gulp-esbuild@npm:0.14.1":
+  version: 0.14.1
+  resolution: "gulp-esbuild@npm:0.14.1"
   dependencies:
     plugin-error: "npm:^2.0.1"
     vinyl: "npm:^3.0.0"
   peerDependencies:
     esbuild: ">=0.17"
-  checksum: 10/23b622afdf41b32491b3fbadc787b5120f0d03b5dd3b7e19587af566fa0f93a8b92fd06dc6ce6a4fbb655a8ab1204e6696fb7a459dc700e386e77d80abb3f9d8
+  checksum: 10/dd8f9cc99508749f5652afb90b81b707cecc0898651e82a632c443116aad4d75669c32084a87084b036667d0b1dee5d9bbc395f4d40ff09c1100c84145c4ce3d
   languageName: node
   linkType: hard
 
@@ -6220,12 +6220,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:16.0.0":
-  version: 16.0.0
-  resolution: "marked@npm:16.0.0"
+"marked@npm:16.1.2":
+  version: 16.1.2
+  resolution: "marked@npm:16.1.2"
   bin:
     marked: bin/marked.js
-  checksum: 10/aed6501ff5d49def83f0c79fab698666338a555cae32f83ba52369c9a04aa8be4fa4c908367d12f81f7d1c1a83d89ffe47aa1e7b023da308591e03ea82d5ca6d
+  checksum: 10/190d9b206f05d87a7acac3b50ab19505878297971a0c5652a9d4fa2b022407f22d2b79e1aa1e9f23a32c0158b1f5852ad33da2e83cc12100116a8fc0afc2b17e
   languageName: node
   linkType: hard
 
@@ -8450,7 +8450,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^4.40.0, rollup@npm:^4.43.0":
+"rollup@npm:^4.43.0":
   version: 4.46.2
   resolution: "rollup@npm:4.46.2"
   dependencies:
@@ -9865,16 +9865,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:7.0.4":
-  version: 7.0.4
-  resolution: "vite@npm:7.0.4"
+"vite@npm:7.1.2":
+  version: 7.1.2
+  resolution: "vite@npm:7.1.2"
   dependencies:
     esbuild: "npm:^0.25.0"
     fdir: "npm:^6.4.6"
     fsevents: "npm:~2.3.3"
-    picomatch: "npm:^4.0.2"
+    picomatch: "npm:^4.0.3"
     postcss: "npm:^8.5.6"
-    rollup: "npm:^4.40.0"
+    rollup: "npm:^4.43.0"
     tinyglobby: "npm:^0.2.14"
   peerDependencies:
     "@types/node": ^20.19.0 || >=22.12.0
@@ -9916,7 +9916,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10/e5609e6b67658d0f4bb807d21290c515e3a1c2e085aa9507404f17d836a5b830d0a8bff36f67a0509361044843c9ccb4a0b7033a511dfb5d1dc5ded49aedaa91
+  checksum: 10/942188896db181bd5f95c576303eb617cd08580eb129d0223bc87a8ed9b8dc0d60d8487c077fd9a01087c55600af132c5fc677e51b4b48a4a54a376056969edb
   languageName: node
   linkType: hard
 
