@@ -998,7 +998,7 @@ __metadata:
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
     "@pulumi/cloudflare": "npm:5.49.1"
-    "@pulumi/pulumi": "npm:3.189.0"
+    "@pulumi/pulumi": "npm:3.190.0"
   languageName: unknown
   linkType: soft
 
@@ -2036,9 +2036,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.189.0":
-  version: 3.189.0
-  resolution: "@pulumi/pulumi@npm:3.189.0"
+"@pulumi/pulumi@npm:3.190.0":
+  version: 3.190.0
+  resolution: "@pulumi/pulumi@npm:3.190.0"
   dependencies:
     "@grpc/grpc-js": "npm:^1.10.1"
     "@logdna/tail-file": "npm:^2.0.6"
@@ -2055,7 +2055,7 @@ __metadata:
     "@types/tmp": "npm:^0.2.6"
     execa: "npm:^5.1.0"
     fdir: "npm:^6.1.1"
-    google-protobuf: "npm:^3.5.0"
+    google-protobuf: "npm:^3.21.4"
     got: "npm:^11.8.6"
     ini: "npm:^2.0.0"
     js-yaml: "npm:^3.14.0"
@@ -2076,7 +2076,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/9967f8dfab969965f8ad838b5b314feb15c694f8457261b6ab9db027a4351b3cc067c46dafdce15aaef2d7821604f3d22b8fd34f989395056007bed974066973
+  checksum: 10/280d169a33f2ddbd5febbc36c4b7330968810ceb0c7e36b9924533cf2d998ac8243ec7c0508e1513e4ec48b5d28c58b27fbcdf695c729a16c3157ce22d7bdafd
   languageName: node
   linkType: hard
 
@@ -4978,7 +4978,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-protobuf@npm:^3.5.0":
+"google-protobuf@npm:^3.21.4, google-protobuf@npm:^3.5.0":
   version: 3.21.4
   resolution: "google-protobuf@npm:3.21.4"
   checksum: 10/0d87fe8ef221d105cbaa808f4024bd577638524d8e461469e3733f2e4933391ad4da86b7fcbd11e8781bee04eacf2e8ba19aaacd5f9deb336a220485841d980f
