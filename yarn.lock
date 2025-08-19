@@ -983,7 +983,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.6.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.41"
-    linkedom: "npm:0.18.10"
+    linkedom: "npm:0.18.11"
     lit-html: "npm:3.3.1"
     open-props: "npm:1.7.16"
     parse-duration: "npm:2.1.4"
@@ -5922,16 +5922,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkedom@npm:0.18.10":
-  version: 0.18.10
-  resolution: "linkedom@npm:0.18.10"
+"linkedom@npm:0.18.11":
+  version: 0.18.11
+  resolution: "linkedom@npm:0.18.11"
   dependencies:
     css-select: "npm:^5.1.0"
     cssom: "npm:^0.5.0"
     html-escaper: "npm:^3.0.3"
     htmlparser2: "npm:^10.0.0"
     uhyphen: "npm:^0.2.0"
-  checksum: 10/5dd4c0e54db65e2d4a6674d289169c6dc533bb97fb64b401362caf8222f0ea9aede9b457176755e9343d9e543293177e0f1b70ed95aa81e8dc3c8b127fa37a12
+  checksum: 10/75f86f4eae67ce9f41b337ef3fa0540c118d5366a82e225fcf52f2c8e3c01cdcba82e3088d7e5335fdffe8e047453e857095579ef4890186d4f42ca93deb83a2
   languageName: node
   linkType: hard
 
