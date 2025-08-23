@@ -1,0 +1,42 @@
+{% extends 'layouts/website.njk' %}
+
+{% block title %}hckr.party{% endblock %}
+
+{% block content %}
+<main>
+  <header>
+    <hgroup>
+      <h1 property="name">hckr_<em>party</em></h1>
+    </hgroup>
+  </header>
+
+  <section id="events">
+    <h2>Upcoming events</h2>
+    <ol>
+      <li>
+        <article>
+          <h3>Hacker Camp</h3>
+          <p><time datetime="2025-08-28">28. August 2025</time> – Hacker Camp, Jungle Release stage</p>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h3>Veleslavínská sousedská slavnost</h3>
+          <p><time datetime="2025-09-07">7. September 2025</time> – Chateau Veleslavín, Prague</p>
+          <p><a href="https://www.facebook.com/events/1814886052432201/">https://www.facebook.com/events/1814886052432201/</a></p>
+        </article>
+      </li>
+      <li>
+        <article>
+          <h3>DataDay – the after party</h3>
+          <p><time datetime="2025-11-27">27. November 2027</time> – Divadlo X10, Prague</p>
+          <p><a href="https://www.dataday.cz/">https://www.dataday.cz/</a></p>
+        </article>
+      </li>
+    </ol>
+  </section>
+</main>
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}
