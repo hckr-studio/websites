@@ -1003,7 +1003,7 @@ __metadata:
     "@cloudflare/workers-types": "npm:4.20250823.0"
     "@hckr_/blendid": "npm:9.6.4"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
-    "@thi.ng/atom": "npm:5.3.42"
+    "@thi.ng/atom": "npm:5.3.43"
     linkedom: "npm:0.18.12"
     lit-html: "npm:3.3.1"
     open-props: "npm:1.7.16"
@@ -2628,15 +2628,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@thi.ng/atom@npm:5.3.42":
-  version: 5.3.42
-  resolution: "@thi.ng/atom@npm:5.3.42"
+"@thi.ng/atom@npm:5.3.43":
+  version: 5.3.43
+  resolution: "@thi.ng/atom@npm:5.3.43"
   dependencies:
     "@thi.ng/api": "npm:^8.12.2"
     "@thi.ng/equiv": "npm:^2.1.92"
     "@thi.ng/errors": "npm:^2.5.42"
     "@thi.ng/paths": "npm:^5.2.21"
-  checksum: 10/1003e7b33c2445fd5ffb79acd75a4bde64f46bb844103b0e6e68730e1dc6355b8360c19ec4ad5897c73667aa5e43263794678ea6defd1a8671c2f1ac0f72ca75
+  checksum: 10/efb6f9ecbd695d5c00816fac63eeda9bbccbac91a03b2b67001f8643eb573c192f18a8f426d760e3c7dcc93fb7665abf480f64cccfac76047e7e952e76fb9339
   languageName: node
   linkType: hard
 
