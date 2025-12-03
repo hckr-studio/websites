@@ -1041,7 +1041,7 @@ __metadata:
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
     "@pulumi/cloudflare": "npm:5.49.1"
-    "@pulumi/pulumi": "npm:3.209.0"
+    "@pulumi/pulumi": "npm:3.210.0"
   languageName: unknown
   linkType: soft
 
@@ -2148,7 +2148,51 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.209.0, @pulumi/pulumi@npm:^3.142.0":
+"@pulumi/pulumi@npm:3.210.0":
+  version: 3.210.0
+  resolution: "@pulumi/pulumi@npm:3.210.0"
+  dependencies:
+    "@grpc/grpc-js": "npm:^1.10.1"
+    "@logdna/tail-file": "npm:^2.0.6"
+    "@npmcli/arborist": "npm:^7.3.1"
+    "@opentelemetry/api": "npm:^1.9"
+    "@opentelemetry/exporter-zipkin": "npm:^1.28"
+    "@opentelemetry/instrumentation": "npm:^0.55"
+    "@opentelemetry/instrumentation-grpc": "npm:^0.55"
+    "@opentelemetry/resources": "npm:^1.28"
+    "@opentelemetry/sdk-trace-base": "npm:^1.28"
+    "@opentelemetry/sdk-trace-node": "npm:^1.28"
+    "@types/google-protobuf": "npm:^3.15.5"
+    "@types/semver": "npm:^7.5.6"
+    "@types/tmp": "npm:^0.2.6"
+    execa: "npm:^5.1.0"
+    fdir: "npm:^6.1.1"
+    google-protobuf: "npm:^3.21.4"
+    got: "npm:^11.8.6"
+    ini: "npm:^2.0.0"
+    js-yaml: "npm:^3.14.2"
+    minimist: "npm:^1.2.6"
+    normalize-package-data: "npm:^6.0.0"
+    package-directory: "npm:^8.1.0"
+    picomatch: "npm:^3.0.1"
+    require-from-string: "npm:^2.0.1"
+    semver: "npm:^7.5.2"
+    source-map-support: "npm:^0.5.6"
+    tmp: "npm:^0.2.4"
+    upath: "npm:^1.1.0"
+  peerDependencies:
+    ts-node: ">= 7.0.1 < 12"
+    typescript: ">= 3.8.3 < 6"
+  peerDependenciesMeta:
+    ts-node:
+      optional: true
+    typescript:
+      optional: true
+  checksum: 10/25118fe64bbb1f7cab5c899e6e13b44a4fa8e6a322382d6f5aa989703205264160968c980bbf9eec620fac018b8aea170d515623a7282324889a9c3842ba2648
+  languageName: node
+  linkType: hard
+
+"@pulumi/pulumi@npm:^3.142.0":
   version: 3.209.0
   resolution: "@pulumi/pulumi@npm:3.209.0"
   dependencies:
@@ -4722,6 +4766,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"find-up-simple@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "find-up-simple@npm:1.0.1"
+  checksum: 10/6e374bffda9f8425314eab47ef79752b6e77dcc95c0ad17d257aef48c32fe07bbc41bcafbd22941c25bb94fffaaaa8e178d928867d844c58100c7fe19ec82f72
+  languageName: node
+  linkType: hard
+
 "find-up@npm:^6.3.0":
   version: 6.3.0
   resolution: "find-up@npm:6.3.0"
@@ -7036,6 +7087,15 @@ __metadata:
     degenerator: "npm:^5.0.0"
     netmask: "npm:^2.0.2"
   checksum: 10/839134328781b80d49f9684eae1f5c74f50a1d4482076d44c84fc2f3ca93da66fa11245a4725a057231e06b311c20c989fd0681e662a0792d17f644d8fe62a5e
+  languageName: node
+  linkType: hard
+
+"package-directory@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "package-directory@npm:8.1.0"
+  dependencies:
+    find-up-simple: "npm:^1.0.0"
+  checksum: 10/2e26299cd14b046d5548ae36acef8f0b84a809c3abee7f0dcb70a8e623118b44e5a9ce5daab067985027f541f8188cfac22cd14041559f7b481f0a3c516e420c
   languageName: node
   linkType: hard
 
