@@ -613,6 +613,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/postcss-position-area-property@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/postcss-position-area-property@npm:1.0.0"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 10/50f1274b8f88d89d90494f7511c2d34736ccc6f48ce650efe85772fb1a355c98bc41b749ba6c7129de24a26536c77166a850a912b650c9c6781665ed9e85321e
+  languageName: node
+  linkType: hard
+
 "@csstools/postcss-progressive-custom-properties@npm:^4.2.1":
   version: 4.2.1
   resolution: "@csstools/postcss-progressive-custom-properties@npm:4.2.1"
@@ -686,6 +695,18 @@ __metadata:
   peerDependencies:
     postcss: ^8.4
   checksum: 10/6465a883be42d4cc4a4e83be2626a1351de4bfe84a63641c53e7c39d3c0e109152489ca2d8235625cdf6726341c676b9fbbca18fe80bb5eae8d488a0e42fc5e4
+  languageName: node
+  linkType: hard
+
+"@csstools/postcss-system-ui-font-family@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@csstools/postcss-system-ui-font-family@npm:1.0.0"
+  dependencies:
+    "@csstools/css-parser-algorithms": "npm:^3.0.5"
+    "@csstools/css-tokenizer": "npm:^3.0.4"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 10/6e2eed873ce887e3e3cec8d36d48fb71ef68b9995275ba008b3d5538ce63704eb4c9d4b1bd8e4a9e6d605116d7658a64557abbca7858069c7e81ea386433b8f9
   languageName: node
   linkType: hard
 
@@ -986,7 +1007,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20251126.0"
-    "@hckr_/blendid": "npm:9.6.6"
+    "@hckr_/blendid": "npm:9.6.7"
     open-props: "npm:1.7.17"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.50.0"
@@ -998,7 +1019,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20251126.0"
-    "@hckr_/blendid": "npm:9.6.6"
+    "@hckr_/blendid": "npm:9.6.7"
     open-props: "npm:1.7.17"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.50.0"
@@ -1010,7 +1031,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20251126.0"
-    "@hckr_/blendid": "npm:9.6.6"
+    "@hckr_/blendid": "npm:9.6.7"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.17"
     postcss-jit-props: "npm:1.0.16"
@@ -1023,7 +1044,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20251126.0"
-    "@hckr_/blendid": "npm:9.6.6"
+    "@hckr_/blendid": "npm:9.6.7"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.51"
     linkedom: "npm:0.18.12"
@@ -1054,9 +1075,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hckr_/blendid@npm:9.6.6":
-  version: 9.6.6
-  resolution: "@hckr_/blendid@npm:9.6.6"
+"@hckr_/blendid@npm:9.6.7":
+  version: 9.6.7
+  resolution: "@hckr_/blendid@npm:9.6.7"
   dependencies:
     "@csstools/postcss-gamut-mapping": "npm:2.0.11"
     "@lokesh.dhakar/quantize": "npm:1.4.0"
@@ -1096,7 +1117,7 @@ __metadata:
     postcss: "npm:8.5.6"
     postcss-functions: "npm:4.0.2"
     postcss-import: "npm:16.1.1"
-    postcss-preset-env: "npm:10.4.0"
+    postcss-preset-env: "npm:10.5.0"
     rev-hash: "npm:4.1.0"
     rev-path: "npm:3.0.0"
     sharp: "npm:0.34.5"
@@ -1105,10 +1126,10 @@ __metadata:
     undertaker-registry: "npm:2.0.0"
     vinyl: "npm:3.0.1"
     vinyl-file: "npm:5.0.0"
-    vite: "npm:7.2.6"
+    vite: "npm:7.2.7"
   bin:
     blendid: bin/blendid.js
-  checksum: 10/f5375938abb5b3375db1550fe794f2c0252b3a5c1781cdf80fcce2d9b4525fb68692fbf2a1cb00428fa54720fd844a090d74342eb2ee1eec88a90f7ceac627c5
+  checksum: 10/023b496ea88d2d3bb1cea9b599638c6dfc433c746390cbccc84b907f9afd01c7af6b759f31d1124da3b7ae596bae6d3139b9f386cd7c522c64bed6aa20789541
   languageName: node
   linkType: hard
 
@@ -3096,7 +3117,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:^10.4.21":
+"autoprefixer@npm:^10.4.22":
   version: 10.4.22
   resolution: "autoprefixer@npm:10.4.22"
   dependencies:
@@ -3332,7 +3353,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.0.0, browserslist@npm:^4.26.0, browserslist@npm:^4.27.0":
+"browserslist@npm:^4.0.0, browserslist@npm:^4.27.0, browserslist@npm:^4.28.0":
   version: 4.28.1
   resolution: "browserslist@npm:4.28.1"
   dependencies:
@@ -3928,7 +3949,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cssdb@npm:^8.4.2":
+"cssdb@npm:^8.5.2":
   version: 8.5.2
   resolution: "cssdb@npm:8.5.2"
   checksum: 10/d3b5d7c44e633428085cc9bc2e1a77c6f5c7962508ae1beb48f4e4c7c3f48c0acef03c72a617a0539b3db84f8245323d787be1980aa4d36c59443c5f95fcc148
@@ -7871,9 +7892,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-preset-env@npm:10.4.0":
-  version: 10.4.0
-  resolution: "postcss-preset-env@npm:10.4.0"
+"postcss-preset-env@npm:10.5.0":
+  version: 10.5.0
+  resolution: "postcss-preset-env@npm:10.5.0"
   dependencies:
     "@csstools/postcss-alpha-function": "npm:^1.0.1"
     "@csstools/postcss-cascade-layers": "npm:^5.0.2"
@@ -7902,21 +7923,23 @@ __metadata:
     "@csstools/postcss-nested-calc": "npm:^4.0.0"
     "@csstools/postcss-normalize-display-values": "npm:^4.0.0"
     "@csstools/postcss-oklab-function": "npm:^4.0.12"
+    "@csstools/postcss-position-area-property": "npm:^1.0.0"
     "@csstools/postcss-progressive-custom-properties": "npm:^4.2.1"
     "@csstools/postcss-random-function": "npm:^2.0.1"
     "@csstools/postcss-relative-color-syntax": "npm:^3.0.12"
     "@csstools/postcss-scope-pseudo-class": "npm:^4.0.1"
     "@csstools/postcss-sign-functions": "npm:^1.1.4"
     "@csstools/postcss-stepped-value-functions": "npm:^4.0.9"
+    "@csstools/postcss-system-ui-font-family": "npm:^1.0.0"
     "@csstools/postcss-text-decoration-shorthand": "npm:^4.0.3"
     "@csstools/postcss-trigonometric-functions": "npm:^4.0.9"
     "@csstools/postcss-unset-value": "npm:^4.0.0"
-    autoprefixer: "npm:^10.4.21"
-    browserslist: "npm:^4.26.0"
+    autoprefixer: "npm:^10.4.22"
+    browserslist: "npm:^4.28.0"
     css-blank-pseudo: "npm:^7.0.1"
     css-has-pseudo: "npm:^7.0.3"
     css-prefers-color-scheme: "npm:^10.0.0"
-    cssdb: "npm:^8.4.2"
+    cssdb: "npm:^8.5.2"
     postcss-attribute-case-insensitive: "npm:^7.0.1"
     postcss-clamp: "npm:^4.1.0"
     postcss-color-functional-notation: "npm:^7.0.12"
@@ -7944,7 +7967,7 @@ __metadata:
     postcss-selector-not: "npm:^8.0.1"
   peerDependencies:
     postcss: ^8.4
-  checksum: 10/1977c4c1cd8240e2c204d555a0781e88775c99e6552e110737176d59f8eee5ed649175c8259912c6d0ffc04a9b2346f74925bde3a1c95ba7d50144ca5eb47d57
+  checksum: 10/15733a1fc07785bc01a00dd5954b43af9dc3cb99a510f3fab79cbd6a69c9b33f75deb77d226c03f36b31b786235ecafd16a8c3e3e19075a7ca8b8073e018b766
   languageName: node
   linkType: hard
 
@@ -9845,7 +9868,62 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:7.2.6, vite@npm:^6.0.0 || ^7.0.0":
+"vite@npm:7.2.7":
+  version: 7.2.7
+  resolution: "vite@npm:7.2.7"
+  dependencies:
+    esbuild: "npm:^0.25.0"
+    fdir: "npm:^6.5.0"
+    fsevents: "npm:~2.3.3"
+    picomatch: "npm:^4.0.3"
+    postcss: "npm:^8.5.6"
+    rollup: "npm:^4.43.0"
+    tinyglobby: "npm:^0.2.15"
+  peerDependencies:
+    "@types/node": ^20.19.0 || >=22.12.0
+    jiti: ">=1.21.0"
+    less: ^4.0.0
+    lightningcss: ^1.21.0
+    sass: ^1.70.0
+    sass-embedded: ^1.70.0
+    stylus: ">=0.54.8"
+    sugarss: ^5.0.0
+    terser: ^5.16.0
+    tsx: ^4.8.1
+    yaml: ^2.4.2
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    jiti:
+      optional: true
+    less:
+      optional: true
+    lightningcss:
+      optional: true
+    sass:
+      optional: true
+    sass-embedded:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+    tsx:
+      optional: true
+    yaml:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: 10/ec7c588db66c8a3e50a24fc26422c6ef27c2e08a0ceccd200162e45be90d7d12c0a06d8ccc8c88139a657d51be5e10ddc83df9807daf6a1362c2e5ecdaf2a07e
+  languageName: node
+  linkType: hard
+
+"vite@npm:^6.0.0 || ^7.0.0":
   version: 7.2.6
   resolution: "vite@npm:7.2.6"
   dependencies:
