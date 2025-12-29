@@ -2469,9 +2469,9 @@ __metadata:
   linkType: hard
 
 "@sindresorhus/is@npm:^7.0.2":
-  version: 7.1.1
-  resolution: "@sindresorhus/is@npm:7.1.1"
-  checksum: 10/913fe9bfe12ef0ddbe70eb9343fdb28ba69eebcd68b1bd635b762d93d05b2aa1eaa57c494b845f96267185f53c66a9e607a7c980c54acce8e0a61521a1ad2bad
+  version: 7.2.0
+  resolution: "@sindresorhus/is@npm:7.2.0"
+  checksum: 10/d4f93d0fae3a799e1cb1cf31cdcc77f087f4203e2659e25afd7296493d9b4d430f37c4193404f56658d220a7467928fd2b29946dc141218bf42a2d2ebf8597fb
   languageName: node
   linkType: hard
 
@@ -3253,9 +3253,9 @@ __metadata:
   linkType: hard
 
 "basic-ftp@npm:^5.0.2":
-  version: 5.0.5
-  resolution: "basic-ftp@npm:5.0.5"
-  checksum: 10/3dc56b2092b10d67e84621f5b9bbb0430469499178e857869194184d46fbdd367a9aa9fad660084388744b074b5f540e6ac8c22c0826ebba4fcc86a9d1c324e2
+  version: 5.1.0
+  resolution: "basic-ftp@npm:5.1.0"
+  checksum: 10/49cdc2e0282487131520bbcd9b72215d6f66064799cdbbd3aecc6c1df06635e603dd9a2b8e940a4f7e6045f94486dee51143adb82c13a9d5d866f2fd987438b9
   languageName: node
   linkType: hard
 
@@ -3492,9 +3492,9 @@ __metadata:
   linkType: hard
 
 "chai@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "chai@npm:6.2.1"
-  checksum: 10/f7917749e2468bd3a17ee4769b680e440002960c1294dd11c6d3ad102b5db9ea1a43e3ad9462b7b0f1502e5c845a6e39ce63db9de1def782e44652018c48acb7
+  version: 6.2.2
+  resolution: "chai@npm:6.2.2"
+  checksum: 10/13cda42cc40aa46da04a41cf7e5c61df6b6ae0b4e8a8c8b40e04d6947e4d7951377ea8c14f9fa7fe5aaa9e8bd9ba414f11288dc958d4cee6f5221b9436f2778f
   languageName: node
   linkType: hard
 
@@ -3949,9 +3949,9 @@ __metadata:
   linkType: hard
 
 "cssdb@npm:^8.5.2":
-  version: 8.5.2
-  resolution: "cssdb@npm:8.5.2"
-  checksum: 10/d3b5d7c44e633428085cc9bc2e1a77c6f5c7962508ae1beb48f4e4c7c3f48c0acef03c72a617a0539b3db84f8245323d787be1980aa4d36c59443c5f95fcc148
+  version: 8.6.0
+  resolution: "cssdb@npm:8.6.0"
+  checksum: 10/c8cd29b56a89ce1eeced2990b2f6cc88b543426817d9aac1d05d97feef941858d16b98c9d0ad627486f03e81b3652c796d94c19f280dcf1d398797894ff28e6f
   languageName: node
   linkType: hard
 
@@ -4704,11 +4704,11 @@ __metadata:
   linkType: hard
 
 "fastq@npm:^1.13.0, fastq@npm:^1.6.0":
-  version: 1.19.1
-  resolution: "fastq@npm:1.19.1"
+  version: 1.20.1
+  resolution: "fastq@npm:1.20.1"
   dependencies:
     reusify: "npm:^1.0.4"
-  checksum: 10/75679dc226316341c4f2a6b618571f51eac96779906faecd8921b984e844d6ae42fabb2df69b1071327d398d5716693ea9c9c8941f64ac9e89ec2032ce59d730
+  checksum: 10/ab2fe3a7a108112e7752cfe7fc11683c21e595913a6a593ad0b4415f31dddbfc283775ab66f2c8ccea6ab7cfc116157cbddcfae9798d9de98d08fe0a2c3e97b2
   languageName: node
   linkType: hard
 
