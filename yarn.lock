@@ -2192,7 +2192,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.216.0":
+"@pulumi/pulumi@npm:3.216.0, @pulumi/pulumi@npm:^3.142.0":
   version: 3.216.0
   resolution: "@pulumi/pulumi@npm:3.216.0"
   dependencies:
@@ -2233,50 +2233,6 @@ __metadata:
     typescript:
       optional: true
   checksum: 10/46b650ae6988b8d160eec7544991efc3d9e97e818d24a5c8c57c5145f2725b7bfd72a3b61422adff2424ead6e02ad7bbcbfedda245b48dcb4209d014fd809206
-  languageName: node
-  linkType: hard
-
-"@pulumi/pulumi@npm:^3.142.0":
-  version: 3.215.0
-  resolution: "@pulumi/pulumi@npm:3.215.0"
-  dependencies:
-    "@grpc/grpc-js": "npm:^1.10.1"
-    "@logdna/tail-file": "npm:^2.0.6"
-    "@npmcli/arborist": "npm:^7.3.1"
-    "@opentelemetry/api": "npm:^1.9"
-    "@opentelemetry/exporter-zipkin": "npm:^1.28"
-    "@opentelemetry/instrumentation": "npm:^0.55"
-    "@opentelemetry/instrumentation-grpc": "npm:^0.55"
-    "@opentelemetry/resources": "npm:^1.28"
-    "@opentelemetry/sdk-trace-base": "npm:^1.28"
-    "@opentelemetry/sdk-trace-node": "npm:^1.28"
-    "@types/google-protobuf": "npm:^3.15.5"
-    "@types/semver": "npm:^7.5.6"
-    "@types/tmp": "npm:^0.2.6"
-    execa: "npm:^5.1.0"
-    fdir: "npm:^6.1.1"
-    google-protobuf: "npm:^3.21.4"
-    got: "npm:^11.8.6"
-    ini: "npm:^2.0.0"
-    js-yaml: "npm:^3.14.2"
-    minimist: "npm:^1.2.6"
-    normalize-package-data: "npm:^6.0.0"
-    package-directory: "npm:^8.1.0"
-    picomatch: "npm:^3.0.1"
-    require-from-string: "npm:^2.0.1"
-    semver: "npm:^7.5.2"
-    source-map-support: "npm:^0.5.6"
-    tmp: "npm:^0.2.4"
-    upath: "npm:^1.1.0"
-  peerDependencies:
-    ts-node: ">= 7.0.1 < 12"
-    typescript: ">= 3.8.3 < 6"
-  peerDependenciesMeta:
-    ts-node:
-      optional: true
-    typescript:
-      optional: true
-  checksum: 10/5ddf8a0e2763c0d37ba1a450d8285ec6b896bce5f814fb0d991489c2ec5a36502cd653d3ca7b6afdf0644b77de1152ff4bfa7f1a24d757667c709f1d594b98c3
   languageName: node
   linkType: hard
 
@@ -2749,11 +2705,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=13.7.0":
-  version: 25.0.6
-  resolution: "@types/node@npm:25.0.6"
+  version: 25.0.9
+  resolution: "@types/node@npm:25.0.9"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10/19d6dcaccc49b8d9efd987d6e7573f84cf3665fbe88adc0eb08e87d3682a36a4a6997a5ead2a11c79eb891c0e0c5260caef23bd262e5772708d95330d5b7ddf1
+  checksum: 10/2c16f137ed3a952903b7641df5ce16663ad00911dc6a9010156602251420da127bf7dbd32d22aac9eda0cc430381164d55a36240039b7d06ab693b9aad5c3f23
   languageName: node
   linkType: hard
 
@@ -3332,11 +3288,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.9.0":
-  version: 2.9.14
-  resolution: "baseline-browser-mapping@npm:2.9.14"
+  version: 2.9.15
+  resolution: "baseline-browser-mapping@npm:2.9.15"
   bin:
     baseline-browser-mapping: dist/cli.js
-  checksum: 10/a329881e5f673c0834843640e9c954c478f643fb983449c99850392e48cf52dfb1dc3de8d81c6a6a2802c86310833accc5e3deb6bef5fb6e329989e28ca5489b
+  checksum: 10/ff303d989833084798f89ad9962004a8a39f4f93d06a2d092036d063f126c4a78d00b1137ce9d78ced10b8cf7304e59ef58508af51f0a4d3e001e8a579cda146
   languageName: node
   linkType: hard
 
@@ -3573,9 +3529,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30001759, caniuse-lite@npm:^1.0.30001760":
-  version: 1.0.30001764
-  resolution: "caniuse-lite@npm:1.0.30001764"
-  checksum: 10/24c6f402902181faa997a6da1cb63410f9376e9e8a33d733121862e7665d200a54d70e551c5626748f78078401c0744496a58d0451fceb8f7fa12498ae12ff20
+  version: 1.0.30001765
+  resolution: "caniuse-lite@npm:1.0.30001765"
+  checksum: 10/d7e90e3c02bbab9aa69c28c8c609284d51275396b8e5646ad9fd89b7bc7adcfcd1f5414be25399adde985eadf8d0041fda6d86c1e58384b69b5a9f03a916eb18
   languageName: node
   linkType: hard
 
@@ -4037,9 +3993,9 @@ __metadata:
   linkType: hard
 
 "cssdb@npm:^8.6.0":
-  version: 8.6.0
-  resolution: "cssdb@npm:8.6.0"
-  checksum: 10/c8cd29b56a89ce1eeced2990b2f6cc88b543426817d9aac1d05d97feef941858d16b98c9d0ad627486f03e81b3652c796d94c19f280dcf1d398797894ff28e6f
+  version: 8.7.0
+  resolution: "cssdb@npm:8.7.0"
+  checksum: 10/7f5fd88d416e2b43c4c8a95544ac23795a8677a35cc0f9f05d8ee8b5e03766b0b8c94a6915ad1604f4b090f84f7cec01ce9ffd00e3f01aa6fa366430c98edf98
   languageName: node
   linkType: hard
 
@@ -4223,9 +4179,9 @@ __metadata:
   linkType: hard
 
 "devalue@npm:^5.3.2":
-  version: 5.6.1
-  resolution: "devalue@npm:5.6.1"
-  checksum: 10/6da13a080514048a4fca231459c44222dd43b9c89cba0586c206592a8f7fa91a5e37952b11769daeaafbd2c4eb5df0b121234adb753a5dc737406312a314545f
+  version: 5.6.2
+  resolution: "devalue@npm:5.6.2"
+  checksum: 10/734b57d917e45b534007e3b5055c031e4e3fcf3c3a44e1b4177e998f30e077e4d280b59abe0cc0ca9055a18e90266e31f578129e83e105e63e9680998a3c2a8a
   languageName: node
   linkType: hard
 
@@ -9442,15 +9398,15 @@ __metadata:
   linkType: hard
 
 "tar@npm:^7.5.2":
-  version: 7.5.2
-  resolution: "tar@npm:7.5.2"
+  version: 7.5.3
+  resolution: "tar@npm:7.5.3"
   dependencies:
     "@isaacs/fs-minipass": "npm:^4.0.0"
     chownr: "npm:^3.0.0"
     minipass: "npm:^7.1.2"
     minizlib: "npm:^3.1.0"
     yallist: "npm:^5.0.0"
-  checksum: 10/dbad9c9a07863cd1bdf8801d563b3280aa7dd0f4a6cead779ff7516d148dc80b4c04639ba732d47f91f04002f57e8c3c6573a717d649daecaac74ce71daa7ad3
+  checksum: 10/106b85ef799eb9c2a5d91278b14cdd9486551a5d889a7d88f719513dd7e04b7bd77417df27d3fcb43ef54dda5acc15730e627259164ce245dd968d86fd6ee517
   languageName: node
   linkType: hard
 
