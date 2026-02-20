@@ -1097,7 +1097,7 @@ __metadata:
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
     "@pulumi/cloudflare": "npm:5.49.1"
-    "@pulumi/pulumi": "npm:3.222.0"
+    "@pulumi/pulumi": "npm:3.223.0"
   languageName: unknown
   linkType: soft
 
@@ -2149,9 +2149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.222.0":
-  version: 3.222.0
-  resolution: "@pulumi/pulumi@npm:3.222.0"
+"@pulumi/pulumi@npm:3.223.0":
+  version: 3.223.0
+  resolution: "@pulumi/pulumi@npm:3.223.0"
   dependencies:
     "@grpc/grpc-js": "npm:^1.10.1"
     "@logdna/tail-file": "npm:^2.0.6"
@@ -2189,7 +2189,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/9362470b34f85ce8f78b9c740c87c5cfc150a79581a64106053bbd028ebfe797dc1beba30680aa5c7d8a8483b1e91b78e05dd6ce7571c6bba89df7250db781d6
+  checksum: 10/c8662caa9ea335629226d0fcdf289d175866047658d95e4f798f546d753791f77619823acbfa1d8f2098cb53a662923e79080586eba8be11006a9dcf7b0b2ec6
   languageName: node
   linkType: hard
 
