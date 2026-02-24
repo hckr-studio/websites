@@ -24,10 +24,6 @@
     min(var(--gap) * 6, 20vmin)
   );
 
-  @media (prefers-reduced-motion: no-preference) {
-    animation: --underscore 1060ms infinite ease-in-out;
-  }
-
   font-size: 100%;
   color-scheme: light dark;
   accent-color: var(--primary-color);
@@ -237,9 +233,4 @@ body > footer {
   h3 {
     margin-block: 0;
   }
-}
-
-@keyframes --underscore {
-  from { --underscore-color: var(--primary-color); }
-  to { --underscore-color: transparent; }
 }
