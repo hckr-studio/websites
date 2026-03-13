@@ -1147,7 +1147,7 @@ __metadata:
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
     "@pulumi/cloudflare": "npm:5.49.1"
-    "@pulumi/pulumi": "npm:3.225.1"
+    "@pulumi/pulumi": "npm:3.226.0"
   languageName: unknown
   linkType: soft
 
@@ -2336,7 +2336,52 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.225.1, @pulumi/pulumi@npm:^3.142.0":
+"@pulumi/pulumi@npm:3.226.0":
+  version: 3.226.0
+  resolution: "@pulumi/pulumi@npm:3.226.0"
+  dependencies:
+    "@grpc/grpc-js": "npm:^1.10.1"
+    "@logdna/tail-file": "npm:^2.0.6"
+    "@npmcli/arborist": "npm:^9.0.0"
+    "@opentelemetry/api": "npm:^1.9"
+    "@opentelemetry/exporter-trace-otlp-grpc": "npm:^0.55"
+    "@opentelemetry/exporter-zipkin": "npm:^1.28"
+    "@opentelemetry/instrumentation": "npm:^0.55"
+    "@opentelemetry/instrumentation-grpc": "npm:^0.55"
+    "@opentelemetry/resources": "npm:^1.28"
+    "@opentelemetry/sdk-trace-base": "npm:^1.28"
+    "@opentelemetry/sdk-trace-node": "npm:^1.28"
+    "@types/google-protobuf": "npm:^3.15.5"
+    "@types/semver": "npm:^7.5.6"
+    "@types/tmp": "npm:^0.2.6"
+    execa: "npm:^5.1.0"
+    fdir: "npm:^6.5.0"
+    google-protobuf: "npm:^3.21.4"
+    got: "npm:^11.8.6"
+    ini: "npm:^2.0.0"
+    js-yaml: "npm:^3.14.2"
+    minimist: "npm:^1.2.6"
+    normalize-package-data: "npm:^6.0.0"
+    package-directory: "npm:^8.1.0"
+    picomatch: "npm:^3.0.1"
+    require-from-string: "npm:^2.0.1"
+    semver: "npm:^7.5.2"
+    source-map-support: "npm:^0.5.6"
+    tmp: "npm:^0.2.4"
+    upath: "npm:^1.1.0"
+  peerDependencies:
+    ts-node: ">= 7.0.1 < 12"
+    typescript: ">= 3.8.3 < 6"
+  peerDependenciesMeta:
+    ts-node:
+      optional: true
+    typescript:
+      optional: true
+  checksum: 10/8a2c50c254dd8132119b0091dd41dd94e74edee286122e24fc2e2f68f508c2a7c6efde6c4569377b42dc1b96ab3e60becaa0e18196320cfde275d7a58f4573bf
+  languageName: node
+  linkType: hard
+
+"@pulumi/pulumi@npm:^3.142.0":
   version: 3.225.1
   resolution: "@pulumi/pulumi@npm:3.225.1"
   dependencies:
