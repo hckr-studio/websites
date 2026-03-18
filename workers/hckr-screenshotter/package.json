@@ -9,11 +9,11 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@cloudflare/vitest-pool-workers": "0.10.10",
+    "@cloudflare/vitest-pool-workers": "0.13.2",
     "vitest": "4.1.0",
-    "wrangler": "4.50.0"
+    "wrangler": "4.75.0"
   },
   "dependencies": {
-    "@cloudflare/puppeteer": "1.0.4"
+    "@cloudflare/puppeteer": "1.0.6"
   }
 }
