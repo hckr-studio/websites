@@ -115,33 +115,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cloudflare/unenv-preset@npm:2.15.0":
-  version: 2.15.0
-  resolution: "@cloudflare/unenv-preset@npm:2.15.0"
+"@cloudflare/unenv-preset@npm:2.16.0":
+  version: 2.16.0
+  resolution: "@cloudflare/unenv-preset@npm:2.16.0"
   peerDependencies:
     unenv: 2.0.0-rc.24
     workerd: 1.20260301.1 || ~1.20260302.1 || ~1.20260303.1 || ~1.20260304.1 || >1.20260305.0 <2.0.0-0
   peerDependenciesMeta:
     workerd:
       optional: true
-  checksum: 10/b6f9ffbc5f97031f71de93f743ceaf350a7f08e1e8eb65952006b6eab20b52025a59976bca520e2ef0f838c01cb6f448b10df2761018dd042b08ca6acbfbb1da
+  checksum: 10/1a92678798787a27344eea10a53d3c454523986f53a3565dcc5421461899bcdc005d871d9ab573388b939b5c863f8b82b77bc6959ea598fa00fee9c976b93b20
   languageName: node
   linkType: hard
 
-"@cloudflare/vitest-pool-workers@npm:0.13.2":
-  version: 0.13.2
-  resolution: "@cloudflare/vitest-pool-workers@npm:0.13.2"
+"@cloudflare/vitest-pool-workers@npm:0.13.4":
+  version: 0.13.4
+  resolution: "@cloudflare/vitest-pool-workers@npm:0.13.4"
   dependencies:
     cjs-module-lexer: "npm:^1.2.3"
     esbuild: "npm:0.27.3"
-    miniflare: "npm:4.20260317.0"
-    wrangler: "npm:4.75.0"
+    miniflare: "npm:4.20260317.2"
+    wrangler: "npm:4.77.0"
     zod: "npm:^3.25.76"
   peerDependencies:
     "@vitest/runner": ^4.1.0
     "@vitest/snapshot": ^4.1.0
     vitest: ^4.1.0
-  checksum: 10/6012f2de65c048c3a1be5d6d58b4ae311e4c2493d3852eb69fcde77dad3a54ac10d6fa08cad406a9e0298f4ee4ee11d9bccba1d54bcb5192f3078d4d6790713b
+  checksum: 10/7427c1891f205845a2e84918f155dbf129c5d4eed11f667ee5f5cd1c7e79b519aba1c2ad16cce6d30f7159d5c8b971f093cdce79682eefdb90728c60c258bf76
   languageName: node
   linkType: hard
 
@@ -1082,7 +1082,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.6.9"
     open-props: "npm:1.7.23"
     postcss-jit-props: "npm:1.0.16"
-    wrangler: "npm:4.75.0"
+    wrangler: "npm:4.77.0"
   languageName: unknown
   linkType: soft
 
@@ -1094,7 +1094,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.6.9"
     open-props: "npm:1.7.23"
     postcss-jit-props: "npm:1.0.16"
-    wrangler: "npm:4.75.0"
+    wrangler: "npm:4.77.0"
   languageName: unknown
   linkType: soft
 
@@ -1107,7 +1107,7 @@ __metadata:
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.23"
     postcss-jit-props: "npm:1.0.16"
-    wrangler: "npm:4.75.0"
+    wrangler: "npm:4.77.0"
   languageName: unknown
   linkType: soft
 
@@ -1125,7 +1125,7 @@ __metadata:
     parse-duration: "npm:2.1.5"
     postcss-jit-props: "npm:1.0.16"
     rxjs: "npm:7.8.2"
-    wrangler: "npm:4.75.0"
+    wrangler: "npm:4.77.0"
   languageName: unknown
   linkType: soft
 
@@ -1143,7 +1143,7 @@ __metadata:
   resolution: "@hckr-studio/websites@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.4.8"
-    wrangler: "npm:4.75.0"
+    wrangler: "npm:4.77.0"
   languageName: unknown
   linkType: soft
 
@@ -1219,9 +1219,9 @@ __metadata:
   resolution: "@hckr_/screenshotter@workspace:workers/hckr-screenshotter"
   dependencies:
     "@cloudflare/puppeteer": "npm:1.0.6"
-    "@cloudflare/vitest-pool-workers": "npm:0.13.2"
+    "@cloudflare/vitest-pool-workers": "npm:0.13.4"
     vitest: "npm:4.1.0"
-    wrangler: "npm:4.75.0"
+    wrangler: "npm:4.77.0"
   languageName: unknown
   linkType: soft
 
@@ -1230,12 +1230,12 @@ __metadata:
   resolution: "@hckr_/semantic-extractor@workspace:workers/hckr-semantic-extractor"
   dependencies:
     "@cloudflare/puppeteer": "npm:1.0.6"
-    "@cloudflare/vitest-pool-workers": "npm:0.13.2"
+    "@cloudflare/vitest-pool-workers": "npm:0.13.4"
     "@rdfjs/data-model": "npm:2.1.1"
     "@types/rdfjs__data-model": "npm:2.0.9"
     jsonc-parser: "npm:3.3.1"
     vitest: "npm:4.1.0"
-    wrangler: "npm:4.75.0"
+    wrangler: "npm:4.77.0"
   languageName: unknown
   linkType: soft
 
@@ -6610,9 +6610,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"miniflare@npm:4.20260317.0":
-  version: 4.20260317.0
-  resolution: "miniflare@npm:4.20260317.0"
+"miniflare@npm:4.20260317.2":
+  version: 4.20260317.2
+  resolution: "miniflare@npm:4.20260317.2"
   dependencies:
     "@cspotcode/source-map-support": "npm:0.8.1"
     sharp: "npm:^0.34.5"
@@ -6622,7 +6622,7 @@ __metadata:
     youch: "npm:4.1.0-beta.10"
   bin:
     miniflare: bootstrap.js
-  checksum: 10/03910060dee134b55a743510e381d87f31465c16c23d545c3024576eb9c56f08068c396c9ad9303841bf32747e9e7cecee9763285b458b447b98e111a2a1841d
+  checksum: 10/f14a7c331ebc2ce687f422fe67aff52b2f30ddedb76dec68fb11f9455a43129be94db85bc252391079b5295672e395e9d465a120337178d30dcd91285c2b216e
   languageName: node
   linkType: hard
 
@@ -10112,16 +10112,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"wrangler@npm:4.75.0":
-  version: 4.75.0
-  resolution: "wrangler@npm:4.75.0"
+"wrangler@npm:4.77.0":
+  version: 4.77.0
+  resolution: "wrangler@npm:4.77.0"
   dependencies:
     "@cloudflare/kv-asset-handler": "npm:0.4.2"
-    "@cloudflare/unenv-preset": "npm:2.15.0"
+    "@cloudflare/unenv-preset": "npm:2.16.0"
     blake3-wasm: "npm:2.1.5"
     esbuild: "npm:0.27.3"
     fsevents: "npm:~2.3.2"
-    miniflare: "npm:4.20260317.0"
+    miniflare: "npm:4.20260317.2"
     path-to-regexp: "npm:6.3.0"
     unenv: "npm:2.0.0-rc.24"
     workerd: "npm:1.20260317.1"
@@ -10136,7 +10136,7 @@ __metadata:
   bin:
     wrangler: bin/wrangler.js
     wrangler2: bin/wrangler.js
-  checksum: 10/e5db9fb01dfeeb9fb0761f2ec9dcd6f40d663eea66cbfa1c1de1540abd9f706f59756e3139c930fa1ac22781c89166830c342ca9d682fe4dc92877e8b130555b
+  checksum: 10/5ae17256743fe0392cc41881443f63c0d5066e9280809dbc5466dac09ae18a8295b2d0096505dba5a9f225279618f19293584c7511532d7783b77d1c168c4f31
   languageName: node
   linkType: hard
 
