@@ -19,7 +19,7 @@
     "@thi.ng/atom": "5.3.59",
     "linkedom": "0.18.12",
     "lit-html": "3.3.2",
-    "parse-duration": "2.1.5",
+    "parse-duration": "2.1.6",
     "rxjs": "7.8.2"
   }
 }
