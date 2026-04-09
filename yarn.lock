@@ -1063,7 +1063,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-party-web@workspace:hckr.party"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260317.1"
-    "@hckr_/blendid": "npm:9.6.10"
+    "@hckr_/blendid": "npm:9.6.11"
     open-props: "npm:1.7.23"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.77.0"
@@ -1075,7 +1075,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-space-web@workspace:hckr.space"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260317.1"
-    "@hckr_/blendid": "npm:9.6.10"
+    "@hckr_/blendid": "npm:9.6.11"
     open-props: "npm:1.7.23"
     postcss-jit-props: "npm:1.0.16"
     wrangler: "npm:4.77.0"
@@ -1087,7 +1087,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-studio-web@workspace:hckr.studio"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260317.1"
-    "@hckr_/blendid": "npm:9.6.10"
+    "@hckr_/blendid": "npm:9.6.11"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     open-props: "npm:1.7.23"
     postcss-jit-props: "npm:1.0.16"
@@ -1100,7 +1100,7 @@ __metadata:
   resolution: "@hckr-studio/hckr-tv-web@workspace:hckr.tv"
   dependencies:
     "@cloudflare/workers-types": "npm:4.20260317.1"
-    "@hckr_/blendid": "npm:9.6.10"
+    "@hckr_/blendid": "npm:9.6.11"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.59"
     linkedom: "npm:0.18.12"
@@ -1131,9 +1131,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@hckr_/blendid@npm:9.6.10":
-  version: 9.6.10
-  resolution: "@hckr_/blendid@npm:9.6.10"
+"@hckr_/blendid@npm:9.6.11":
+  version: 9.6.11
+  resolution: "@hckr_/blendid@npm:9.6.11"
   dependencies:
     "@csstools/postcss-gamut-mapping": "npm:3.0.2"
     "@lokesh.dhakar/quantize": "npm:1.4.0"
@@ -1185,7 +1185,7 @@ __metadata:
     vite: "npm:8.0.1"
   bin:
     blendid: bin/blendid.js
-  checksum: 10/dccd93487f15d8325ea4bd37a2bab2b9b9129c9da1cf735ce3b7c1e23c3a95600b8a93e5f18aed25b3705a79cd589dc90eb3e79b0be8d38f99d6304728d531ad
+  checksum: 10/94f89872e80581355f41232a98fc2bf1dae798d59f65489db358afae5fbf113a269aeef1907840d59ff5f0949a8a2b250171d88be38c684915759550d47043f9
   languageName: node
   linkType: hard
 
