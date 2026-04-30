@@ -1137,7 +1137,7 @@ __metadata:
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
     "@pulumi/cloudflare": "npm:5.49.1"
-    "@pulumi/pulumi": "npm:3.232.0"
+    "@pulumi/pulumi": "npm:3.233.0"
   languageName: unknown
   linkType: soft
 
@@ -2104,7 +2104,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.232.0, @pulumi/pulumi@npm:^3.142.0":
+"@pulumi/pulumi@npm:3.233.0":
+  version: 3.233.0
+  resolution: "@pulumi/pulumi@npm:3.233.0"
+  dependencies:
+    "@grpc/grpc-js": "npm:^1.10.1"
+    "@logdna/tail-file": "npm:^2.0.6"
+    "@npmcli/arborist": "npm:^9.0.0"
+    "@opentelemetry/api": "npm:^1.9"
+    "@opentelemetry/exporter-trace-otlp-grpc": "npm:^0.57"
+    "@opentelemetry/exporter-zipkin": "npm:^1.30"
+    "@opentelemetry/instrumentation": "npm:^0.57"
+    "@opentelemetry/instrumentation-grpc": "npm:^0.57"
+    "@opentelemetry/resources": "npm:^1.30"
+    "@opentelemetry/sdk-trace-base": "npm:^1.30"
+    "@opentelemetry/sdk-trace-node": "npm:^1.30"
+    "@types/google-protobuf": "npm:^3.15.5"
+    "@types/semver": "npm:^7.5.6"
+    "@types/tmp": "npm:^0.2.6"
+    execa: "npm:^5.1.0"
+    fdir: "npm:^6.5.0"
+    google-protobuf: "npm:^3.21.4"
+    ini: "npm:^2.0.0"
+    js-yaml: "npm:^3.14.2"
+    minimist: "npm:^1.2.6"
+    normalize-package-data: "npm:^6.0.0"
+    picomatch: "npm:^4.0.0"
+    require-from-string: "npm:^2.0.1"
+    semver: "npm:^7.5.2"
+    source-map-support: "npm:^0.5.6"
+    tmp: "npm:^0.2.4"
+    upath: "npm:^1.1.0"
+  peerDependencies:
+    ts-node: ">= 7.0.1 < 12"
+    typescript: ">= 3.8.3 < 7"
+  peerDependenciesMeta:
+    ts-node:
+      optional: true
+    typescript:
+      optional: true
+  checksum: 10/00dea103310a8d7f262b590097a404d89d8016b15f0321354bb33b9696ec33f269c900535019c8c289d466991be0a42f6f1a08df7f175e56b658bdd54582f1e9
+  languageName: node
+  linkType: hard
+
+"@pulumi/pulumi@npm:^3.142.0":
   version: 3.232.0
   resolution: "@pulumi/pulumi@npm:3.232.0"
   dependencies:
