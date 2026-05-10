@@ -18,7 +18,7 @@ jobs:
       - pulumi/login
       - node/install-packages:
           pkg-manager: yarn-berry
-          cache-version: v1-provision
+          with-cache: false
           override-ci-command: yarn workspaces focus @hckr-studio/websites-infrastructure
       - pulumi/update:
           working_directory: infrastructure
@@ -38,7 +38,7 @@ jobs:
       - pulumi/login
       - node/install-packages:
           pkg-manager: yarn-berry
-          cache-version: v1-provision
+          with-cache: false
           override-ci-command: yarn workspaces focus @hckr-studio/websites-infrastructure
       - pulumi/preview:
           working_directory: infrastructure
@@ -63,7 +63,7 @@ jobs:
       - node/install-yarn
       - node/install-packages:
           pkg-manager: yarn-berry
-          cache-version: v1-build-<< parameters.project_name >>
+          with-cache: false
           override-ci-command: yarn workspaces focus @hckr-studio/<< parameters.project_name >>-web
       - run:
           name: Build << parameters.site_dir >> website
@@ -92,7 +92,7 @@ jobs:
           at: .
       - node/install-packages:
           pkg-manager: yarn-berry
-          cache-version: v1-build-<< parameters.project_name >>
+          with-cache: false
           override-ci-command: yarn workspaces focus @hckr-studio/<< parameters.project_name >>-web
       - run:
           name: Deploy << parameters.site_dir >> website
