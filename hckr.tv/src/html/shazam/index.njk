@@ -67,6 +67,16 @@
   import setStyles from "{{ "set-styles.js" | assetUrl("esm") }}";
   import {main} from "{{ "shzm.js" | assetUrl("esm") }}";
 
+  let wakeLock = null;
+
+  async function requestWakeLock() {
+    try {
+      wakeLock = await navigator.wakeLock.request("screen");
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
   let nowPlaying = document.getElementById("now-playing");
   let coverImg = document.getElementById("cover");
   let params = new URLSearchParams(location.search);
@@ -96,4 +106,6 @@
     nowPlaying,
     coverImg,
   });
+
+  requestWakeLock();
 </script>
