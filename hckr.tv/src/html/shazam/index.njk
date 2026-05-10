@@ -53,6 +53,7 @@
 <!--
   @param deviceId - id of media device to listen to
   @param refresh - time interval in seconds to fetch track title - default `30`
+  @param sample - how long should be the sample for fingerprinting in seconds - default `5`
   @param background-color - CSS <color>
   @param font-family - CSS <font-family>
   @param font-size - CSS <font-size>
@@ -70,6 +71,7 @@
 
   let audio = params.has("deviceId") ? {deviceId: params.get("deviceId")} : true;
   let refreshSec = params.has("refresh") ? Number.parseInt(params.get("refresh")) : 30;
+  let sampleSec = params.has("sample") ? Number.parseInt(params.get("sample")) : 5;
 
   let mediaStream = await navigator.mediaDevices.getUserMedia({audio});
   let audioCtx = new AudioContext();
@@ -85,8 +87,7 @@
   main({
     port: shazam.port,
     sampleRate: audioCtx.sampleRate,
-    targetSampleRate: 16_000,
-    sampleSec: 5,
+    sampleSec,
     refreshSec,
     nowPlaying
   });
