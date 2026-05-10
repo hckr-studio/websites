@@ -119,7 +119,7 @@ async function* getTrackInfo(bytes, offset, seconds) {
  * @returns {Promise<void>}
  */
 export async function main(init) {
-  const {port, sampleRate, targetSampleRate = 16_000, sampleSec = 5, refreshSec = 30, nowPlaying} = init;
+  const {port, sampleRate, targetSampleRate = 16_000, sampleSec = 5, refreshSec = 30, nowPlaying, coverImg} = init;
   await initShazamio();
   const audioStream = new Subject();
   const samples = audioStream.pipe(
@@ -130,6 +130,11 @@ export async function main(init) {
     map(x => encodeWAV(x, targetSampleRate)),
     switchMap(x => getTrackInfo(x, 0, sampleSec)),
   );
-  samples.subscribe(x => nowPlaying.innerText = `${x.subtitle} - ${x.title}`);
+  samples.subscribe(x => {
+    console.log(x);
+    nowPlaying.innerText = `${x.subtitle} - ${x.title}`;
+    coverImg.src = x.images.coverart;
+    coverImg.hidden = !x.images.coverart;
+  });
   port.onmessage = e => audioStream.next(e.data);
 }
