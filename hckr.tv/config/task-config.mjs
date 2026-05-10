@@ -1,5 +1,6 @@
 import OpenProps from "open-props";
 import jitProps from "postcss-jit-props";
+import {wasmLoader} from "esbuild-plugin-wasm";
 
 export default {
   html: true,
@@ -9,11 +10,15 @@ export default {
   fonts: true,
   static: true,
   svgSprite: true,
-  esbuild: true,
+  esbuild: {
+    options: {
+      plugins: [wasmLoader()]
+    }
+  },
 
   stylesheets: {
     postcss: {
       plugins: [jitProps(OpenProps)],
     },
-  },
+  }
 };

@@ -20,7 +20,7 @@ export function createPages(account, zone, recordName, projectName, { production
     productionBranch: "trunk",
     deploymentConfigs: {
       production: {
-        compatibilityDate: "2023-09-29",
+        compatibilityDate: "2026-05-10",
         ...productionConfiguration,
       },
     },

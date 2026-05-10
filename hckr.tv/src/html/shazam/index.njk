@@ -1,0 +1,86 @@
+<!doctype html>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Now Playing</title>
+<style>
+  @font-face {
+    font-family: "AvantGarde";
+    src: url("/assets/css/AvantGardeDefectedRegular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "AvantGarde";
+    src: url("/assets/css/AvantGardeDefectedRegular.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  body {
+    color: var(--color, #fff);
+    background-color: var(--background-color, #000);
+    -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "lnum",
+    "zero";
+    font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "zero";
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: geometricPrecision;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
+    font-size: 16px;
+    -webkit-font-variant-ligatures: common-ligatures contextual;
+    font-variant-ligatures: common-ligatures contextual;
+    font-variant-numeric: lining-nums slashed-zero;
+    letter-spacing: 0;
+  }
+
+  h1 {
+    font-family: var(
+      --font-family,
+      "AvantGarde",
+      "Helvetica Neue",
+      sans-serif
+    );
+    font-size: var(--font-size, 36px);
+    font-weight: var(--font-weight, 700);
+    margin: 0 0 1em;
+  }
+</style>
+
+<h1 id="now-playing"></h1>
+<!--
+  @param refresh - time interval in seconds to fetch track title - default `120`
+  @param artist - serato playlist account name - default `Alessio_Busta`
+  @param background-color - CSS <color>
+  @param font-family - CSS <font-family>
+  @param font-size - CSS <font-size>
+  @param font-weight - CSS <font-weight>
+  @param gfont - Google Fonts family name
+-->
+<script type="module">
+  import setStyles from "{{ "set-styles.js" | assetUrl("esm") }}";
+  import {main} from "{{ "shzm.js" | assetUrl("esm") }}";
+
+  let nowPlaying = document.getElementById("now-playing");
+  let params = new URLSearchParams(location.search);
+
+  setStyles(params);
+
+  let audio = params.has("deviceId") ? {deviceId: params.get("deviceId")} : true;
+
+  let mediaStream = await navigator.mediaDevices.getUserMedia({audio});
+  let audioCtx = new AudioContext();
+  await audioCtx.resume();
+  await audioCtx.audioWorklet.addModule("/assets/esm/shazam-processor.js");
+  let input = new MediaStreamAudioSourceNode(audioCtx, {mediaStream});
+  let merger = new ChannelMergerNode(audioCtx, {channelCount: 1});
+  let shazam = new AudioWorkletNode(audioCtx, "shazam-processor", {jahoda: "lahoda"});
+  input.connect(merger, 0, 0);
+  input.connect(merger, 0, 1);
+  merger.connect(shazam);
+
+  main({port: shazam.port, sampleRate: audioCtx.sampleRate, nowPlaying});
+
+</script>
