@@ -107,22 +107,17 @@ async function* getTrackInfo(bytes, offset, seconds) {
   }
 }
 
-export async function main({port, sampleRate, nowPlaying}) {
+export async function main({port, sampleRate, targetSampleRate = 16_000, nowPlaying}) {
   await initShazamio();
   const audioStream = new Subject();
   const samples = audioStream.pipe(
     bufferTime(5_000), // take 5s sample
     auditTime(30_000), // every 30s
     map(x => mergeBuffers(x)),
-    map(x => downsampleBuffer(x, sampleRate, 16_000)),
-    map(x => encodeWAV(x, 16_000)),
+    map(x => downsampleBuffer(x, sampleRate, targetSampleRate)),
+    map(x => encodeWAV(x, targetSampleRate)),
     switchMap(x => getTrackInfo(x, 0, 5)),
   );
   samples.subscribe(x => nowPlaying.innerText = `${x.subtitle} - ${x.title}`);
-
-  // Convert it to PCM, process with shazamio-core
-  // call Shazam backend and proceed if recognized
-  // How to convert input stream to PCM: @see @link github.com/awslabs/aws-lex-browser-audio-capture/blob/master/lib/worker.js
-
   port.onmessage = e => audioStream.next(e.data);
 }

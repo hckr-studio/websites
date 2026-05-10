@@ -74,10 +74,11 @@
   await audioCtx.resume();
   await audioCtx.audioWorklet.addModule("/assets/esm/shazam-processor.js");
   let input = new MediaStreamAudioSourceNode(audioCtx, {mediaStream});
+  // Convert audio to MONO
   let merger = new ChannelMergerNode(audioCtx, {channelCount: 1});
-  let shazam = new AudioWorkletNode(audioCtx, "shazam-processor", {jahoda: "lahoda"});
   input.connect(merger, 0, 0);
   input.connect(merger, 0, 1);
+  let shazam = new AudioWorkletNode(audioCtx, "shazam-processor");
   merger.connect(shazam);
 
   main({port: shazam.port, sampleRate: audioCtx.sampleRate, nowPlaying});
