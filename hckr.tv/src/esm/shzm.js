@@ -124,9 +124,9 @@ export async function main(init) {
   const audioStream = new Subject();
   const samples = audioStream.pipe(
     bufferTime(sampleSec * 1_000),
+    auditTime(refreshSec * 1_000),
     map(x => mergeBuffers(x)),
     map(x => downsampleBuffer(x, sampleRate, targetSampleRate)),
-    auditTime(refreshSec * 1_000),
     map(x => encodeWAV(x, targetSampleRate)),
     switchMap(x => getTrackInfo(x, 0, sampleSec)),
   );
