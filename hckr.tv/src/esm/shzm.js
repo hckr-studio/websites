@@ -109,23 +109,24 @@ async function* getTrackInfo(bytes, offset, seconds) {
 
 /**
  *
- * @param param0 {Object}
- * @param param0.port {MessagePort} AudioWorklet message port
- * @param param0.sampleRate {number} AudioContext sample rate in ms
- * @param param0.targetSampleRate {number} target sample rate for fingerprinting. Default 16kHz
- * @param param0.sampleSec {number} length of the sample to fingerprint in seconds. Default 5s
- * @param param0.refreshSec {number} refresh rate in seconds - how often to sample the stream. Default 30s
- * @param param0.nowPlaying {Element} target element to show results
+ * @param init {Object}
+ * @param init.port {MessagePort} AudioWorklet message port
+ * @param init.sampleRate {number} AudioContext sample rate in ms
+ * @param init.targetSampleRate {number} target sample rate for fingerprinting. Default 16kHz
+ * @param init.sampleSec {number} length of the sample to fingerprint in seconds. Default 5s
+ * @param init.refreshSec {number} refresh rate in seconds - how often to sample the stream. Default 30s
+ * @param init.nowPlaying {Element} target element to show results
  * @returns {Promise<void>}
  */
-export async function main({port, sampleRate, targetSampleRate = 16_000, sampleSec = 5, refreshSec = 30, nowPlaying}) {
+export async function main(init) {
+  const {port, sampleRate, targetSampleRate = 16_000, sampleSec = 5, refreshSec = 30, nowPlaying} = init;
   await initShazamio();
   const audioStream = new Subject();
   const samples = audioStream.pipe(
     bufferTime(sampleSec * 1_000),
-    auditTime(refreshSec * 1_000),
     map(x => mergeBuffers(x)),
     map(x => downsampleBuffer(x, sampleRate, targetSampleRate)),
+    auditTime(refreshSec * 1_000),
     map(x => encodeWAV(x, targetSampleRate)),
     switchMap(x => getTrackInfo(x, 0, sampleSec)),
   );
