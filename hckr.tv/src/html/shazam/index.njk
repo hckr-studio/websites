@@ -98,13 +98,17 @@
   input.connect(merger, 0, 1);
   merger.connect(shazam);
 
-  main({
+  const state = await main({
     port: shazam.port,
     sampleRate: audioCtx.sampleRate,
     sampleSec,
     refreshSec,
-    nowPlaying,
-    coverImg,
+  });
+
+  state.addWatch("render", (id, prev, x) => {
+    nowPlaying.innerText = `${x.subtitle} - ${x.title}`;
+    coverImg.src = x.images.coverart;
+    coverImg.hidden = !x.images.coverart;
   });
 
   requestWakeLock();

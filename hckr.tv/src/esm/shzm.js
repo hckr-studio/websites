@@ -1,5 +1,8 @@
 import {auditTime, bufferTime, map, tap, switchMap, Subject} from "rxjs";
 import initShazamio, {recognizeBytes} from "./shazamio-core.js";
+import {defAtom} from "@thi.ng/atom";
+
+/** @typedef {import("@thi.ng/atom").IAtom} Atom */
 
 function downsampleBuffer(buffer, sampleRate, exportSampleRate) {
   if (exportSampleRate === sampleRate) {
@@ -115,12 +118,12 @@ async function* getTrackInfo(bytes, offset, seconds) {
  * @param init.targetSampleRate {number} target sample rate for fingerprinting. Default 16kHz
  * @param init.sampleSec {number} length of the sample to fingerprint in seconds. Default 5s
  * @param init.refreshSec {number} refresh rate in seconds - how often to sample the stream. Default 30s
- * @param init.nowPlaying {Element} target element to show results
- * @returns {Promise<void>}
+ * @returns {Promise<Atom>}
  */
 export async function main(init) {
-  const {port, sampleRate, targetSampleRate = 16_000, sampleSec = 5, refreshSec = 30, nowPlaying, coverImg} = init;
+  const {port, sampleRate, targetSampleRate = 16_000, sampleSec = 5, refreshSec = 30} = init;
   await initShazamio();
+  const state = defAtom({});
   const audioStream = new Subject();
   const samples = audioStream.pipe(
     bufferTime(sampleSec * 1_000),
@@ -130,11 +133,7 @@ export async function main(init) {
     map(x => encodeWAV(x, targetSampleRate)),
     switchMap(x => getTrackInfo(x, 0, sampleSec)),
   );
-  samples.subscribe(x => {
-    console.log(x);
-    nowPlaying.innerText = `${x.subtitle} - ${x.title}`;
-    coverImg.src = x.images.coverart;
-    coverImg.hidden = !x.images.coverart;
-  });
+  samples.subscribe(x => state.reset(x));
   port.onmessage = e => audioStream.next(e.data);
+  return state;
 }
