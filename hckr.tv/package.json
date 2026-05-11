@@ -3,26 +3,26 @@
   "version": "1.0.0",
   "type": "module",
   "author": "Aleš Roubíček <ales@roubicek.name>",
-  "devDependencies": {
-    "@cloudflare/workers-types": "4.20260510.1",
-    "@hckr_/blendid": "9.6.13",
-    "@types/audioworklet": "0.0.100",
-    "esbuild-plugin-wasm": "1.1.0",
-    "open-props": "1.7.23",
-    "postcss-jit-props": "1.0.16",
-    "wrangler": "4.90.0"
-  },
   "scripts": {
     "build": "blendid build --production",
     "start": "blendid"
   },
   "dependencies": {
     "@hckr_/cloudflare-pages-plugin-rollbar": "1.1.4",
-    "@thi.ng/atom": "5.3.62",
+    "@thi.ng/atom": "5.3.63",
     "linkedom": "0.18.12",
     "lit-html": "3.3.2",
     "parse-duration": "2.1.6",
     "rxjs": "7.8.2",
     "shazamio-core": "1.3.1"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20260511.1",
+    "@hckr_/blendid": "9.6.13",
+    "@types/audioworklet": "0.0.100",
+    "esbuild-plugin-wasm": "1.1.0",
+    "open-props": "1.7.23",
+    "postcss-jit-props": "1.0.16",
+    "wrangler": "4.90.0"
   }
 }
