@@ -11,7 +11,7 @@
     "@hckr_/cloudflare-pages-plugin-rollbar": "1.1.4",
     "@thi.ng/atom": "5.3.63",
     "linkedom": "0.18.12",
-    "lit-html": "3.3.2",
+    "lit-html": "3.3.3",
     "parse-duration": "2.1.6",
     "rxjs": "7.8.2",
     "shazamio-core": "1.3.1"
