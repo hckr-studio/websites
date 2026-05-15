@@ -5,16 +5,25 @@
 <style>
   @font-face {
     font-family: "AvantGarde";
-    src: url("/assets/css/AvantGardeDefectedRegular.woff2") format("woff2");
+    src: url("{{ 'AvantGardeDefectedRegular.woff2' | assetUrl('fonts') }}") format("woff2");
     font-weight: 400;
     font-style: normal;
   }
 
   @font-face {
     font-family: "AvantGarde";
-    src: url("/assets/css/AvantGardeDefectedRegular.woff2") format("woff2");
+    src: url("{{ 'AvantGardeDefectedRegular.woff2' | assetUrl('fonts') }}") format("woff2");
     font-weight: 700;
     font-style: normal;
+  }
+
+  :root {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    font-size: 100%;
+    color-scheme: light dark;
+    interpolate-size: allow-keywords;
   }
 
   body {
@@ -23,13 +32,12 @@
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt", "lnum",
     "zero";
     font-feature-settings: "kern", "liga", "clig", "calt", "lnum", "zero";
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjust: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: geometricPrecision;
     -webkit-font-kerning: normal;
     font-kerning: normal;
-    font-size: 16px;
     -webkit-font-variant-ligatures: common-ligatures contextual;
     font-variant-ligatures: common-ligatures contextual;
     font-variant-numeric: lining-nums slashed-zero;
@@ -43,9 +51,37 @@
       "Helvetica Neue",
       sans-serif
     );
+    margin: 0 0 1em;
     font-size: var(--font-size, 36px);
     font-weight: var(--font-weight, 700);
-    margin: 0 0 1em;
+    text-wrap: balance;
+    font-variant-numeric: lining-nums;
+  }
+
+  :where(audio, iframe, img, svg, video) {
+    max-block-size: 100%;
+    max-inline-size: 100%;
+  }
+
+  @view-transition {
+    navigation: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    @view-transition {
+      navigation: auto;
+    }
+  }
+  
+  .visually-hidden {
+    border: 0;
+    clip-path: inset(50%);
+    height: 1px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
   }
 </style>
 
@@ -64,8 +100,8 @@
   @param gfont - Google Fonts family name
 -->
 <script type="module">
-  import setStyles from "{{ "set-styles.js" | assetUrl("esm") }}";
-  import {main} from "{{ "shzm.js" | assetUrl("esm") }}";
+  import setStyles from "{{ 'set-styles.js' | assetUrl('esm') }}";
+  import {main} from "{{ 'shzm.js' | assetUrl('esm') }}";
 
   let wakeLock = null;
 
