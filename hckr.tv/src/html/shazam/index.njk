@@ -90,7 +90,7 @@
   let mediaStream = await navigator.mediaDevices.getUserMedia({audio});
   let audioCtx = new AudioContext();
   await audioCtx.resume();
-  await audioCtx.audioWorklet.addModule("/assets/esm/shazam-processor.js");
+  await audioCtx.audioWorklet.addModule("{{ 'shazam-processor.js' | assetUrl('esm') }}");
   let input = new MediaStreamAudioSourceNode(audioCtx, {mediaStream});
   let shazam = new AudioWorkletNode(audioCtx, "shazam-processor");
   let merger = new ChannelMergerNode(audioCtx, {channelCount: 1});
