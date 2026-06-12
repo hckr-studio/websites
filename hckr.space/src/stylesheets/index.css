@@ -1,23 +1,23 @@
 :root {
   --headings-font-family: "Right Grotesk", var(--font-sans);
   --text-font-family: "Right Grotesk Mono", var(--font-sans);
-  --text-color: black;
+  --text-color: oklch(13.4% 0.041 145.616);
   --background: white;
 
-  --primary-color: oklch(0.88 0.211 156.631);
-
-  --underscore-color: var(--primary-color);
+  --primary-color: oklch(88% 0.211 156.631);
+  --accent-color: oklch(63.4% 0.142 198.747);
+  --accent-color-soft: oklch(69.2% 0.066 305.767);
 
   font-size: 100%;
   color-scheme: light dark;
-  accent-color: var(--primary-color);
+  accent-color: var(--accent-color);
   interpolate-size: allow-keywords;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: white;
-    --background: black;
+    --background: oklch(13.4% 0.041 145.616);
   }
 }
 
@@ -36,7 +36,6 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: var(--headings-font-family);
-  font-feature-settings: "ss01";
   text-wrap: balance;
 }
 
@@ -57,10 +56,16 @@ p, li {
   text-wrap: pretty;
 }
 
-header > hgroup {
+a:link {
+  color: var(--accent-color);
+}
+a:visited {
+  color: var(--accent-color-soft);
+}
+
+header {
   background-color: var(--primary-color);
   margin-block: 4lh;
-  padding-block: 4lh;
   padding-inline: 6.5ch;
 }
 
@@ -69,6 +74,7 @@ hgroup h1 {
   font-weight: 900;
   text-transform: lowercase;
   margin-block: 0;
+  padding-block: 2lh;
 }
 hgroup h1 em {
   display: block;
@@ -77,9 +83,17 @@ hgroup h1 em {
   font-size: 0.9em;
   translate: -0.25ch;
   letter-spacing: -2px;
+  font-feature-settings: "ss01";
 }
 hgroup h2 {
   margin-top: 0;
+}
+
+header > blockquote {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  dl { margin: 0}
 }
 
 main > section {
@@ -163,12 +177,12 @@ blockquote dd {
   main {
     display: grid;
     grid-template-columns: subgrid;
-    grid-auto-rows: auto;
     grid-column: full;
   }
   main > header {
+    display: grid;
     grid-column: full;
-
+    grid-template-columns: 1fr 1fr;
   }
   main > * {
     grid-column: main;
