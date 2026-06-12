@@ -1,10 +1,10 @@
 :root {
-  --headings-font-family: "Pangea", var(--font-sans);
-  --text-font-family: "Pangea", var(--font-sans);
+  --headings-font-family: "Right Grotesk", var(--font-sans);
+  --text-font-family: "Right Grotesk Mono", var(--font-sans);
   --text-color: black;
   --background: white;
 
-  --primary-color: oklch(82.9% 0.175 193.24);
+  --primary-color: oklch(0.88 0.211 156.631);
 
   --underscore-color: var(--primary-color);
 
@@ -36,20 +36,17 @@ body {
 
 h1, h2, h3, h4, h5 {
   font-family: var(--headings-font-family);
-  font-feature-settings: "ss02";
+  font-feature-settings: "ss01";
   text-wrap: balance;
 }
 
 h1 {
   font-weight: 300;
   font-size: var(--font-size-fluid-3);
-  text-transform: uppercase;
-  font-variation-settings: "wdth" 72, "opsz" 18;
 }
 
 h2 {
   font-size: var(--font-size-fluid-2);
-  font-feature-settings: "ss02";
 }
 
 h3 {
@@ -60,31 +57,34 @@ p, li {
   text-wrap: pretty;
 }
 
+header > hgroup {
+  background-color: var(--primary-color);
+  margin-block: 4lh;
+  padding-block: 4lh;
+  padding-inline: 6.5ch;
+}
+
 hgroup h1 {
-  font-weight: 700;
-  margin-bottom: 0;
+  line-height: 0.75;
+  font-weight: 900;
+  text-transform: lowercase;
+  margin-block: 0;
 }
 hgroup h1 em {
+  display: block;
   font-style: normal;
   font-weight: 200;
+  font-size: 0.9em;
+  translate: -0.25ch;
+  letter-spacing: -2px;
 }
 hgroup h2 {
   margin-top: 0;
 }
 
 main > section {
-  margin: 4em 0;
+  margin-block: 4em;
 }
-
-section h2 {
-  margin-inline-start: calc(-1 * (1ex - 4px));
-
-  &::before {
-    content: "_";
-    color: var(--underscore-color);
-  }
-}
-
 
 blockquote dt {
   font-size: var(--font-size-fluid-1);
@@ -158,5 +158,19 @@ blockquote dd {
     body {
       overflow-wrap: break-word;
     }
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-auto-rows: auto;
+    grid-column: full;
+  }
+  main > header {
+    grid-column: full;
+
+  }
+  main > * {
+    grid-column: main;
   }
 }

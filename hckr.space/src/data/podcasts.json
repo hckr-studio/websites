@@ -1,73 +1,73 @@
 {
-  "appcast": {
-    "filename": "appcast.md",
-    "slug": "appcast",
-    "url": "https://ceskepodcasty.cz/podcast/app-cast-ceske-appky-ktere-dobyvaji-svet",
-    "image": "https://s3.actve.net/ceskepodcasty/876303_riptkxu6fc6t3a289l9wni315mh0_b3dfc4d428.jpeg",
-    "youtube": "https://www.youtube.com/watch?v=MBzMmcbuUro&list=PLtKciEi2RI7uI4GsF2RVEWHj6MXSkT38L",
-    "body": "<p>Rozhovory s tvůrci úspěšných aplikací, které vznikly v Česku.\nV rámci rozhovorů se snažíme s hosty odkrývat, jaké jsou základní\ningredience receptu na úspěšnou aplikaci.</p>",
-    "title": "AppCast",
-    "updatedAt": "2024-12-30T14:19:25.780Z"
-  },
-  "data-talk": {
-    "filename": "data-talk.md",
-    "slug": "data-talk",
-    "url": "https://ceskepodcasty.cz/podcast/data-talk",
-    "image": "https://s3.actve.net/ceskepodcasty/321180_p1tusomhw587pmnj4sovjxmoopqk_29d6ee068d.jpeg",
-    "website": "https://www.datatalk.cz/",
-    "body": "<p>Vítejte u Data Talku! V našem podcastu vám chceme pravidelně\npřinášet zajímavý obsah z české a slovenské datové scény: rozhovory\nna odborná témata, představení relevantních datových firem, problémů a\nnástrojů, ale také aktuality z trhu.</p>",
-    "title": "DATA talk",
-    "updatedAt": "2024-12-30T14:19:25.780Z"
-  },
-  "exec": {
-    "filename": "exec.md",
-    "slug": "exec",
-    "url": "https://ceskepodcasty.cz/podcast/exec-talks-e-commerce-podcast",
-    "image": "https://s3.actve.net/ceskepodcasty/856909_eu4b16kjgaailq6mw2qqf90zrk63_e0bcf9d1d5.jpeg",
-    "website": "https://exec.shopsys.cz/podcast",
-    "body": "<p>EXEC Talks je podcast pro e-commerce managery, ve kterém uslyšíte\nrozhovory se zajímavými a úspěšnými e-commerce osobnostmi. EXEC Talks\nvydává Shopsys, jednička ve tvorbě e-shopů na míru.</p>",
-    "title": "EXEC Talks",
-    "updatedAt": "2024-12-30T14:19:25.781Z"
-  },
-  "hra-skolou": {
-    "filename": "hra-skolou.md",
-    "slug": "hra-skolou",
-    "url": "https://ceskepodcasty.cz/podcast/hra-skolou-podcast",
-    "image": "https://s3.actve.net/ceskepodcasty/474899_41140393_1714943058227_906c4debdf0ce_01b5d2077e.jpeg",
-    "website": "https://www.hraskoloupodcast.cz/",
-    "body": "<p>Hledáte pro své dítě ten nejlepší možný start? Přemýšlíte, jak\nvybrat nejlepší mateřskou školku a jaké možnosti se před vámi\notevírají? Podcast Hra školou shromažďuje klíčové informace na jednom\nmístě, přímo od kovaných expertů. Provedeme vás světem předškolního\nvzdělávání a ukážeme, jaké máte možnosti.</p>",
-    "title": "Hra školou podcast",
-    "updatedAt": "2024-12-30T14:19:25.781Z"
-  },
-  "kanarci-v-siti": {
-    "filename": "kanarci-v-siti.md",
-    "slug": "kanarci-v-siti",
-    "url": "https://ceskepodcasty.cz/podcast/kanarci-v-siti",
-    "image": "https://s3.actve.net/ceskepodcasty/755818_07f7akhc8rg70j4owbh2kkj1ahsy_be9bb82586.jpeg",
-    "website": "https://www.kanarci.online/",
-    "body": "<p>Podcast, ve kterém vás Alex Alvarová a Josef Holý provedou světem\ndezinformací, digitální propagandy a AI. Epizody zdarma cca jednou\nměsíčně na <a href=\"http://www.kanarci.online\">www.kanarci.online</a>.\nPlacené každý týden na <a\nhref=\"https://herohero.co/kanarcivsiti\">herohero.co/kanarcivsiti</a>.</p>",
-    "title": "Kanárci v síti",
-    "updatedAt": "2024-12-30T14:19:25.781Z"
-  },
-  "people-ops": {
-    "filename": "people-ops.md",
-    "slug": "people-ops",
-    "url": "https://ceskepodcasty.cz/podcast/people-ops-podcast",
-    "image": "https://s3.actve.net/ceskepodcasty/924107_fucg6l1s3gcjjcp1r76xr7mu2jwl_e53f7949f8.jpeg",
-    "website": "https://www.peopleops.cz/",
-    "body": "<p>Ahoj, jsem Irča. Vaše průvodkyně ve světe PeopleOps. Víc jak dekádu se\npohybuji na technologickém trhu. Svoje roky sbírané know-how o komunikaci a\npodpoře lidí (nejen v techu), chci sdílet se všemi, kdo nechtějí\nnarážet hlavou do zdi tam, kde už to za ně udělali jiní. Jsem tu pro\nvšechny, kdo chtějí vědět, jak mluvit a pracovat s lidmi v IT, aby to\ndávalo smysl a přinášelo výsledky.</p>\n<p>PeopleOps v kontextu, dlouhodobě, s praktickými zkušenostmi. Aby se\nžádný skvělý specialista, který začal vést lidi, nebo s nimi začal\nintenzivněji spolupracovat, neztratil v operativě a pod nánosem všech\nnových povinností a vjemů! Staňte se angažovanějšími a přitahujte si\nk sobě do týmu ty správné lidi! I s tím pomůžu v #PeopleOps. Protože\nvšechno je to o lidech. #empower #engage #tech</p>",
-    "title": "PeopleOps podcast",
-    "updatedAt": "2024-12-30T14:19:25.781Z"
-  },
-  "plodne-hovory": {
-    "filename": "plodne-hovory.md",
-    "slug": "plodne-hovory",
-    "url": "https://ceskepodcasty.cz/podcast/plodne-hovory",
-    "image": "https://s3.actve.net/ceskepodcasty/565730_39551174_1699198057067_5ee897b669cca_c50f0d6934.jpeg",
-    "website": "https://plodnehovory.cz/",
-    "youtube": "https://www.youtube.com/@PlodneHovory/videos?view=0&sort=dd&shelf_id=2",
-    "body": "<p>Plodné hovory&nbsp;&ndash; podcastová série pro všechny, kteří jsou na cestě\nza svým vysněným miminkem a ta cesta už je možná dlouhá a bolavá. My\njsme na našeho Kristiánka čekali šest let. Za tu dobu jsme poznali spoustu\núžasných odborníků, kteří nám pomáhali a zajímavých lidí, jejichž\npříběhy nás inspirovali. Postupně si budu zvát své hosty do studia a\nvěřím, že vás jejich znalosti a zkušenosti obohatí stejně jako nás.\nJmenuju se Dominika a budu s&nbsp;vámi sdílet náš příběh.</p>",
-    "title": "Plodné hovory",
-    "updatedAt": "2024-12-30T14:19:25.781Z"
-  }
+	"appcast": {
+		"filename": "appcast.md",
+		"slug": "appcast",
+		"url": "https://ceskepodcasty.cz/podcast/app-cast-ceske-appky-ktere-dobyvaji-svet",
+		"image": "https://s3.actve.net/ceskepodcasty/876303_riptkxu6fc6t3a289l9wni315mh0_b3dfc4d428.jpeg",
+		"youtube": "https://www.youtube.com/watch?v=MBzMmcbuUro&list=PLtKciEi2RI7uI4GsF2RVEWHj6MXSkT38L",
+		"body": "<p>Rozhovory s tvůrci úspěšných aplikací, které vznikly v Česku.\nV rámci rozhovorů se snažíme s hosty odkrývat, jaké jsou základní\ningredience receptu na úspěšnou aplikaci.</p>",
+		"title": "AppCast",
+		"updatedAt": "2024-12-30T14:19:25.780Z"
+	},
+	"data-talk": {
+		"filename": "data-talk.md",
+		"slug": "data-talk",
+		"url": "https://ceskepodcasty.cz/podcast/data-talk",
+		"image": "https://s3.actve.net/ceskepodcasty/321180_p1tusomhw587pmnj4sovjxmoopqk_29d6ee068d.jpeg",
+		"website": "https://www.datatalk.cz/",
+		"body": "<p>Vítejte u Data Talku! V našem podcastu vám chceme pravidelně\npřinášet zajímavý obsah z české a slovenské datové scény: rozhovory\nna odborná témata, představení relevantních datových firem, problémů a\nnástrojů, ale také aktuality z trhu.</p>",
+		"title": "DATA talk",
+		"updatedAt": "2024-12-30T14:19:25.780Z"
+	},
+	"exec": {
+		"filename": "exec.md",
+		"slug": "exec",
+		"url": "https://ceskepodcasty.cz/podcast/exec-talks-e-commerce-podcast",
+		"image": "https://s3.actve.net/ceskepodcasty/856909_eu4b16kjgaailq6mw2qqf90zrk63_e0bcf9d1d5.jpeg",
+		"website": "https://exec.shopsys.cz/podcast",
+		"body": "<p>EXEC Talks je podcast pro e-commerce managery, ve kterém uslyšíte\nrozhovory se zajímavými a úspěšnými e-commerce osobnostmi. EXEC Talks\nvydává Shopsys, jednička ve tvorbě e-shopů na míru.</p>",
+		"title": "EXEC Talks",
+		"updatedAt": "2024-12-30T14:19:25.781Z"
+	},
+	"hra-skolou": {
+		"filename": "hra-skolou.md",
+		"slug": "hra-skolou",
+		"url": "https://ceskepodcasty.cz/podcast/hra-skolou-podcast",
+		"image": "https://s3.actve.net/ceskepodcasty/474899_41140393_1714943058227_906c4debdf0ce_01b5d2077e.jpeg",
+		"website": "https://www.hraskoloupodcast.cz/",
+		"body": "<p>Hledáte pro své dítě ten nejlepší možný start? Přemýšlíte, jak\nvybrat nejlepší mateřskou školku a jaké možnosti se před vámi\notevírají? Podcast Hra školou shromažďuje klíčové informace na jednom\nmístě, přímo od kovaných expertů. Provedeme vás světem předškolního\nvzdělávání a ukážeme, jaké máte možnosti.</p>",
+		"title": "Hra školou podcast",
+		"updatedAt": "2024-12-30T14:19:25.781Z"
+	},
+	"kanarci-v-siti": {
+		"filename": "kanarci-v-siti.md",
+		"slug": "kanarci-v-siti",
+		"url": "https://ceskepodcasty.cz/podcast/kanarci-v-siti",
+		"image": "https://s3.actve.net/ceskepodcasty/755818_07f7akhc8rg70j4owbh2kkj1ahsy_be9bb82586.jpeg",
+		"website": "https://www.kanarci.online/",
+		"body": "<p>Podcast, ve kterém vás Alex Alvarová a Josef Holý provedou světem\ndezinformací, digitální propagandy a AI. Epizody zdarma cca jednou\nměsíčně na <a href=„http://www.kanarci.online“>www.kanarci.online</a>.\nPlacené každý týden na <a\nhref=„https://herohero.co/kanarcivsiti“>herohero.co/kanarcivsiti</a>.</p>",
+		"title": "Kanárci v síti",
+		"updatedAt": "2024-12-30T14:19:25.781Z"
+	},
+	"people-ops": {
+		"filename": "people-ops.md",
+		"slug": "people-ops",
+		"url": "https://ceskepodcasty.cz/podcast/people-ops-podcast",
+		"image": "https://s3.actve.net/ceskepodcasty/924107_fucg6l1s3gcjjcp1r76xr7mu2jwl_e53f7949f8.jpeg",
+		"website": "https://www.peopleops.cz/",
+		"body": "<p>Ahoj, jsem Irča. Vaše průvodkyně ve světe PeopleOps. Víc jak dekádu se\npohybuji na technologickém trhu. Svoje roky sbírané know-how o komunikaci a\npodpoře lidí (nejen v techu), chci sdílet se všemi, kdo nechtějí\nnarážet hlavou do zdi tam, kde už to za ně udělali jiní. Jsem tu pro\nvšechny, kdo chtějí vědět, jak mluvit a pracovat s lidmi v IT, aby to\ndávalo smysl a přinášelo výsledky.</p>\n<p>PeopleOps v kontextu, dlouhodobě, s praktickými zkušenostmi. Aby se\nžádný skvělý specialista, který začal vést lidi, nebo s nimi začal\nintenzivněji spolupracovat, neztratil v operativě a pod nánosem všech\nnových povinností a vjemů! Staňte se angažovanějšími a přitahujte si\nk sobě do týmu ty správné lidi! I s tím pomůžu v #PeopleOps. Protože\nvšechno je to o lidech. #empower #engage #tech</p>",
+		"title": "PeopleOps podcast",
+		"updatedAt": "2024-12-30T14:19:25.781Z"
+	},
+	"plodne-hovory": {
+		"filename": "plodne-hovory.md",
+		"slug": "plodne-hovory",
+		"url": "https://ceskepodcasty.cz/podcast/plodne-hovory",
+		"image": "https://s3.actve.net/ceskepodcasty/565730_39551174_1699198057067_5ee897b669cca_c50f0d6934.jpeg",
+		"website": "https://plodnehovory.cz/",
+		"youtube": "https://www.youtube.com/@PlodneHovory/videos?view=0&sort=dd&shelf_id=2",
+		"body": "<p>Plodné hovory&nbsp;&ndash; podcastová série pro všechny, kteří jsou na cestě\nza svým vysněným miminkem a ta cesta už je možná dlouhá a bolavá. My\njsme na našeho Kristiánka čekali šest let. Za tu dobu jsme poznali spoustu\núžasných odborníků, kteří nám pomáhali a zajímavých lidí, jejichž\npříběhy nás inspirovali. Postupně si budu zvát své hosty do studia a\nvěřím, že vás jejich znalosti a zkušenosti obohatí stejně jako nás.\nJmenuju se Dominika a budu s&nbsp;vámi sdílet náš příběh.</p>",
+		"title": "Plodné hovory",
+		"updatedAt": "2024-12-30T14:19:25.781Z"
+	}
 }
