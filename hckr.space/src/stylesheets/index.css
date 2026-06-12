@@ -101,12 +101,14 @@ main > section {
 }
 
 blockquote dt {
-  font-size: var(--font-size-fluid-1);
+  font-size: var(--font-size-fluid-0);
   font-weight: 600;
 }
 
 blockquote dd {
   font-family: Gergia, var(--font-serif);
+  font-size: var(--font-size-fluid-0);
+  text-wrap: balance;
 }
 
 @layer layout {
