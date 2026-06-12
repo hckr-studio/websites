@@ -72,18 +72,18 @@ header {
 hgroup h1 {
   line-height: 0.75;
   font-weight: 900;
-  text-transform: lowercase;
   margin-block: 0;
   padding-block: 2lh;
+  letter-spacing: -3px;
 }
 hgroup h1 em {
   display: block;
   font-style: normal;
   font-weight: 200;
   font-size: 0.9em;
-  translate: -0.25ch;
-  letter-spacing: -2px;
+  translate: -0.39ch;
   font-feature-settings: "ss01";
+  letter-spacing: 3px;
 }
 hgroup h2 {
   margin-top: 0;
