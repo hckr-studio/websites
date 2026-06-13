@@ -1,14 +1,24 @@
 :root {
-  --headings-font-family: Poppins, var(--font-sans);
-  --text-font-family: var(--font-mono);
-  --text-color: black;
+  --_black-color: oklch(13.4% 0.041 145.616);
+  --headings-font-family: "Right Grotesk", var(--font-sans);
+  --text-font-family: "Right Grotesk Mono", var(--font-sans);
+  --text-color: var(--_black-color);
   --background: white;
+
+  --primary-color: oklch(93% 0.143 138.855);
+  --accent-color: oklch(63.4% 0.142 198.747);
+  --accent-color-soft: oklch(69.2% 0.066 305.767);
+
+  font-size: 100%;
+  color-scheme: light dark;
+  accent-color: var(--accent-color);
+  interpolate-size: allow-keywords;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: white;
-    --background: black;
+    --background: var(--_black-color);
   }
 }
 
@@ -25,55 +35,166 @@ body {
   color-scheme: light dark;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+h1, h2, h3, h4, h5 {
   font-family: var(--headings-font-family);
+  text-wrap: balance;
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 300;
   font-size: var(--font-size-fluid-3);
-  font-variation-settings: "wght" 700;
-  letter-spacing: var(--font-letterspacing-0);
-  text-transform: uppercase;
 }
 
 h2 {
   font-size: var(--font-size-fluid-2);
-  letter-spacing: var(--font-letterspacing-0);
 }
 
 h3 {
   font-size: var(--font-size-fluid-1);
 }
 
+p, li {
+  text-wrap: pretty;
+}
+
+a:link {
+  color: var(--accent-color);
+}
+a:visited {
+  color: var(--accent-color-soft);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--_black-color);
+  margin-block: 4lh;
+  padding-inline: 6.5ch;
+  border-image-outset: 0 100vw;
+  border-image-slice: 0 fill;
+  border-image-width: 0;
+  border-image-repeat: stretch;
+  border-image-source: linear-gradient(0deg, var(--primary-color), var(--primary-color));
+}
+
 hgroup h1 {
-  margin-bottom: 0;
+  line-height: 0.75;
+  font-weight: 900;
+  margin-block: 0;
+  padding-block: 2lh;
+  letter-spacing: -0.05ch;
 }
 hgroup h1 em {
+  display: block;
   font-style: normal;
   font-weight: 200;
+  font-size: 0.9em;
+  translate: -0.39ch;
+  font-feature-settings: "ss01";
+  letter-spacing: 0.1ch;
 }
 hgroup h2 {
   margin-top: 0;
 }
 
-main > section {
-  margin: 4em 0;
+header > blockquote {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  dl { margin: 0}
 }
 
-section h2::after {
-  content: "_";
+main > section {
+  margin-block: 4em;
 }
 
 blockquote dt {
-  font-size: var(--font-size-fluid-1);
+  font-size: var(--font-size-fluid-0);
   font-weight: 600;
 }
 
 blockquote dd {
-  font-family: Gergia, var(--font-serif);
+  font-family: Georgia, var(--font-serif), serif;
+  font-size: var(--font-size-fluid-0);
+  text-wrap: balance;
+}
+
+@layer layout {
+  :root {
+    /* layout measures */
+    --root: clamp(max(1em, 20px), 1.2em + 0.5vw, 2em);
+    --line-height: 1.5;
+    --smaller: 0.8em;
+    --line: calc(1rem * var(--line-height));
+    --measure: 60ch;
+    --gap: 1rem;
+    --half-gap: calc(var(--gap) / 2);
+    --shim: calc(var(--gap) / 4);
+    --half-shim: calc(var(--shim) / 2);
+    --spacer: clamp(
+      var(--gap) * 1.5,
+      var(--gap) + 4vw,
+      min(var(--gap) * 6, 20vmin)
+    );
+  }
+
+  html {
+    --margin: var(--gap, 1em);
+    --inset: var(--gap, 1em);
+    --outset: 0px;
+  }
+
+  @media (min-width: 40em) {
+    html {
+      --margin: var(--spacer, 2em);
+      --outset: calc(var(--inset) * -1);
+    }
+  }
+
+  html, body {
+    margin: 0;
+  }
+
+  body {
+    --wide: 100vw - 30ch;
+
+    display: grid;
+    row-gap: var(--spacer);
+    grid-template-columns:
+    [full-start] var(--margin)
+    [page-start] minmax(0, 0.5fr)
+    [extra-start] minmax(0, 1fr)
+    [wide-start] minmax(0, clamp(0px, var(--wide), var(--spacer, 3em)))
+    [main-start] minmax(12ch, var(--measure))
+    [main-end] minmax(0, clamp(0px, var(--wide), var(--spacer, 3em)))
+    [wide-end] minmax(0, 1fr)
+    [extra-end] minmax(0, 0.5fr)
+    [page-end] var(--margin)
+    [full-end];
+  }
+
+  :where(body) > * {
+    grid-column: var(--body-column, main);
+    margin-block: 0;
+  }
+
+  @media (max-width: 30em) {
+    body {
+      overflow-wrap: break-word;
+    }
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: subgrid;
+    grid-column: full;
+  }
+  main > header {
+    display: grid;
+    grid-column: extra;
+    grid-template-columns: 1fr 1fr;
+  }
+  main > * {
+    grid-column: main;
+  }
 }
