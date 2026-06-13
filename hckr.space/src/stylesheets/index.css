@@ -114,7 +114,7 @@ blockquote dt {
 }
 
 blockquote dd {
-  font-family: Gergia, var(--font-serif);
+  font-family: Georgia, var(--font-serif), serif;
   font-size: var(--font-size-fluid-0);
   text-wrap: balance;
 }
