@@ -1,21 +1,76 @@
 {%- from 'macros/helpers.html' import sprite, spriteTarget, importmapTarget -%}
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{% block title %}{{ title }}{% endblock %}</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ 'index.css' | assetUrl('stylesheets') }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
-    {% include "shared/app-icons.html" %}
-    {% block head %}{% endblock %}
-  </head>
-  <body>
-    {% block content %}{% endblock %}
-    {% block javascript %}
-    {% endblock %}
-  </body>
+<html lang="{{ meta.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="text-scale" content="scale">
+  {% if images %}
+    {# `images` can be collection populated by `cloudinary` task, or just set `images: true` in `data/global.mjs`
+       to enable this if you use another way to upload images to cloudinary #}
+    <meta http-equiv="delegate-ch"
+          content="sec-ch-width https://res.cloudinary.com; sec-ch-dpr https://res.cloudinary.com; sec-ch-viewport-width https://res.cloudinary.com;">
+  {% endif %}
+  {% block head_pragma %}{% endblock %}
+  <title>{% block title %}{{ meta.title }} {{ title }}{% endblock %}</title>
+  {% if images %}
+    <link rel="preconnect" href="https://res.cloudinary.com">
+  {% endif %}
+  {% block head_preconnect %}{% endblock %}
+  <style>
+    @font-face {
+      font-family: "Right Grotesk";
+      font-display: swap;
+      src: url("{{ "pp-right-grotesk-variable.latin.woff2" | assetUrl("fonts") }}") format("woff2");
+      unicode-range: U+0-FF, U+131, U+152, U+153, U+2BB, U+2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Right Grotesk";
+      font-display: swap;
+      src: url("{{ "pp-right-grotesk-variable.latin-ext.woff2" | assetUrl("fonts") }}") format("woff2");
+      unicode-range: U+0100-0101, U+0104-0130, U+0132-0151, U+0154-017F, U+018F, U+0192, U+01A0-01A1, U+01AF-01B0, U+01FA-01FF, U+0218-021B, U+0237, U+0259, U+1E80-1E85, U+1E9E, U+20A1, U+20A4, U+20A6, U+20A8-20AA, U+20AD-20AE, U+20B1-20B2, U+20B4-20B5, U+20B8-20BA, U+20BD, U+20BF;
+    }
+
+    @font-face {
+      font-family: "Right Grotesk Mono";
+      font-display: swap;
+      src: url("{{ "pp-right-grotesk-mono-variable.latin.woff2" | assetUrl("fonts") }}") format("woff2");
+      unicode-range: U+0-FF, U+131, U+152, U+153, U+2BB, U+2BC, U+2C6, U+2DA, U+2DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    @font-face {
+      font-family: "Right Grotesk Mono";
+      font-display: swap;
+      src: url("{{ "pp-right-grotesk-mono-variable.latin-ext.woff2" | assetUrl("fonts") }}") format("woff2");
+      unicode-range: U+0100-0101, U+0104-0130, U+0132-0151, U+0154-017F, U+018F, U+0192, U+01A0-01A1, U+01AF-01B0, U+01FA-01FF, U+0218-021B, U+0237, U+0259, U+1E80-1E85, U+1E9E, U+20A1, U+20A4, U+20A6, U+20A8-20AA, U+20AD-20AE, U+20B1-20B2, U+20B4-20B5, U+20B8-20BA, U+20BD, U+20BF;
+    }
+  </style>
+  <link rel="stylesheet" href="{{ 'index.css' | assetUrl('stylesheets') }}">
+  {% block head_stylesheets %}{% endblock %}
+  {% block head_preload %}{% endblock %}
+  {% block head_async_scripts %}{% endblock %}
+  <meta name="description" content="{{ description or meta.description }}">
+  <meta name="generator" content="{{ generator or '@hckr_/blendid - static site generator and assets pipeline' }}">
+  <meta name="author" content="https://hckr.studio">
+  <meta name="color-scheme" content="light dark">
+  <link rel="manifest" href="{{ 'manifest.json' | assetUrl('static') }}">
+  <link rel="canonical" href="{{ canonicalUrl or meta.url }}">
+  {% include "shared/app-icons.html" %}
+  {% block head %}{% endblock %}
+</head>
+<body>
+{% block content %}{% endblock %}
+<footer>
+<p>©️ 2024 - {{ currentYear }} hckr.studio, s.r.o. _
+  <a href="https://hckr.studio/">hckr.studio</a>
+  _
+  <a href="https://hckr.space/">hckr.space</a>
+  _
+  <a href="https://hckr.tv/">hckr.tv</a>
+  _</p>
+</footer>
+{% block scripts %}{% endblock %}
+{{ spriteTarget() }}
+</body>
 </html>
