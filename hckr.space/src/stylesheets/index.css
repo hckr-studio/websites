@@ -1,7 +1,8 @@
 :root {
+  --_black-color: oklch(13.4% 0.041 145.616);
   --headings-font-family: "Right Grotesk", var(--font-sans);
   --text-font-family: "Right Grotesk Mono", var(--font-sans);
-  --text-color: oklch(13.4% 0.041 145.616);
+  --text-color: var(--_black-color);
   --background: white;
 
   --primary-color: oklch(88% 0.211 156.631);
@@ -17,7 +18,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: white;
-    --background: oklch(13.4% 0.041 145.616);
+    --background: var(--_black-color);
   }
 }
 
@@ -65,8 +66,14 @@ a:visited {
 
 header {
   background-color: var(--primary-color);
+  color: var(--_black-color);
   margin-block: 4lh;
   padding-inline: 6.5ch;
+  border-image-outset: 0 100vw;
+  border-image-slice: 0 fill;
+  border-image-width: 0;
+  border-image-repeat: stretch;
+  border-image-source: linear-gradient(0deg, var(--primary-color), var(--primary-color));
 }
 
 hgroup h1 {
@@ -74,7 +81,7 @@ hgroup h1 {
   font-weight: 900;
   margin-block: 0;
   padding-block: 2lh;
-  letter-spacing: -3px;
+  letter-spacing: -0.05ch;
 }
 hgroup h1 em {
   display: block;
@@ -83,7 +90,7 @@ hgroup h1 em {
   font-size: 0.9em;
   translate: -0.39ch;
   font-feature-settings: "ss01";
-  letter-spacing: 3px;
+  letter-spacing: 0.1ch;
 }
 hgroup h2 {
   margin-top: 0;
@@ -184,7 +191,7 @@ blockquote dd {
   }
   main > header {
     display: grid;
-    grid-column: full;
+    grid-column: extra;
     grid-template-columns: 1fr 1fr;
   }
   main > * {
