@@ -1,7 +1,7 @@
 export default {
   meta: {
     lang: "en",
-    title: "hckr.space",
+    title: "HCKR.space",
     description: "",
     url: "https://hckr.space/",
   },
