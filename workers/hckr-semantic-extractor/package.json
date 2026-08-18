@@ -11,7 +11,7 @@
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.16.5",
     "@types/rdfjs__data-model": "2.0.9",
-    "vitest": "4.1.6",
+    "vitest": "4.1.11",
     "wrangler": "4.91.0"
   },
   "dependencies": {
