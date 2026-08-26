@@ -12,7 +12,7 @@
     "wrangler": "4.91.0"
   },
   "resolutions": {
-    "esbuild": "0.28.0"
+    "esbuild": "0.28.2"
   },
   "scripts": {
     "fmt": "biome format --write"
