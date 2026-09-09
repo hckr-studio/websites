@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20260514.1",
-    "@hckr_/blendid": "9.6.13",
+    "@hckr_/blendid": "9.6.16",
     "@types/audioworklet": "0.0.100",
     "esbuild-plugin-wasm": "1.1.0",
     "open-props": "1.7.23",
