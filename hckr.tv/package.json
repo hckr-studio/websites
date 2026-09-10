@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@hckr_/cloudflare-pages-plugin-rollbar": "1.1.4",
-    "@thi.ng/atom": "5.3.69",
+    "@thi.ng/atom": "5.3.70",
     "linkedom": "0.18.13",
     "lit-html": "3.3.3",
     "parse-duration": "2.1.8",
