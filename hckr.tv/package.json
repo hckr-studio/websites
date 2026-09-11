@@ -23,6 +23,6 @@
     "esbuild-plugin-wasm": "1.1.0",
     "open-props": "1.7.23",
     "postcss-jit-props": "1.0.16",
-    "wrangler": "4.131.0"
+    "wrangler": "4.131.1"
   }
 }
