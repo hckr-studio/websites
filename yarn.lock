@@ -1230,7 +1230,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
-    "@pulumi/cloudflare": "npm:5.49.1"
+    "@pulumi/cloudflare": "npm:6.20.0"
     "@pulumi/pulumi": "npm:3.262.0"
   languageName: unknown
   linkType: soft
@@ -2450,12 +2450,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/cloudflare@npm:5.49.1":
-  version: 5.49.1
-  resolution: "@pulumi/cloudflare@npm:5.49.1"
+"@pulumi/cloudflare@npm:6.20.0":
+  version: 6.20.0
+  resolution: "@pulumi/cloudflare@npm:6.20.0"
   dependencies:
     "@pulumi/pulumi": "npm:^3.142.0"
-  checksum: 10/1a839030f82903d80906b6797ff5f40b76e3d14bef94c5acd572a35855ea0b5eb6bf258fbe30a46fad409e5ff7b0c7a553eb0fd2ec3d8af35129ca041f1ca80f
+  checksum: 10/47d9f996031e6614bca019e78a769710329bc67cef37333dee853a787ec7b043dcc6d86e6949840827fad3eff88221d6eb7aeb4c8a90338ce6435f98cb539855
   languageName: node
   linkType: hard
 
