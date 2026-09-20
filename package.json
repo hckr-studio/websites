@@ -8,7 +8,7 @@
   "license": "EUPL-1.2",
   "private": true,
   "devDependencies": {
-    "@biomejs/biome": "2.5.13",
+    "@biomejs/biome": "2.5.14",
     "wrangler": "4.135.0"
   },
   "resolutions": {
