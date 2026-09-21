@@ -1195,7 +1195,7 @@ __metadata:
     linkedom: "npm:0.18.13"
     lit-html: "npm:3.3.3"
     open-props: "npm:1.7.23"
-    parse-duration: "npm:2.1.8"
+    parse-duration: "npm:2.1.9"
     postcss-jit-props: "npm:1.0.16"
     rxjs: "npm:7.8.2"
     shazamio-core: "npm:1.3.1"
@@ -6566,10 +6566,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-duration@npm:2.1.8":
-  version: 2.1.8
-  resolution: "parse-duration@npm:2.1.8"
-  checksum: 10/c9bf6266544a7b3bab41f72ea85ac82c5af1f840e9d01d3bd4cadacc1abb907398d8a264b99c9afa4dce0ff8146947fcf7f3b34e6021bec567945c4384ec0c92
+"parse-duration@npm:2.1.9":
+  version: 2.1.9
+  resolution: "parse-duration@npm:2.1.9"
+  checksum: 10/9b14b808e5aa5089adf86544972955cf9c3a49aae6028a3ea44f43a65daf5667c2556c9b604924a6bda24bd2f29a993141ea3b9349a72b27a03c2572b5611a2e
   languageName: node
   linkType: hard
 
