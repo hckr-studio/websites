@@ -287,7 +287,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@csstools/css-tokenizer@npm:^4.0.0":
+"@csstools/css-tokenizer@npm:^4.0.0, @csstools/css-tokenizer@npm:^4.0.1":
   version: 4.0.1
   resolution: "@csstools/css-tokenizer@npm:4.0.1"
   checksum: 10/2b434814f71c2d0ada19fc517df0089ef72a59b50f34d31abe3e923bec0371d1aba795c8dbecacfe6d0009da5512c80beaf30cabe91915beb2a450b17b30e49d
@@ -6757,13 +6757,13 @@ __metadata:
   linkType: hard
 
 "postcss-calc@npm:^11.2.0":
-  version: 11.2.0
-  resolution: "postcss-calc@npm:11.2.0"
+  version: 11.2.1
+  resolution: "postcss-calc@npm:11.2.1"
   dependencies:
-    "@csstools/css-tokenizer": "npm:^4.0.0"
+    "@csstools/css-tokenizer": "npm:^4.0.1"
   peerDependencies:
     postcss: ^8.5.28
-  checksum: 10/b80114b8a6ae27da59ca862d4136a62bcff8bfe9f81199c760a29c3a7abb83df71c807375d858b9e224a2e567076a0c1b0a8317255e5c84029fbbe3ec4ec8e09
+  checksum: 10/4218c88cafe22967026caddf7b6906dbcfae7fe8ff2f7e1dcc4cb01f3b3d9e876187057161bdc1a39cdcfb3568536dc1c17fa1887cdfc9c86a1f3b66bd914026
   languageName: node
   linkType: hard
 
