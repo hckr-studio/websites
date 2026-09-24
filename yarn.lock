@@ -1215,7 +1215,7 @@ __metadata:
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
     "@pulumi/cloudflare": "npm:5.49.1"
-    "@pulumi/pulumi": "npm:3.263.0"
+    "@pulumi/pulumi": "npm:3.264.0"
   languageName: unknown
   linkType: soft
 
@@ -2463,7 +2463,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.263.0, @pulumi/pulumi@npm:^3.142.0":
+"@pulumi/pulumi@npm:3.264.0":
+  version: 3.264.0
+  resolution: "@pulumi/pulumi@npm:3.264.0"
+  dependencies:
+    "@grpc/grpc-js": "npm:^1.10.1"
+    "@logdna/tail-file": "npm:^2.0.6"
+    "@npmcli/arborist": "npm:^9.0.0"
+    "@opentelemetry/api": "npm:^1.9"
+    "@opentelemetry/core": "npm:^2.9"
+    "@opentelemetry/exporter-trace-otlp-grpc": "npm:^0.220"
+    "@opentelemetry/exporter-zipkin": "npm:^2.9"
+    "@opentelemetry/instrumentation": "npm:^0.220"
+    "@opentelemetry/instrumentation-grpc": "npm:^0.220"
+    "@opentelemetry/resources": "npm:^2.9"
+    "@opentelemetry/sdk-trace-base": "npm:^2.9"
+    "@opentelemetry/sdk-trace-node": "npm:^2.9"
+    "@opentelemetry/semantic-conventions": "npm:^1.42"
+    "@types/google-protobuf": "npm:^3.15.5"
+    "@types/semver": "npm:^7.5.6"
+    execa: "npm:^5.1.0"
+    google-protobuf: "npm:^3.21.4"
+    ini: "npm:^2.0.0"
+    js-yaml: "npm:^4.3.2"
+    minimist: "npm:^1.2.6"
+    normalize-package-data: "npm:^6.0.0"
+    require-from-string: "npm:^2.0.1"
+    semver: "npm:^7.5.2"
+    source-map-support: "npm:^0.5.6"
+    upath: "npm:^1.1.0"
+  peerDependencies:
+    ts-node: ">= 7.0.1 < 12"
+    typescript: ">= 3.8.3 < 7"
+  peerDependenciesMeta:
+    ts-node:
+      optional: true
+    typescript:
+      optional: true
+  checksum: 10/a580cb250106a5d84bd33ee162c7940a40d5d6f7e5288344a544ac8ecbf31a9d11a5cd63bc7ca1573bfce23de1a0805aa5c0dda99ee3d5e209e7c44aa572eeef
+  languageName: node
+  linkType: hard
+
+"@pulumi/pulumi@npm:^3.142.0":
   version: 3.263.0
   resolution: "@pulumi/pulumi@npm:3.263.0"
   dependencies:
@@ -5205,7 +5246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"js-yaml@npm:^4.0.0":
+"js-yaml@npm:^4.0.0, js-yaml@npm:^4.3.2":
   version: 4.3.2
   resolution: "js-yaml@npm:4.3.2"
   dependencies:
