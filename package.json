@@ -9,7 +9,7 @@
   "private": true,
   "devDependencies": {
     "@biomejs/biome": "2.5.14",
-    "wrangler": "4.142.0"
+    "wrangler": "4.144.0"
   },
   "resolutions": {
     "esbuild": "0.28.2"
