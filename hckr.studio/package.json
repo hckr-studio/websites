@@ -4,7 +4,7 @@
   "type": "module",
   "author": "Aleš Roubíček <ales@roubicek.name>",
   "devDependencies": {
-    "@cloudflare/workers-types": "5.20261004.1",
+    "@cloudflare/workers-types": "5.20261005.1",
     "@hckr_/blendid": "9.8.2",
     "open-props": "1.7.23",
     "postcss-jit-props": "1.0.16",
