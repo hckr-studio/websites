@@ -1,8 +1,10 @@
 :root {
-  --headings-font-family: "Pangea", var(--font-sans);
-  --text-font-family: "Pangea", var(--font-sans);
-  --text-color: light-dark(black, white);
-  --background: light-dark(white, black);
+  --_black-color: oklch(13.4% 0.041 145.616);
+  --headings-font-family: "Right Grotesk", var(--font-sans);
+  --text-font-family: "Right Grotesk Mono", var(--font-sans);
+  --text-color: var(--_black-color);
+  --background: white;
+
   --logo-color: var(--text-color);
   --primary-color: oklch(0.871 0.179 98.031);
 
