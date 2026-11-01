@@ -220,6 +220,7 @@ blockquote dd {
   margin-block-start: 0;
   font-size: calc(1.33 * var(--font-size-fluid-3));
   font-variation-settings: "wght" 450;
+  overflow-wrap: normal;
 }
 
 #team [role=list] {
