@@ -1,7 +1,7 @@
 export default {meta: {
     lang: "en",
     title: "HCKR.party",
-    description: "",
+    description: "Party as a service.",
     url: "https://hckr.party/",
   },
   get currentYear() {

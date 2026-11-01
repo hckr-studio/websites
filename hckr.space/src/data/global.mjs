@@ -2,7 +2,7 @@ export default {
   meta: {
     lang: "en",
     title: "HCKR.space",
-    description: "",
+    description: "Inclusive workspace for tech tinkerers.",
     url: "https://hckr.space/",
   },
   podcasts: {
