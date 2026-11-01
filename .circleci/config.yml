@@ -18,7 +18,9 @@ jobs:
       - node/install
       - run:
           name: Enable Corepack
-          command: corepack enable --install-directory="/home/circleci/bin"
+          command: |
+            npm install -g corepack
+            corepack enable --install-directory="/home/circleci/bin"
       - node/install-yarn
       - pulumi/login
       - node/install-packages:
@@ -43,7 +45,9 @@ jobs:
       - node/install
       - run:
           name: Enable Corepack
-          command: corepack enable --install-directory="/home/circleci/bin"
+          command: |
+            npm install -g corepack
+            corepack enable --install-directory="/home/circleci/bin"
       - node/install-yarn
       - pulumi/login
       - node/install-packages:
@@ -72,7 +76,9 @@ jobs:
       - node/install
       - run:
           name: Enable Corepack
-          command: corepack enable --install-directory="/home/circleci/bin"
+          command: |
+            npm install -g corepack
+            corepack enable --install-directory="/home/circleci/bin"
       - node/install-yarn
       - node/install-packages:
           pkg-manager: yarn-berry
@@ -106,7 +112,9 @@ jobs:
       - node/install
       - run:
           name: Enable Corepack
-          command: corepack enable --install-directory="/home/circleci/bin"
+          command: |
+            npm install -g corepack
+            corepack enable --install-directory="/home/circleci/bin"
       - node/install-yarn
       - node/install-packages:
           pkg-manager: yarn-berry
