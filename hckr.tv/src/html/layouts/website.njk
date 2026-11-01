@@ -3,9 +3,9 @@
 <html lang="{{ meta.lang }}">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="viewport" content="width=device-width,viewport-fit=cover">
   <meta name="text-scale" content="scale">
-  {% if images %}
+  {% if collections.images or images %}
     {# `images` can be collection populated by `cloudinary` task, or just set `images: true` in `data/global.mjs`
        to enable this if you use another way to upload images to cloudinary #}
     <meta http-equiv="delegate-ch"
@@ -13,7 +13,7 @@
   {% endif %}
   {% block head_pragma %}{% endblock %}
   <title>{% block title %}{{ meta.title }} {{ title }}{% endblock %}</title>
-  {% if images %}
+  {% if collections.images or images %}
     <link rel="preconnect" href="https://res.cloudinary.com">
   {% endif %}
   {% block head_preconnect %}{% endblock %}
