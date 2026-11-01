@@ -11,7 +11,7 @@ orbs:
 jobs:
   provision:
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:26.12.1
     resource_class: arm.large
     steps:
       - checkout
@@ -31,7 +31,7 @@ jobs:
 
   pre-provision:
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:26.12.1
     resource_class: arm.large
     steps:
       - checkout
@@ -55,7 +55,7 @@ jobs:
       site_dir:
         type: string
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:26.12.1
     resource_class: arm.large
     steps:
       - checkout
@@ -84,7 +84,7 @@ jobs:
       site_dir:
         type: string
     docker:
-      - image: cimg/node:lts
+      - image: cimg/node:26.12.1
     resource_class: arm.large
     steps:
       - checkout
