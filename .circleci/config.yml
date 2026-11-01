@@ -15,6 +15,11 @@ jobs:
     resource_class: arm.large
     steps:
       - checkout
+      - node/install
+      - run:
+          name: Enable Corepack
+          command: corepack enable --install-directory="/home/circleci/bin"
+      - node/install-yarn
       - pulumi/login
       - node/install-packages:
           pkg-manager: yarn-berry
@@ -35,6 +40,11 @@ jobs:
     resource_class: arm.large
     steps:
       - checkout
+      - node/install
+      - run:
+          name: Enable Corepack
+          command: corepack enable --install-directory="/home/circleci/bin"
+      - node/install-yarn
       - pulumi/login
       - node/install-packages:
           pkg-manager: yarn-berry
@@ -60,6 +70,9 @@ jobs:
     steps:
       - checkout
       - node/install
+      - run:
+          name: Enable Corepack
+          command: corepack enable --install-directory="/home/circleci/bin"
       - node/install-yarn
       - node/install-packages:
           pkg-manager: yarn-berry
@@ -90,6 +103,11 @@ jobs:
       - checkout
       - attach_workspace:
           at: .
+      - node/install
+      - run:
+          name: Enable Corepack
+          command: corepack enable --install-directory="/home/circleci/bin"
+      - node/install-yarn
       - node/install-packages:
           pkg-manager: yarn-berry
           with-cache: false
