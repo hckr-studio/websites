@@ -104,7 +104,12 @@ header > blockquote {
   display: flex;
   align-items: center;
   justify-content: end;
-  dl { margin: 0}
+  dl {
+    margin: 0;
+    @media (max-width: 30em) {
+      margin-block-end: 1lh;
+    }
+  }
 }
 
 main > section {
@@ -198,9 +203,8 @@ blockquote dd {
     display: grid;
     grid-column: extra;
     grid-template-columns: 1fr;
-  }
-  @media (min-width: 30em) {
-    body > header {
+
+    @media (min-width: 30em) {
       grid-template-columns: 1fr 1fr;
     }
   }
