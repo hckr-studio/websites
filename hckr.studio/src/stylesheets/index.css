@@ -232,7 +232,9 @@ blockquote dd {
 
 #contacts .cols {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  @media (min-width: 30em) {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 #contacts dl {
   display: grid;
