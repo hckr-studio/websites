@@ -13,8 +13,8 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#262831",
-  "background_color": "#262831",
+  "theme_color": "#f4d409",
+  "background_color": "#ffffff",
   "start_url": "https://hckr.studio",
   "display": "standalone"
 }
