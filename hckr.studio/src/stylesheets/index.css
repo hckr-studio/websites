@@ -197,7 +197,12 @@ blockquote dd {
   body > header {
     display: grid;
     grid-column: extra;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  @media (min-width: 30em) {
+    body > header {
+      grid-template-columns: 1fr 1fr;
+    }
   }
   main > * {
     grid-column: main;
