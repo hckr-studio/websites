@@ -114,7 +114,8 @@ blockquote dt {
 }
 
 blockquote dd {
-  font-family: Georgia, var(--font-serif), serif;
+  font-family: Superclarendon, 'Bookman Old Style', 'URW Bookman', 'URW Bookman L', 'Georgia Pro', Georgia, var(--font-serif);
+  font-weight: 300;
   font-size: var(--font-size-fluid-0);
   text-wrap: balance;
 }
