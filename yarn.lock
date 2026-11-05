@@ -1294,7 +1294,7 @@ __metadata:
   resolution: "@hckr-studio/websites-infrastructure@workspace:infrastructure"
   dependencies:
     "@pulumi/cloudflare": "npm:5.49.1"
-    "@pulumi/pulumi": "npm:3.274.0"
+    "@pulumi/pulumi": "npm:3.274.1"
   languageName: unknown
   linkType: soft
 
@@ -2547,13 +2547,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pulumi/pulumi@npm:3.274.0":
-  version: 3.274.0
-  resolution: "@pulumi/pulumi@npm:3.274.0"
+"@pulumi/pulumi@npm:3.274.1":
+  version: 3.274.1
+  resolution: "@pulumi/pulumi@npm:3.274.1"
   dependencies:
     "@grpc/grpc-js": "npm:^1.10.1"
     "@logdna/tail-file": "npm:^2.0.6"
-    "@npmcli/arborist": "npm:^9.0.0"
     "@opentelemetry/api": "npm:~1.9"
     "@opentelemetry/core": "npm:^2.9"
     "@opentelemetry/exporter-trace-otlp-grpc": "npm:^0.220"
@@ -2584,7 +2583,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 10/d476e955a9ff711927f6745d548afd73b6d6a01803c66028f84121309e1178b06bd4230946c09c862dc6e72199eba9d704384fa21647538426ebaf87799f576b
+  checksum: 10/46115261567ca25b30844134299d474933db555da137661062699443ccbe125b3de5590444abc21530172e751637d6ba13d703cfa8bc4fab3f88adac0e914fb8
   languageName: node
   linkType: hard
 
