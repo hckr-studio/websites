@@ -224,6 +224,9 @@ blockquote dd {
   overflow-wrap: normal;
 }
 #hero p:first-of-type {
+  font-size: var(--font-size-fluid-1);
+  font-family: var(--headings-font-family);
+  font-weight: 100;
   text-wrap: balance;
 }
 
