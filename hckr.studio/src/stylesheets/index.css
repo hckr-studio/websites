@@ -223,6 +223,9 @@ blockquote dd {
   font-variation-settings: "wght" 450;
   overflow-wrap: normal;
 }
+#hero p:first-of-type {
+  text-wrap: balance;
+}
 
 #team [role=list] {
   display: grid;
