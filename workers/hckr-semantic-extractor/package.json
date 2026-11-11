@@ -15,7 +15,7 @@
     "wrangler": "4.160.0"
   },
   "dependencies": {
-    "@cloudflare/puppeteer": "1.4.0",
+    "@cloudflare/puppeteer": "2.0.0",
     "@rdfjs/data-model": "2.1.2",
     "jsonc-parser": "3.3.1"
   }
