@@ -1269,7 +1269,7 @@ __metadata:
     "@hckr_/blendid": "npm:9.9.3"
     "@hckr_/cloudflare-pages-plugin-rollbar": "npm:1.1.4"
     "@thi.ng/atom": "npm:5.3.70"
-    "@types/audioworklet": "npm:0.0.100"
+    "@types/audioworklet": "npm:0.0.102"
     esbuild-plugin-wasm: "npm:1.1.0"
     linkedom: "npm:0.18.15"
     lit-html: "npm:3.3.3"
@@ -2654,10 +2654,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/audioworklet@npm:0.0.100":
-  version: 0.0.100
-  resolution: "@types/audioworklet@npm:0.0.100"
-  checksum: 10/c876f026ab33d102f4f64597b55c9a45b3678ccd5fbb69e248f819f2ee9686948e8c2e76e3c19af508cc6abb1782dc35388192c3f3e68f164a6141aa94f424b5
+"@types/audioworklet@npm:0.0.102":
+  version: 0.0.102
+  resolution: "@types/audioworklet@npm:0.0.102"
+  checksum: 10/27d1fcef86c5c2a1fb6248a254827016323f9d99d1fb9e92fd49d9bf4117368401785be94c02e5a7de219f9318906001db0c18b3b340074e8875fd443df60a57
   languageName: node
   linkType: hard
 
