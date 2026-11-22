@@ -198,6 +198,9 @@ blockquote dd {
     display: grid;
     grid-template-columns: subgrid;
     grid-column: full;
+    & > * {
+      grid-column: wide;
+    }
   }
   body > header {
     display: grid;
@@ -208,13 +211,9 @@ blockquote dd {
       grid-template-columns: 1fr 1fr;
     }
   }
-  main > * {
-    grid-column: main;
+  body > footer {
+    grid-column: wide;
   }
-}
-
-main > section {
-  grid-column: wide;
 }
 
 #hero {
