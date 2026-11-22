@@ -1,0 +1,108 @@
+{% extends "layouts/website.njk" %}
+{% set title = "Services" %}
+
+{% block content %}
+<main>
+  <section id="hero">
+    {% texy %}
+      ### Services .[slogan]
+
+      **What we do — and what it buys you.**
+
+      We work in three modes: take a broken system over, make an expensive system cheap, or build a thin new one. Everything starts measurable and stays measurable.
+    {% endtexy %}
+  </section>
+  <section>
+    <h2>The Hidden Cost</h2>
+    {% texy %}
+    **Where home-grown systems quietly leak money**
+
+    01) **Systems rot in production.** Websites change, dependencies break, nobody notices until the data is empty — weeks later.
+    02) **Platform teams burn hours on plumbing.** Your engineers maintain glue code and cron jobs instead of shipping product.
+    03) **Cloud bills grow silently.** Unattended pipelines and over-provisioned services compound month over month.
+    04) **Speed is an afterthought.** Slow sites lose conversions and rankings while the team tunes what it can measure.
+
+    We've spent years being the team that fixes all four.
+    {% endtexy %}
+    </section>
+    <section>
+      <h2>Consulting &amp; optimization</h2>
+      {% texy %}
+        - **Legacy system takeover** — we step into systems nobody wants to touch. We respect the business value they've accumulated — no rewrites-for-rewrite's-sake, no big-bang migrations. First we pay down the technical debt: stabilize, document, version. Then the system starts earning interest on the value it already holds.
+          <br>→ Debt paid down, value earning interest
+        - **Distributed system optimization** — throughput, resiliency and architecture reviews for systems that hit a wall. We fix the cause, not the symptom.
+          <br>→ Systems that scale without rewrites
+        - **Cost &amp; lead-time optimization** — cloud bills, delivery pipelines and build times audited against real numbers. Every recommendation comes with a measured before/after.
+          <br>→ Lower bills, faster shipping — proven, not promised
+        - **Agentic AI optimization** — architecture and cost engineering for agentic AI: the right model at each step (small where it suffices), deterministic decision engines where a model is overkill, and self-hosted deployments for data that can't go to the cloud. We practice what we sell: our own in-house server cluster runs our AI experiments and client pilots. Effective in-house AI on commodity hardware — no million-dollar GPU cluster required.
+          <br>→ AI that works on your sensitive data, inside your walls, at a sane price
+        - **AI you can audit** — *a joint offer with our partner "Diversight.ai":[https://www.diversight.ai/]*. We design and run the agentic system: architecture, model selection, cost engineering. Diversight's human-in-the-loop specialists validate the data going in and the outputs coming out — edge-case review, annotation rules, an auditable trail. Human oversight is what the EU AI Act expects; this is that oversight, with evidence you can show an auditor.
+          <br>→ AI with evidence, not vibes
+        - **Web speed &amp; performance consulting** — audits and fixes for Core Web Vitals and real-user speed; accessibility as a requirement, not an afterthought.
+          <br>→ Measurably faster, higher-ranking pages that work for everyone
+        - **Long-term maintainability** — documentation, versioning, monitoring and handover built into everything we deliver.
+          <br>→ Systems your team can own without us in the room
+        - **DevOps &amp; FinOps** — CI/CD pipelines, monitoring, graceful migrations. We keep what we build running.
+          <br>→ Fewer 3 a.m. incidents
+      {% endtexy %}
+    </section>
+  <section>
+    <h2>Custom software</h2>
+    {% texy %}
+      - **Business apps &amp; solutions** — end-to-end design and build of small, maintainable systems. Thin, purpose-built components over adopted platforms. Everything versioned in git.
+         <br>→ Delivered in weeks, maintainable for years
+      - **Web &amp; edge applications** — mobile-first sites and apps on the Cloudflare Developer Platform: Pages, Workers, Web Components. Region: Earth.
+         <br>→ Fast everywhere, cheap at scale
+      - **Solution architecture** — from PoC to production; infrastructure that earns its complexity.
+         <br>→ A plan you can put in a purchase order
+    {% endtexy %}
+  </section>
+  <section>
+    <h2>Data &amp; automation</h2>
+    {% texy %}
+      - **Scraping &amp; data-acquisition systems** — resilient, low-cost pipelines for e-commerce and hospitality, with long-term maintenance included.
+        <br>→ Pipelines that survive website changes
+      - **Slack bots &amp; integrations** — internal tooling that meets your team where they already work.
+        <br>→ Ops handled in chat, not in tickets
+    {% endtexy %}
+  </section>
+  <section>
+    <h2>Three Ways In</h2>
+    {% texy %}
+      01) **System Health Audit**
+            Your system, its delivery pipeline and its cloud costs reviewed. A concrete report: what breaks, what leaks money, what to fix first — ranked by impact. Use it as a brief for your team or for us. No obligation to continue.
+
+      02) **Optimization Sprint**
+            One sprint, one system, one problem — fixed price. A legacy takeover, a slow pipeline, a runaway bill, a performance wall: diagnosed, fixed and documented in 10 working days, with a measured before/after.
+
+      03) **Managed Operations**
+            When the sprint proves it, we run it: recurring maintenance, monitoring and cost optimization of the systems we've built. You hand over the loop; we return uptime, reports and lower bills.
+    {% endtexy %}
+  </section>
+  <section>
+    <h2>How It Works</h2>
+    {% texy %}
+      1. **Book a call.** We talk about your stack, obstacles and goals — no sales deck.
+      2. **We agree on scope.** A fixed offer with a defined output you can budget before we start.
+      3. **We get to work — and stay.** Most of our client relationships are measured in years, not sprints.
+    {% endtexy %}
+  </section>
+  <section>
+    <h2>Expertise</h2>
+    {% texy %}
+    **DevOps · FinOps · PeopleOps**
+
+    - **Legacy takeovers** — stabilizing and refactoring systems others gave up on
+    - **Agentic AI** — model selection, decision engines, in-house/self-hosted deployments
+    - **Distributed systems** — throughput, resiliency, cost and lead-time optimization
+    - **Cloudflare** — edge computing with Workers; globally distributed systems with Pages
+    - **AWS** — Lambda and the serverless ecosystem
+    - **Google Cloud** — the Stream project's platform; GCP bills cut 25–50% through our FinOps practice
+    - **CircleCI** — complex pipelines, custom Orbs
+    - **Apify** — data-acquisition actors (e-commerce, hospitality)
+    - **Keboola** — data pipelines, Templates, as code
+    - **Slack** — bots and integrations
+    {% endtexy %}
+  </section>
+</main>
+{% endblock %}
