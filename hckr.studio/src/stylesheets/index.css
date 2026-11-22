@@ -63,6 +63,11 @@ h3 {
 
 p, ul, ol, dl {
   text-wrap: pretty;
+  line-height: 1.25;
+}
+
+li+li {
+  margin-block-start: 0.5lh;
 }
 
 em, i {
