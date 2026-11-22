@@ -122,6 +122,10 @@ main > section {
   margin-inline: 0;
 }
 
+section>h2 {
+  text-transform: lowercase;
+}
+
 blockquote dt {
   font-size: var(--font-size-fluid-1);
   font-weight: 600;
